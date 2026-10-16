@@ -1,0 +1,3065 @@
+Timestamp,TestName,Iteration,ListenData
+2026-10-15T12:57:36+03:00,rodi5,1,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T12:58:52+03:00,rodi5,2,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:00:28+03:00,rodi5,3,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:01:43+03:00,rodi5,4,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:03:19+03:00,rodi5,5,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:04:35+03:00,rodi5,6,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:06:11+03:00,rodi5,7,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:07:27+03:00,rodi5,8,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:09:03+03:00,rodi5,9,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:10:18+03:00,rodi5,10,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:11:54+03:00,rodi5,11,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:13:10+03:00,rodi5,12,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:14:46+03:00,rodi5,13,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:16:01+03:00,rodi5,14,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:17:38+03:00,rodi5,15,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:18:53+03:00,rodi5,16,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:20:29+03:00,rodi5,17,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:21:45+03:00,rodi5,18,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:23:21+03:00,rodi5,19,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:24:36+03:00,rodi5,20,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:26:12+03:00,rodi5,21,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:27:28+03:00,rodi5,22,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:29:04+03:00,rodi5,23,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:30:20+03:00,rodi5,24,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:31:56+03:00,rodi5,25,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:33:11+03:00,rodi5,26,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:34:47+03:00,rodi5,27,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:36:03+03:00,rodi5,28,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:37:39+03:00,rodi5,29,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:38:55+03:00,rodi5,30,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:40:31+03:00,rodi5,31,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:41:46+03:00,rodi5,32,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:43:22+03:00,rodi5,33,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:44:38+03:00,rodi5,34,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:46:14+03:00,rodi5,35,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:47:29+03:00,rodi5,36,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:49:06+03:00,rodi5,37,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:50:21+03:00,rodi5,38,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:51:57+03:00,rodi5,39,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:53:13+03:00,rodi5,40,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:54:49+03:00,rodi5,41,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:56:05+03:00,rodi5,42,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:57:41+03:00,rodi5,43,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T13:58:57+03:00,rodi5,44,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:00:33+03:00,rodi5,45,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:01:48+03:00,rodi5,46,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:03:24+03:00,rodi5,47,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:04:40+03:00,rodi5,48,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:06:16+03:00,rodi5,49,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:07:31+03:00,rodi5,50,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:09:08+03:00,rodi5,51,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:10:23+03:00,rodi5,52,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:11:59+03:00,rodi5,53,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:13:15+03:00,rodi5,54,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:14:51+03:00,rodi5,55,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:16:06+03:00,rodi5,56,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:17:43+03:00,rodi5,57,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:18:58+03:00,rodi5,58,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:20:34+03:00,rodi5,59,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:21:50+03:00,rodi5,60,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:23:26+03:00,rodi5,61,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:24:41+03:00,rodi5,62,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:26:17+03:00,rodi5,63,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:27:33+03:00,rodi5,64,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:29:09+03:00,rodi5,65,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:30:25+03:00,rodi5,66,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:32:01+03:00,rodi5,67,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:33:16+03:00,rodi5,68,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:34:52+03:00,rodi5,69,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:36:08+03:00,rodi5,70,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:37:44+03:00,rodi5,71,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:39:00+03:00,rodi5,72,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:40:36+03:00,rodi5,73,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:41:51+03:00,rodi5,74,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:43:27+03:00,rodi5,75,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:44:43+03:00,rodi5,76,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:46:19+03:00,rodi5,77,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:47:35+03:00,rodi5,78,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:49:11+03:00,rodi5,79,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:50:26+03:00,rodi5,80,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:52:02+03:00,rodi5,81,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:53:18+03:00,rodi5,82,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:54:54+03:00,rodi5,83,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:56:09+03:00,rodi5,84,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:57:46+03:00,rodi5,85,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T14:59:01+03:00,rodi5,86,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:00:37+03:00,rodi5,87,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:01:53+03:00,rodi5,88,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:03:29+03:00,rodi5,89,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:04:44+03:00,rodi5,90,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:06:20+03:00,rodi5,91,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:07:36+03:00,rodi5,92,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:09:12+03:00,rodi5,93,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:10:28+03:00,rodi5,94,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:12:04+03:00,rodi5,95,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:13:19+03:00,rodi5,96,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:14:55+03:00,rodi5,97,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:16:11+03:00,rodi5,98,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:17:47+03:00,rodi5,99,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:19:03+03:00,rodi5,100,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:20:39+03:00,rodi5,101,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:21:54+03:00,rodi5,102,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:23:30+03:00,rodi5,103,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:24:46+03:00,rodi5,104,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:26:22+03:00,rodi5,105,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:27:38+03:00,rodi5,106,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:29:14+03:00,rodi5,107,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:30:29+03:00,rodi5,108,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:32:05+03:00,rodi5,109,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:33:21+03:00,rodi5,110,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:34:57+03:00,rodi5,111,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:36:12+03:00,rodi5,112,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:37:49+03:00,rodi5,113,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:39:04+03:00,rodi5,114,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:40:40+03:00,rodi5,115,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:41:56+03:00,rodi5,116,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:43:32+03:00,rodi5,117,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:44:47+03:00,rodi5,118,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:46:24+03:00,rodi5,119,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:47:39+03:00,rodi5,120,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:49:15+03:00,rodi5,121,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:50:31+03:00,rodi5,122,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:52:07+03:00,rodi5,123,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:53:22+03:00,rodi5,124,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:54:58+03:00,rodi5,125,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:56:14+03:00,rodi5,126,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:57:50+03:00,rodi5,127,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T15:59:06+03:00,rodi5,128,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:00:42+03:00,rodi5,129,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:01:57+03:00,rodi5,130,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:03:34+03:00,rodi5,131,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:04:49+03:00,rodi5,132,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:06:25+03:00,rodi5,133,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:07:41+03:00,rodi5,134,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:09:17+03:00,rodi5,135,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:10:32+03:00,rodi5,136,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:12:09+03:00,rodi5,137,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:13:24+03:00,rodi5,138,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:15:00+03:00,rodi5,139,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:16:16+03:00,rodi5,140,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:17:52+03:00,rodi5,141,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:19:07+03:00,rodi5,142,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:20:43+03:00,rodi5,143,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:21:59+03:00,rodi5,144,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:23:35+03:00,rodi5,145,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:24:51+03:00,rodi5,146,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:26:27+03:00,rodi5,147,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:27:42+03:00,rodi5,148,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:29:18+03:00,rodi5,149,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:30:34+03:00,rodi5,150,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:32:10+03:00,rodi5,151,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:33:26+03:00,rodi5,152,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:35:02+03:00,rodi5,153,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:36:17+03:00,rodi5,154,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:37:53+03:00,rodi5,155,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:39:09+03:00,rodi5,156,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:40:45+03:00,rodi5,157,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:42:01+03:00,rodi5,158,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:43:37+03:00,rodi5,159,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:44:52+03:00,rodi5,160,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:46:28+03:00,rodi5,161,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:47:44+03:00,rodi5,162,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:49:20+03:00,rodi5,163,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:50:36+03:00,rodi5,164,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:52:12+03:00,rodi5,165,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:53:27+03:00,rodi5,166,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:55:03+03:00,rodi5,167,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:56:19+03:00,rodi5,168,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:57:55+03:00,rodi5,169,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T16:59:11+03:00,rodi5,170,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:00:47+03:00,rodi5,171,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:02:02+03:00,rodi5,172,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:03:38+03:00,rodi5,173,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:04:54+03:00,rodi5,174,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:06:30+03:00,rodi5,175,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:07:46+03:00,rodi5,176,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:09:22+03:00,rodi5,177,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:10:37+03:00,rodi5,178,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:12:13+03:00,rodi5,179,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:13:29+03:00,rodi5,180,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:15:05+03:00,rodi5,181,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:16:21+03:00,rodi5,182,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:17:57+03:00,rodi5,183,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:19:12+03:00,rodi5,184,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:20:48+03:00,rodi5,185,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:22:04+03:00,rodi5,186,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:23:40+03:00,rodi5,187,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:24:56+03:00,rodi5,188,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:26:32+03:00,rodi5,189,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:27:47+03:00,rodi5,190,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:29:23+03:00,rodi5,191,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:30:39+03:00,rodi5,192,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:32:15+03:00,rodi5,193,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:33:31+03:00,rodi5,194,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:35:07+03:00,rodi5,195,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:36:22+03:00,rodi5,196,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:37:58+03:00,rodi5,197,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:39:14+03:00,rodi5,198,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:40:50+03:00,rodi5,199,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:42:06+03:00,rodi5,200,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:43:42+03:00,rodi5,201,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:44:57+03:00,rodi5,202,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:46:33+03:00,rodi5,203,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:47:49+03:00,rodi5,204,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:49:25+03:00,rodi5,205,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:50:41+03:00,rodi5,206,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:52:17+03:00,rodi5,207,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:53:32+03:00,rodi5,208,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:55:08+03:00,rodi5,209,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:56:24+03:00,rodi5,210,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:58:00+03:00,rodi5,211,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T17:59:16+03:00,rodi5,212,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:00:52+03:00,rodi5,213,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:02:07+03:00,rodi5,214,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:03:43+03:00,rodi5,215,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:04:59+03:00,rodi5,216,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:06:35+03:00,rodi5,217,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:07:51+03:00,rodi5,218,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:09:27+03:00,rodi5,219,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:10:42+03:00,rodi5,220,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:12:18+03:00,rodi5,221,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:13:34+03:00,rodi5,222,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:15:10+03:00,rodi5,223,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:16:26+03:00,rodi5,224,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:18:02+03:00,rodi5,225,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:19:17+03:00,rodi5,226,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:20:53+03:00,rodi5,227,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:22:09+03:00,rodi5,228,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:23:45+03:00,rodi5,229,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:25:01+03:00,rodi5,230,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:26:37+03:00,rodi5,231,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:27:52+03:00,rodi5,232,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:29:28+03:00,rodi5,233,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:30:44+03:00,rodi5,234,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:32:20+03:00,rodi5,235,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:33:36+03:00,rodi5,236,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:35:12+03:00,rodi5,237,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:36:27+03:00,rodi5,238,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:38:03+03:00,rodi5,239,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:39:19+03:00,rodi5,240,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:40:55+03:00,rodi5,241,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:42:11+03:00,rodi5,242,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:43:47+03:00,rodi5,243,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:45:24+03:00,rodi5,244,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:47:00+03:00,rodi5,245,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:48:36+03:00,rodi5,246,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:50:13+03:00,rodi5,247,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:51:49+03:00,rodi5,248,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:53:26+03:00,rodi5,249,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:55:02+03:00,rodi5,250,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:56:39+03:00,rodi5,251,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:58:15+03:00,rodi5,252,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T18:59:52+03:00,rodi5,253,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:01:28+03:00,rodi5,254,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:03:05+03:00,rodi5,255,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:04:41+03:00,rodi5,256,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:06:17+03:00,rodi5,257,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:07:54+03:00,rodi5,258,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:09:30+03:00,rodi5,259,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:11:07+03:00,rodi5,260,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:12:43+03:00,rodi5,261,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:14:20+03:00,rodi5,262,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:15:56+03:00,rodi5,263,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:17:33+03:00,rodi5,264,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:19:09+03:00,rodi5,265,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:20:46+03:00,rodi5,266,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:22:22+03:00,rodi5,267,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:23:58+03:00,rodi5,268,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:25:35+03:00,rodi5,269,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:27:11+03:00,rodi5,270,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:28:48+03:00,rodi5,271,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:30:24+03:00,rodi5,272,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:32:01+03:00,rodi5,273,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:33:37+03:00,rodi5,274,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:35:14+03:00,rodi5,275,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:36:50+03:00,rodi5,276,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:38:27+03:00,rodi5,277,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:40:03+03:00,rodi5,278,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:41:39+03:00,rodi5,279,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:43:16+03:00,rodi5,280,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:44:52+03:00,rodi5,281,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:46:29+03:00,rodi5,282,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:48:05+03:00,rodi5,283,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:49:42+03:00,rodi5,284,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:51:18+03:00,rodi5,285,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:52:55+03:00,rodi5,286,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:54:31+03:00,rodi5,287,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:56:08+03:00,rodi5,288,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:57:44+03:00,rodi5,289,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T19:59:20+03:00,rodi5,290,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:00:57+03:00,rodi5,291,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:02:33+03:00,rodi5,292,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:04:10+03:00,rodi5,293,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:05:46+03:00,rodi5,294,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:07:23+03:00,rodi5,295,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:08:59+03:00,rodi5,296,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:10:36+03:00,rodi5,297,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:12:12+03:00,rodi5,298,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:13:48+03:00,rodi5,299,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:15:25+03:00,rodi5,300,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:17:01+03:00,rodi5,301,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:18:38+03:00,rodi5,302,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:20:14+03:00,rodi5,303,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:21:51+03:00,rodi5,304,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:23:27+03:00,rodi5,305,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:25:04+03:00,rodi5,306,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:26:40+03:00,rodi5,307,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:28:17+03:00,rodi5,308,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:29:53+03:00,rodi5,309,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:31:30+03:00,rodi5,310,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:33:06+03:00,rodi5,311,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:34:42+03:00,rodi5,312,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:36:19+03:00,rodi5,313,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:37:55+03:00,rodi5,314,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:39:32+03:00,rodi5,315,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:41:08+03:00,rodi5,316,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:42:45+03:00,rodi5,317,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:44:21+03:00,rodi5,318,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:45:58+03:00,rodi5,319,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:47:34+03:00,rodi5,320,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:49:11+03:00,rodi5,321,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:50:47+03:00,rodi5,322,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:52:23+03:00,rodi5,323,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:54:00+03:00,rodi5,324,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:55:36+03:00,rodi5,325,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:57:13+03:00,rodi5,326,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T20:58:49+03:00,rodi5,327,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:00:26+03:00,rodi5,328,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:02:02+03:00,rodi5,329,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:03:39+03:00,rodi5,330,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:05:15+03:00,rodi5,331,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:06:52+03:00,rodi5,332,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:08:28+03:00,rodi5,333,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:10:04+03:00,rodi5,334,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:11:41+03:00,rodi5,335,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:13:17+03:00,rodi5,336,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:14:54+03:00,rodi5,337,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:16:30+03:00,rodi5,338,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:18:07+03:00,rodi5,339,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:19:43+03:00,rodi5,340,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:21:20+03:00,rodi5,341,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:22:56+03:00,rodi5,342,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:24:33+03:00,rodi5,343,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:26:09+03:00,rodi5,344,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:27:45+03:00,rodi5,345,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:29:22+03:00,rodi5,346,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:30:58+03:00,rodi5,347,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:32:35+03:00,rodi5,348,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:34:11+03:00,rodi5,349,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:35:48+03:00,rodi5,350,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:37:24+03:00,rodi5,351,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:39:01+03:00,rodi5,352,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:40:37+03:00,rodi5,353,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:42:14+03:00,rodi5,354,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:43:50+03:00,rodi5,355,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:45:26+03:00,rodi5,356,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:47:03+03:00,rodi5,357,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:48:39+03:00,rodi5,358,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:50:16+03:00,rodi5,359,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:51:52+03:00,rodi5,360,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:53:29+03:00,rodi5,361,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:55:05+03:00,rodi5,362,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:56:42+03:00,rodi5,363,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:58:18+03:00,rodi5,364,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T21:59:55+03:00,rodi5,365,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:01:31+03:00,rodi5,366,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:03:07+03:00,rodi5,367,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:04:44+03:00,rodi5,368,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:06:20+03:00,rodi5,369,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:07:57+03:00,rodi5,370,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:09:33+03:00,rodi5,371,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:11:10+03:00,rodi5,372,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:12:46+03:00,rodi5,373,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:14:23+03:00,rodi5,374,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:15:59+03:00,rodi5,375,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:17:36+03:00,rodi5,376,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:19:12+03:00,rodi5,377,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:20:48+03:00,rodi5,378,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:22:25+03:00,rodi5,379,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:24:01+03:00,rodi5,380,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:25:38+03:00,rodi5,381,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:27:14+03:00,rodi5,382,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:28:51+03:00,rodi5,383,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:30:27+03:00,rodi5,384,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:32:04+03:00,rodi5,385,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:33:40+03:00,rodi5,386,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:35:16+03:00,rodi5,387,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:36:53+03:00,rodi5,388,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:38:29+03:00,rodi5,389,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:40:06+03:00,rodi5,390,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:41:42+03:00,rodi5,391,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:43:19+03:00,rodi5,392,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:44:55+03:00,rodi5,393,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:46:32+03:00,rodi5,394,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:48:08+03:00,rodi5,395,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:49:45+03:00,rodi5,396,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:51:21+03:00,rodi5,397,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:52:57+03:00,rodi5,398,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:54:34+03:00,rodi5,399,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:56:10+03:00,rodi5,400,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:57:47+03:00,rodi5,401,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T22:59:23+03:00,rodi5,402,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:01:00+03:00,rodi5,403,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:02:36+03:00,rodi5,404,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:04:13+03:00,rodi5,405,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:05:49+03:00,rodi5,406,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:07:26+03:00,rodi5,407,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:09:02+03:00,rodi5,408,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:10:38+03:00,rodi5,409,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:12:15+03:00,rodi5,410,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:13:51+03:00,rodi5,411,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:15:28+03:00,rodi5,412,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:17:04+03:00,rodi5,413,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:18:41+03:00,rodi5,414,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:20:17+03:00,rodi5,415,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:21:54+03:00,rodi5,416,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:23:30+03:00,rodi5,417,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:25:07+03:00,rodi5,418,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:26:43+03:00,rodi5,419,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:28:19+03:00,rodi5,420,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:29:56+03:00,rodi5,421,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:31:32+03:00,rodi5,422,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:33:09+03:00,rodi5,423,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:34:45+03:00,rodi5,424,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:36:22+03:00,rodi5,425,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:37:58+03:00,rodi5,426,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:39:35+03:00,rodi5,427,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:41:11+03:00,rodi5,428,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:42:48+03:00,rodi5,429,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:44:24+03:00,rodi5,430,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:46:00+03:00,rodi5,431,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:47:37+03:00,rodi5,432,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:49:13+03:00,rodi5,433,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:50:50+03:00,rodi5,434,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:52:26+03:00,rodi5,435,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:54:03+03:00,rodi5,436,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:55:39+03:00,rodi5,437,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:57:16+03:00,rodi5,438,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-15T23:58:52+03:00,rodi5,439,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:00:29+03:00,rodi5,440,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:02:05+03:00,rodi5,441,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:03:42+03:00,rodi5,442,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:05:18+03:00,rodi5,443,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:06:54+03:00,rodi5,444,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:08:31+03:00,rodi5,445,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:10:07+03:00,rodi5,446,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:11:44+03:00,rodi5,447,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:13:20+03:00,rodi5,448,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:14:57+03:00,rodi5,449,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:16:33+03:00,rodi5,450,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:18:10+03:00,rodi5,451,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:19:46+03:00,rodi5,452,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:21:23+03:00,rodi5,453,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:22:59+03:00,rodi5,454,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:24:35+03:00,rodi5,455,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:26:12+03:00,rodi5,456,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:27:48+03:00,rodi5,457,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:29:25+03:00,rodi5,458,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:31:01+03:00,rodi5,459,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:32:38+03:00,rodi5,460,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:34:14+03:00,rodi5,461,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:35:51+03:00,rodi5,462,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:37:27+03:00,rodi5,463,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:39:04+03:00,rodi5,464,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:40:40+03:00,rodi5,465,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:42:16+03:00,rodi5,466,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:43:53+03:00,rodi5,467,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:45:29+03:00,rodi5,468,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:47:06+03:00,rodi5,469,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:48:42+03:00,rodi5,470,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:50:19+03:00,rodi5,471,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:51:55+03:00,rodi5,472,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:53:32+03:00,rodi5,473,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:55:08+03:00,rodi5,474,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:56:45+03:00,rodi5,475,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:58:21+03:00,rodi5,476,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T00:59:57+03:00,rodi5,477,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:01:34+03:00,rodi5,478,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:03:10+03:00,rodi5,479,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:04:47+03:00,rodi5,480,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:06:23+03:00,rodi5,481,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:08:00+03:00,rodi5,482,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:09:36+03:00,rodi5,483,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:11:13+03:00,rodi5,484,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:12:49+03:00,rodi5,485,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:14:25+03:00,rodi5,486,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:16:02+03:00,rodi5,487,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:17:38+03:00,rodi5,488,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:19:15+03:00,rodi5,489,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:20:51+03:00,rodi5,490,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:22:28+03:00,rodi5,491,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:24:04+03:00,rodi5,492,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:25:41+03:00,rodi5,493,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:27:17+03:00,rodi5,494,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:28:54+03:00,rodi5,495,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:30:30+03:00,rodi5,496,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:32:06+03:00,rodi5,497,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:33:43+03:00,rodi5,498,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:35:19+03:00,rodi5,499,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:36:56+03:00,rodi5,500,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:38:32+03:00,rodi5,501,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:40:09+03:00,rodi5,502,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:41:45+03:00,rodi5,503,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:43:22+03:00,rodi5,504,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:44:58+03:00,rodi5,505,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:46:35+03:00,rodi5,506,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:48:11+03:00,rodi5,507,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:49:47+03:00,rodi5,508,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:51:24+03:00,rodi5,509,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:53:00+03:00,rodi5,510,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:54:37+03:00,rodi5,511,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:56:13+03:00,rodi5,512,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:57:50+03:00,rodi5,513,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T01:59:26+03:00,rodi5,514,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:01:03+03:00,rodi5,515,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:02:39+03:00,rodi5,516,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:04:16+03:00,rodi5,517,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:05:52+03:00,rodi5,518,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:07:28+03:00,rodi5,519,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:09:05+03:00,rodi5,520,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:10:41+03:00,rodi5,521,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:12:18+03:00,rodi5,522,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:13:54+03:00,rodi5,523,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:15:31+03:00,rodi5,524,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:17:07+03:00,rodi5,525,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:18:44+03:00,rodi5,526,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:20:20+03:00,rodi5,527,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:21:57+03:00,rodi5,528,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:23:33+03:00,rodi5,529,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:25:09+03:00,rodi5,530,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:26:46+03:00,rodi5,531,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:28:22+03:00,rodi5,532,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:29:59+03:00,rodi5,533,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:31:35+03:00,rodi5,534,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:33:12+03:00,rodi5,535,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:34:48+03:00,rodi5,536,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:36:25+03:00,rodi5,537,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:38:01+03:00,rodi5,538,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:39:38+03:00,rodi5,539,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:41:14+03:00,rodi5,540,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:42:50+03:00,rodi5,541,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:44:27+03:00,rodi5,542,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:46:03+03:00,rodi5,543,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:47:40+03:00,rodi5,544,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:49:16+03:00,rodi5,545,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:50:53+03:00,rodi5,546,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:52:29+03:00,rodi5,547,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:54:06+03:00,rodi5,548,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:55:42+03:00,rodi5,549,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:57:19+03:00,rodi5,550,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T02:58:55+03:00,rodi5,551,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:00:31+03:00,rodi5,552,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:02:08+03:00,rodi5,553,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:03:44+03:00,rodi5,554,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:05:21+03:00,rodi5,555,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:06:57+03:00,rodi5,556,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:08:34+03:00,rodi5,557,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:10:10+03:00,rodi5,558,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:11:47+03:00,rodi5,559,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:13:23+03:00,rodi5,560,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:15:00+03:00,rodi5,561,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:16:36+03:00,rodi5,562,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:18:12+03:00,rodi5,563,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:19:49+03:00,rodi5,564,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:21:25+03:00,rodi5,565,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:23:02+03:00,rodi5,566,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:24:38+03:00,rodi5,567,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:26:15+03:00,rodi5,568,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:27:51+03:00,rodi5,569,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:29:28+03:00,rodi5,570,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:31:04+03:00,rodi5,571,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:32:41+03:00,rodi5,572,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:34:17+03:00,rodi5,573,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:35:53+03:00,rodi5,574,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:37:30+03:00,rodi5,575,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:39:06+03:00,rodi5,576,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:40:43+03:00,rodi5,577,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:42:19+03:00,rodi5,578,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:43:56+03:00,rodi5,579,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:45:32+03:00,rodi5,580,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:47:09+03:00,rodi5,581,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:48:45+03:00,rodi5,582,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:50:22+03:00,rodi5,583,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:51:58+03:00,rodi5,584,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:53:34+03:00,rodi5,585,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:55:11+03:00,rodi5,586,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:56:47+03:00,rodi5,587,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T03:58:24+03:00,rodi5,588,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:00:00+03:00,rodi5,589,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:01:37+03:00,rodi5,590,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:03:13+03:00,rodi5,591,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:04:50+03:00,rodi5,592,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:06:26+03:00,rodi5,593,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:08:03+03:00,rodi5,594,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:09:39+03:00,rodi5,595,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:11:15+03:00,rodi5,596,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:12:52+03:00,rodi5,597,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:14:28+03:00,rodi5,598,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:16:05+03:00,rodi5,599,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:17:41+03:00,rodi5,600,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:19:18+03:00,rodi5,601,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:20:54+03:00,rodi5,602,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:22:31+03:00,rodi5,603,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:24:07+03:00,rodi5,604,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:25:44+03:00,rodi5,605,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:27:20+03:00,rodi5,606,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:28:56+03:00,rodi5,607,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:30:33+03:00,rodi5,608,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:32:09+03:00,rodi5,609,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:33:46+03:00,rodi5,610,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:35:22+03:00,rodi5,611,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:36:59+03:00,rodi5,612,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:38:35+03:00,rodi5,613,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:40:12+03:00,rodi5,614,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:41:48+03:00,rodi5,615,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:43:25+03:00,rodi5,616,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:45:01+03:00,rodi5,617,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:46:37+03:00,rodi5,618,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:48:14+03:00,rodi5,619,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:49:50+03:00,rodi5,620,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:51:27+03:00,rodi5,621,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:53:03+03:00,rodi5,622,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:54:40+03:00,rodi5,623,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:56:16+03:00,rodi5,624,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:57:53+03:00,rodi5,625,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T04:59:29+03:00,rodi5,626,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:01:06+03:00,rodi5,627,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:02:42+03:00,rodi5,628,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:04:18+03:00,rodi5,629,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:05:55+03:00,rodi5,630,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:07:31+03:00,rodi5,631,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:09:08+03:00,rodi5,632,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:10:44+03:00,rodi5,633,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:12:21+03:00,rodi5,634,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:13:57+03:00,rodi5,635,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:15:34+03:00,rodi5,636,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:17:10+03:00,rodi5,637,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:18:47+03:00,rodi5,638,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:20:23+03:00,rodi5,639,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:21:59+03:00,rodi5,640,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:23:36+03:00,rodi5,641,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:25:12+03:00,rodi5,642,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:26:49+03:00,rodi5,643,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:28:25+03:00,rodi5,644,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:30:02+03:00,rodi5,645,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:31:38+03:00,rodi5,646,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:33:15+03:00,rodi5,647,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:34:51+03:00,rodi5,648,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:36:28+03:00,rodi5,649,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:38:04+03:00,rodi5,650,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:39:40+03:00,rodi5,651,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:41:17+03:00,rodi5,652,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:42:53+03:00,rodi5,653,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:44:30+03:00,rodi5,654,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:46:06+03:00,rodi5,655,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:47:43+03:00,rodi5,656,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:49:19+03:00,rodi5,657,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:50:56+03:00,rodi5,658,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:52:32+03:00,rodi5,659,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:54:09+03:00,rodi5,660,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:55:45+03:00,rodi5,661,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:57:21+03:00,rodi5,662,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T05:58:58+03:00,rodi5,663,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:00:34+03:00,rodi5,664,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:02:11+03:00,rodi5,665,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:03:47+03:00,rodi5,666,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:05:24+03:00,rodi5,667,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:07:00+03:00,rodi5,668,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:08:37+03:00,rodi5,669,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:10:13+03:00,rodi5,670,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:11:50+03:00,rodi5,671,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:13:26+03:00,rodi5,672,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:15:02+03:00,rodi5,673,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:16:39+03:00,rodi5,674,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:18:15+03:00,rodi5,675,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:19:52+03:00,rodi5,676,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:21:28+03:00,rodi5,677,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:23:05+03:00,rodi5,678,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:24:41+03:00,rodi5,679,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:26:18+03:00,rodi5,680,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:27:54+03:00,rodi5,681,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:29:31+03:00,rodi5,682,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:31:07+03:00,rodi5,683,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:32:43+03:00,rodi5,684,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:34:20+03:00,rodi5,685,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:35:56+03:00,rodi5,686,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:37:33+03:00,rodi5,687,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:39:09+03:00,rodi5,688,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:40:46+03:00,rodi5,689,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:42:22+03:00,rodi5,690,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:43:59+03:00,rodi5,691,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:45:35+03:00,rodi5,692,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:47:12+03:00,rodi5,693,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:48:48+03:00,rodi5,694,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:50:24+03:00,rodi5,695,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:52:01+03:00,rodi5,696,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:53:37+03:00,rodi5,697,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:55:14+03:00,rodi5,698,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:56:50+03:00,rodi5,699,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T06:58:27+03:00,rodi5,700,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:00:03+03:00,rodi5,701,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:01:40+03:00,rodi5,702,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:03:16+03:00,rodi5,703,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:04:52+03:00,rodi5,704,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:06:29+03:00,rodi5,705,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:08:05+03:00,rodi5,706,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:09:42+03:00,rodi5,707,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:11:18+03:00,rodi5,708,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:12:55+03:00,rodi5,709,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:14:31+03:00,rodi5,710,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:16:08+03:00,rodi5,711,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:17:44+03:00,rodi5,712,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:19:21+03:00,rodi5,713,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:20:57+03:00,rodi5,714,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:22:33+03:00,rodi5,715,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:24:10+03:00,rodi5,716,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:25:46+03:00,rodi5,717,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:27:23+03:00,rodi5,718,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:28:59+03:00,rodi5,719,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:30:36+03:00,rodi5,720,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:32:12+03:00,rodi5,721,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:33:49+03:00,rodi5,722,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:35:25+03:00,rodi5,723,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:37:01+03:00,rodi5,724,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:38:38+03:00,rodi5,725,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:40:14+03:00,rodi5,726,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:41:51+03:00,rodi5,727,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:43:27+03:00,rodi5,728,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:45:04+03:00,rodi5,729,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:46:40+03:00,rodi5,730,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:48:17+03:00,rodi5,731,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:49:53+03:00,rodi5,732,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:51:30+03:00,rodi5,733,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:53:06+03:00,rodi5,734,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:54:43+03:00,rodi5,735,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:56:19+03:00,rodi5,736,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:57:55+03:00,rodi5,737,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T07:59:32+03:00,rodi5,738,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:01:08+03:00,rodi5,739,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:02:45+03:00,rodi5,740,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:04:21+03:00,rodi5,741,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:05:58+03:00,rodi5,742,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:07:34+03:00,rodi5,743,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:09:11+03:00,rodi5,744,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:10:47+03:00,rodi5,745,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:12:23+03:00,rodi5,746,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:14:00+03:00,rodi5,747,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:15:36+03:00,rodi5,748,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:17:13+03:00,rodi5,749,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:18:49+03:00,rodi5,750,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:20:26+03:00,rodi5,751,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:22:02+03:00,rodi5,752,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:23:39+03:00,rodi5,753,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:25:15+03:00,rodi5,754,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:26:52+03:00,rodi5,755,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:28:28+03:00,rodi5,756,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:30:05+03:00,rodi5,757,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:31:41+03:00,rodi5,758,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:33:17+03:00,rodi5,759,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:34:54+03:00,rodi5,760,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:36:30+03:00,rodi5,761,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:38:07+03:00,rodi5,762,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:39:43+03:00,rodi5,763,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:41:20+03:00,rodi5,764,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:42:56+03:00,rodi5,765,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"
+2026-10-16T08:44:33+03:00,rodi5,766,"timeout: N/A (using command default timeout)
+Changing serial port closing_wait from 100 to 100
+Enabling wakeup frame sending.
+"

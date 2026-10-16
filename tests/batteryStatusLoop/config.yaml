@@ -1,0 +1,3 @@
+port: /dev/ttyUSB0
+target: sucpuck
+polling_interval_s: 3

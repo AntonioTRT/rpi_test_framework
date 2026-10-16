@@ -1,0 +1,24 @@
+port: /dev/ttyUSB0
+
+target:  sucpuck 
+
+interval_s: 45
+
+passive_delay_s: 45
+
+passive_monitor_s: 45
+
+wake_delay_s: 5
+
+iterations: -1
+
+## scope_capture_mode: time
+scope_capture_mode: trigger
+
+scope_capture_s: 2
+
+scope_trigger_timeout_s: 30
+
+scope_export_delay_ms: 500
+
+save_raw_export: false
