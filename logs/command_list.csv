@@ -1,0 +1,7 @@
+Timestamp,TestId,QuestionNumber,Command,Expected,Response,Result
+2026-10-20T13:24:37.831+03:00,2f2a9f98-d25c-440e-9a64-2ce1f5338d9b,1,hwmcu version,version 1.1,"Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', 'hwmcu', 'version']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:24:37.835+03:00,2f2a9f98-d25c-440e-9a64-2ce1f5338d9b,2,datamcu version,version 1.1 ,"Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', 'datamcu', 'version']' returned non-zero exit status 1.",FAIL

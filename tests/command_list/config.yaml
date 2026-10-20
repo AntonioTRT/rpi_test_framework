@@ -1,5 +1,5 @@
-port: /dev/ttyUSB0
-target: sucpuck
+port:   
+target:   
 
 commands:
   - command: "hwmcu version"

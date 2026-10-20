@@ -7,7 +7,7 @@ from uuid import uuid4
 import yaml
 
 from csv_manager import CsvManager
-from utility_command import UtilityCommand
+from utility_command2 import UtilityCommand
 
 
 CSV_HEADERS = (
@@ -21,7 +21,7 @@ CSV_HEADERS = (
 )
 
 
-class CommandListTest:
+class LoopTest:
     def run(self, run_id: str) -> None:
         config_path = Path(__file__).with_name("config.yaml")
         with config_path.open(encoding="utf-8") as stream:
@@ -30,11 +30,7 @@ class CommandListTest:
         if not isinstance(config, dict):
             raise ValueError(f"Expected a YAML mapping in {config_path}")
 
-        port = str(config["port"]).strip()
-        target = str(config["target"]).strip()
         commands = config["commands"]
-        if not port or not target:
-            raise ValueError("Config values 'port' and 'target' must not be empty")
         if not isinstance(commands, list):
             raise ValueError("Config value 'commands' must be a list")
 
@@ -55,8 +51,6 @@ class CommandListTest:
             response = UtilityCommand.run(
                 run_id=run_id,
                 test_name="CommandListTest",
-                port=port,
-                target=target,
                 command=command,
             )
             result = "PASS" if expected in response else "FAIL"
@@ -85,4 +79,4 @@ class CommandListTest:
 
 
 if __name__ == "__main__":
-    CommandListTest().run(str(uuid4()))
+    LoopTest().run(str(uuid4()))
