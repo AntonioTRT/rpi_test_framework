@@ -2,8 +2,8 @@ port:
 target:   
 
 commands:
-  - command: "hwmcu version"
+  - command: "-t hwmcu version"
     expected: "version 1.1"
 
-  - command: "datamcu version"
+  - command: "-t datamcu version"
     expected: "version 1.1 "
