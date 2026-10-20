@@ -1,9 +1,0 @@
-port:   
-target:   
-
-commands:
-  - command: "-t hwmcu version"
-    expected: "version 1.1"
-
-  - command: "-t datamcu version"
-    expected: "version 1.1 "

@@ -40,12 +40,13 @@ class LoopTest:
         for question_number, item in enumerate(commands, start=1):
             if not isinstance(item, dict):
                 raise ValueError(f"Command {question_number} must be a mapping")
+            test_id = item["id"]
             command = item["command"]
             expected = item["expected"]
-            if not isinstance(command, str) or not isinstance(expected, str):
+            if not all(isinstance(value, str) for value in (test_id, command, expected)):
                 raise ValueError(
                     f"Command {question_number} must have string "
-                    "'command' and 'expected' values"
+                    "'id', 'command', and 'expected' values"
                 )
 
             response = UtilityCommand.run(
@@ -62,7 +63,7 @@ class LoopTest:
                     "Timestamp": datetime.now().astimezone().isoformat(
                         timespec="milliseconds"
                     ),
-                    "TestId": run_id,
+                    "TestId": test_id,
                     "QuestionNumber": question_number,
                     "Command": command,
                     "Expected": expected,
