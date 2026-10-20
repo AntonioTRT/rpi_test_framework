@@ -429,7 +429,7 @@ class TektronixI2C:
         new_rows = [
             {
                 "RunID": run_id,
-                "Timestamp": timestamp.isoformat(timespec="seconds"),
+                "Timestamp": timestamp.strftime("%d-%m %H:%M"),
                 "TestName": test_name,
                 "Iteration": str(iteration),
                 "Phase": phase,

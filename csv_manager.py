@@ -81,7 +81,7 @@ class CsvManager:
         path = self.logs_dir / f"{timestamp:%Y-%m}.csv"
         values = {
             "RunID": run_id,
-            "Timestamp": timestamp.isoformat(timespec="milliseconds"),
+            "Timestamp": timestamp.strftime("%d-%m %H:%M"),
             "Iteration": "" if iteration is None else iteration,
             "TestName": test_name,
             "Direction": direction,

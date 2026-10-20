@@ -113,7 +113,7 @@ class LoopTest:
                 if stream.tell() == 0:
                     writer.writerow(("Timestamp", "TestName", "Iteration", "ListenData"))
                 writer.writerow((
-                    datetime.now().astimezone().isoformat(timespec="seconds"),
+                    datetime.now().astimezone().strftime("%d-%m %H:%M"),
                     test_name, iteration, listen_data,
                 ))
         except (OSError, csv.Error) as error:

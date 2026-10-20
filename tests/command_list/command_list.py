@@ -20,6 +20,9 @@ CSV_HEADERS = (
     "Response",
     "Result",
 )
+GREEN = "\033[32m"
+RED = "\033[31m"
+RESET = "\033[0m"
 
 
 class LoopTest:
@@ -53,10 +56,12 @@ class LoopTest:
                     "'id', 'command', and 'expected' values"
                 )
 
+            print("\033[2J\033[H", end="", flush=True)
             response = UtilityCommand.run(
                 run_id=run_id,
                 test_name="CommandListTest",
                 command=command,
+                display_id=test_id,
             )
             result = "PASS" if expected in response else "FAIL"
             if result == "PASS":
@@ -64,9 +69,7 @@ class LoopTest:
             csv_manager.append_record(
                 "command_list.csv",
                 {
-                    "Timestamp": datetime.now().astimezone().isoformat(
-                        timespec="milliseconds"
-                    ),
+                    "Timestamp": datetime.now().astimezone().strftime("%d-%m %H:%M"),
                     "TestId": test_id,
                     "QuestionNumber": question_number,
                     "Command": command,
@@ -75,7 +78,8 @@ class LoopTest:
                     "Result": result,
                 },
             )
-            print(f"Question {question_number}: {result}", flush=True)
+            color = GREEN if result == "PASS" else RED
+            print(f"{color}{result}{RESET}", flush=True)
             if question_number < len(commands):
                 time.sleep(command_delay_s)
 

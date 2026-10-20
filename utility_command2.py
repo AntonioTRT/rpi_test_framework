@@ -12,11 +12,19 @@ class UtilityCommand:
         return ["hub_mcu_utility", *shlex.split(command)]
 
     @classmethod
-    def run(cls, run_id: str, test_name: str, command: str) -> str:
+    def run(
+        cls,
+        run_id: str,
+        test_name: str,
+        command: str,
+        display_id: str | None = None,
+    ) -> str:
         command_text = subprocess.list2cmdline(cls.build_command(command))
         csv_manager = CsvManager()
+        id_label = "Test ID" if display_id is not None else "RunID"
+        shown_id = display_id if display_id is not None else run_id
         print(
-            f"{'=' * 40}\nTest: {test_name}\nRunID: {run_id}\n{'=' * 40}",
+            f"{'=' * 40}\nTest: {test_name}\n{id_label}: {shown_id}\n{'=' * 40}",
             flush=True,
         )
         print(f"\nTX:\n{command_text}", flush=True)
