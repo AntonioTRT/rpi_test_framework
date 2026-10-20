@@ -5,3 +5,159 @@ CalledProcessError: Command '['hub_mcu_utility', 'hwmcu', 'version']' returned n
 2026-10-20T13:24:37.835+03:00,2f2a9f98-d25c-440e-9a64-2ce1f5338d9b,2,datamcu version,version 1.1 ,"Unable to open device /dev/ttyACM0, errno 2
 Failed to open device '/dev/ttyACM0'
 CalledProcessError: Command '['hub_mcu_utility', 'datamcu', 'version']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.926+03:00,FTS-TST-0040,1,"-t hwmcu dptest T,0001",HW MCU responds its SW version correctly,"Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0001']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.933+03:00,FTS-TST-0041,2,-t datamcu dptest fw_version,Datapath MCU responds its SW version correctly,"Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'fw_version']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.936+03:00,FTS-TST-0042,3,-t a7 dptest sw-version,IMX7 responds its SW version correctly,"Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'sw-version']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.940+03:00,FTS-TST-0043,4,"-t hwmcu dptest T,0000","OK,0x0415,0x1007","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0000']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.943+03:00,FTS-TST-0044,5,-t datamcu dptest hw_version,"OK,0x0415,0x1007","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'hw_version']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.947+03:00,FTS-TST-0045,6,-t a7 dptest cpuinfo,"OK,<hwid>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'cpuinfo']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.950+03:00,FTS-TST-0050,7,"-t hwmcu dptest T,A020",Programming successful,"Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,A020']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.953+03:00,FTS-TST-0050,8,"-t hwmcu dptest T,A021",Programmed version matches expected version,"Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,A021']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.956+03:00,FTS-TST-0070,9,-t a7 dptest i2c-pmic-id-check,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-pmic-id-check']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.959+03:00,FTS-TST-0080,10,-t a7 dptest i2c-audio-id-check,"OK, register STATUS_1=0x00","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-audio-id-check']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.962+03:00,FTS-TST-0100,11,"-t hwmcu dptest T,A000","OK,0x0742","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,A000']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.967+03:00,FTS-TST-0120,12,"-t hwmcu dptest T,2100",OK,"Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,2100']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.970+03:00,FTS-TST-0130,13,"-t hwmcu dptest T,2130","OK,0x40","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,2130']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.973+03:00,FTS-TST-0140,14,"-t hwmcu dptest T,2150,1","OK,<n>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,2150,1']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.976+03:00,FTS-TST-0150,15,"-t hwmcu dptest T,3000","OK,<temp>, C <subst_temp>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,3000']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.979+03:00,FTS-TST-0151,16,"-t hwmcu dptest T,3001","OK,<temp>, C <subst_temp>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,3001']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.982+03:00,FTS-TST-0152,17,"-t hwmcu dptest T,3002","OK,<temp>, C <subst_temp>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,3002']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.985+03:00,FTS-TST-0153,18,-t a7 dptest wlan-id-check,"OK, 0x06030111","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'wlan-id-check']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.988+03:00,FTS-TST-0154,19,-t datamcu dptest mban_chip_version,"OK,<chip version> <boot loader version>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'mban_chip_version']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.991+03:00,FTS-TST-0155,20,-t datamcu dptest mban_chip_version,"OK,<chip version> <boot loader version>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'mban_chip_version']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.994+03:00,FTS-TST-0156,21,-t a7 dptest i2c-nfc-fwversion-check,"OK, 0x0202","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-nfc-fwversion-check']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:15.997+03:00,FTS-TST-0157,22,-t a7 -W -T 5000 dptest fuse-read,"OK, operation succeeded","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', '-W', '-T', '5000', 'dptest', 'fuse-read']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.000+03:00,FTS-TST-0160,23,-t a7 dptest hwid-get,"OK,<hwid>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'hwid-get']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.003+03:00,FTS-TST-0161,24,"-t hwmcu dptest T,0003","OK,<mcuid>,<hwid>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0003']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.005+03:00,FTS-TST-0162,25,-t datamcu dptest hwid,"OK,<mcuid>,<hwid>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'hwid']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.008+03:00,FTS-TST-0163,26,"-t hwmcu dptest T,0003","OK,<mcuid>,<hwid> (mcuid=1)","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0003']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.011+03:00,FTS-TST-0164,27,-t datamcu dptest hwid,"OK,<mcuid>,<hwid> (mcuid=0)","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'hwid']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.014+03:00,FTS-TST-0170,28,"-t hwmcu dptest T,D001,0","OK,<n> <raw_value>, mV <voltage_mv>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,0']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.017+03:00,FTS-TST-0171,29,"-t hwmcu dptest T,D001,1","OK,<n> <raw_value>, mV <voltage_mv>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,1']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.020+03:00,FTS-TST-0172,30,"-t hwmcu dptest T,D001,2","OK,<n> <raw_value>, mV <voltage_mv>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,2']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.023+03:00,FTS-TST-0173,31,"-t hwmcu dptest T,D001,3","OK,<n> <raw_value>, mV <voltage_mv>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,3']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.026+03:00,FTS-TST-0174,32,"-t hwmcu dptest T,D001,4","OK,<n> <raw_value>, mV <voltage_mv>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,4']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.029+03:00,FTS-TST-0175,33,"-t hwmcu dptest T,D001,5","OK,<n> <raw_value>, mV <voltage_mv>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,5']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.031+03:00,FTS-TST-0176,34,"-t hwmcu dptest T,D001,6","OK,<n> <raw_value>, mV <voltage_mv>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,6']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.034+03:00,FTS-TST-0177,35,"-t hwmcu dptest T,D001,7","OK,<n> <raw_value>, mV <voltage_mv>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,7']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.037+03:00,FTS-TST-0178,36,"-t hwmcu dptest T,D001,9","OK,<n> <raw_value>, mV <voltage_mv>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,9']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.040+03:00,FTS-TST-0179,37,"-t hwmcu dptest T,D001,10","OK,<n> <raw_value>, mV <voltage_mv>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,10']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.043+03:00,FTS-TST-0180,38,-t datamcu dptest adc 1,"OK,<n> <Ch>, <voltage_mv> mV","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'adc', '1']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.047+03:00,FTS-TST-0181,39,-t datamcu dptest adc 2,"OK,<n> <Ch>, <voltage_mv> mV","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'adc', '2']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.050+03:00,FTS-TST-0182,40,-t datamcu dptest adc 6,"OK,<n> <Ch>, <voltage_mv> mV","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'adc', '6']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.053+03:00,FTS-TST-0183,41,-t datamcu dptest adc 10,"OK,<n> <Ch>, <voltage_mv> mV","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'adc', '10']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.056+03:00,FTS-TST-0184,42,-t datamcu dptest adc 12,"OK,<n> <Ch>, <voltage_mv> mV","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'adc', '12']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.059+03:00,FTS-TST-0185,43,-t datamcu dptest adc 13,"OK,<n> <Ch>, <voltage_mv> mV","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'adc', '13']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.062+03:00,FTS-TST-0186,44,-t datamcu dptest adc 15,"OK,<n> <Ch>, <voltage_mv> mV","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'adc', '15']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.065+03:00,FTS-TST-0187,45,-t datamcu dptest adc 18,"OK,<n> <Ch>, <voltage_mv> mV","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'adc', '18']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.067+03:00,FTS-TST-0188,46,-t datamcu dptest adc 0,"OK,<n> <Ch>, <voltage_mv> mV","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'adc', '0']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.070+03:00,FTS-TST-0220,47,"-t hwmcu dptest T,A001","OK,<bat_v> mV,...","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,A001']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.073+03:00,FTS-TST-0221,48,"-t hwmcu dptest T,A002","OK,<avg> mA,<inst> mA","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,A002']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.076+03:00,FTS-TST-0280,49,"-t hwmcu dptest T,1120","OK, <s> <m>","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,1120']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.079+03:00,FTS-TST-0300,50,"-t hwmcu dptest T,A009","Temperature equivalent to 10kΩ, 25°C ± 5°C","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,A009']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.082+03:00,FTS-TST-0310,51,"-t hwmcu dptest T,4002","OK,<Lvalue>,<ch0_raw_value> lux = 0","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,4002']' returned non-zero exit status 1.",FAIL
+2026-10-20T13:36:16.084+03:00,FTS-TST-0311,52,"-t hwmcu dptest T,4002","OK,<Lvalue>,<ch0_raw_value> lux > 0","Unable to open device /dev/ttyACM0, errno 2
+Failed to open device '/dev/ttyACM0'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,4002']' returned non-zero exit status 1.",FAIL

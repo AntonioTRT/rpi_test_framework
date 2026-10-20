@@ -2,6 +2,7 @@
 
 from datetime import datetime
 from pathlib import Path
+import time
 from uuid import uuid4
 
 import yaml
@@ -31,8 +32,11 @@ class LoopTest:
             raise ValueError(f"Expected a YAML mapping in {config_path}")
 
         commands = config["commands"]
+        command_delay_s = float(config.get("command_delay_s", 1))
         if not isinstance(commands, list):
             raise ValueError("Config value 'commands' must be a list")
+        if command_delay_s < 0:
+            raise ValueError("Config value 'command_delay_s' must not be negative")
 
         csv_manager = CsvManager(headers=CSV_HEADERS)
         pass_count = 0
@@ -72,6 +76,8 @@ class LoopTest:
                 },
             )
             print(f"Question {question_number}: {result}", flush=True)
+            if question_number < len(commands):
+                time.sleep(command_delay_s)
 
         total = len(commands)
         print(f"Total tests: {total}")
