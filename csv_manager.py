@@ -4,7 +4,7 @@ import csv
 import tempfile
 from datetime import datetime
 from pathlib import Path
-from typing import Sequence
+from typing import Mapping, Sequence
 
 
 DEFAULT_HEADERS = (
@@ -53,6 +53,24 @@ class CsvManager:
         iteration: int | None = None,
     ) -> None:
         self._append("RX", run_id, test_name, command, response, iteration)
+
+    def append_record(self, filename: str, values: Mapping[str, object]) -> None:
+        if Path(filename).name != filename:
+            raise ValueError("CSV filename must not include a directory")
+
+        path = self.logs_dir / filename
+        self.logs_dir.mkdir(parents=True, exist_ok=True)
+        if path.exists() and path.stat().st_size:
+            with path.open("r", newline="", encoding="utf-8") as stream:
+                existing_headers = next(csv.reader(stream), [])
+            if existing_headers != list(self.headers):
+                raise ValueError(f"Unexpected CSV headers in {path}")
+
+        with path.open("a", newline="", encoding="utf-8") as stream:
+            writer = csv.writer(stream)
+            if stream.tell() == 0:
+                writer.writerow(self.headers)
+            writer.writerow(values.get(header, "") for header in self.headers)
 
     def _append(
         self, direction: str, run_id: str, test_name: str, command: str,

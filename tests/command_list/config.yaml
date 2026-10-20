@@ -1,0 +1,9 @@
+port: /dev/ttyUSB0
+target: sucpuck
+
+commands:
+  - command: "hwmcu version"
+    expected: "version 1.1"
+
+  - command: "datamcu version"
+    expected: "version 1.1 "
