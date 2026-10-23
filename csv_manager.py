@@ -61,10 +61,7 @@ class CsvManager:
         path = self.logs_dir / filename
         self.logs_dir.mkdir(parents=True, exist_ok=True)
         if path.exists() and path.stat().st_size:
-            with path.open("r", newline="", encoding="utf-8") as stream:
-                existing_headers = next(csv.reader(stream), [])
-            if existing_headers != list(self.headers):
-                raise ValueError(f"Unexpected CSV headers in {path}")
+            self._upgrade_schema(path)
 
         with path.open("a", newline="", encoding="utf-8") as stream:
             writer = csv.writer(stream)

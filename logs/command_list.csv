@@ -1,59 +1,59 @@
-"Timestamp","TestId","QuestionNumber","Command","Expected","Response","Result"
-"20-10 14:09","FTS-TST-0040","1","-t hwmcu dptest T,0001","OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1","OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1
+Timestamp,TestId,QuestionNumber,Group,Command,Comparison,Expected,ActualValue,Response,Result
+20-10 14:09,FTS-TST-0040,1,,"-t hwmcu dptest T,0001",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1
 
-","PASS"
-"20-10 14:09","FTS-TST-0041","2","-t datamcu dptest fw_version","OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release","OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release
+",PASS
+20-10 14:09,FTS-TST-0041,2,,-t datamcu dptest fw_version,,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release",,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release
 
-","PASS"
-"20-10 14:09","FTS-TST-0042","3","-t a7 dptest sw-version","prod-test-image beat_0.51.14","prod-test-image beat_0.51.14
-","PASS"
-"20-10 14:09","FTS-TST-0043","4","-t hwmcu dptest T,0000","OK,0x0415,0x1007","OK,0x0415,0x1007
+",PASS
+20-10 14:09,FTS-TST-0042,3,,-t a7 dptest sw-version,,prod-test-image beat_0.51.14,,"prod-test-image beat_0.51.14
+",PASS
+20-10 14:09,FTS-TST-0043,4,,"-t hwmcu dptest T,0000",,"OK,0x0415,0x1007",,"OK,0x0415,0x1007
 
-","PASS"
-"20-10 14:09","FTS-TST-0044","5","-t datamcu dptest hw_version","OK,0x0415,0x1007","OK,0x0415,0x1007
+",PASS
+20-10 14:09,FTS-TST-0044,5,,-t datamcu dptest hw_version,,"OK,0x0415,0x1007",,"OK,0x0415,0x1007
 
-","PASS"
-"20-10 14:09","FTS-TST-0045","6","-t a7 dptest cpuinfo","OK,<hwid>","OK, 0x41 7 0x0 0xc07 5
-","FAIL"
-"20-10 14:09","FTS-TST-0050","7","-t hwmcu dptest T,A021","Programmed version matches expected version","ER
+",PASS
+20-10 14:09,FTS-TST-0045,6,,-t a7 dptest cpuinfo,,"OK,<hwid>",,"OK, 0x41 7 0x0 0xc07 5
+",FAIL
+20-10 14:09,FTS-TST-0050,7,,"-t hwmcu dptest T,A021",,Programmed version matches expected version,,"ER
 
-","FAIL"
-"20-10 14:09","FTS-TST-0070","8","-t a7 dptest i2c-pmic-id-check","OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0","OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0
-","PASS"
-"20-10 14:09","FTS-TST-0080","9","-t a7 dptest i2c-audio-id-check","OK, register STATUS_1=0x00","OK, register STATUS_1=0x00
-","PASS"
-"20-10 14:09","FTS-TST-0100","10","-t hwmcu dptest T,A000","OK,0x0742","ER
+",FAIL
+20-10 14:09,FTS-TST-0070,8,,-t a7 dptest i2c-pmic-id-check,,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0",,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0
+",PASS
+20-10 14:09,FTS-TST-0080,9,,-t a7 dptest i2c-audio-id-check,,"OK, register STATUS_1=0x00",,"OK, register STATUS_1=0x00
+",PASS
+20-10 14:09,FTS-TST-0100,10,,"-t hwmcu dptest T,A000",,"OK,0x0742",,"ER
 
-","FAIL"
-"20-10 14:09","FTS-TST-0120","11","-t hwmcu dptest T,2100","OK","OK
+",FAIL
+20-10 14:09,FTS-TST-0120,11,,"-t hwmcu dptest T,2100",,OK,,"OK
 
-","PASS"
-"20-10 14:09","FTS-TST-0130","12","-t hwmcu dptest T,2130","OK,0x40","OK,0x40
+",PASS
+20-10 14:09,FTS-TST-0130,12,,"-t hwmcu dptest T,2130",,"OK,0x40",,"OK,0x40
 
-","PASS"
-"20-10 14:09","FTS-TST-0140","13","-t hwmcu dptest T,2150,1","OK,1","OK,1
+",PASS
+20-10 14:09,FTS-TST-0140,13,,"-t hwmcu dptest T,2150,1",,"OK,1",,"OK,1
 
-","PASS"
-"20-10 14:09","FTS-TST-0150","14","-t hwmcu dptest T,3000","OK,29,C 29","OK,29,C 29
+",PASS
+20-10 14:09,FTS-TST-0150,14,,"-t hwmcu dptest T,3000",,"OK,29,C 29",,"OK,29,C 29
 
-","PASS"
-"20-10 14:09","FTS-TST-0151","15","-t hwmcu dptest T,3001","OK,29,C 29","OK,28,C 28
+",PASS
+20-10 14:09,FTS-TST-0151,15,,"-t hwmcu dptest T,3001",,"OK,29,C 29",,"OK,28,C 28
 
-","FAIL"
-"20-10 14:09","FTS-TST-0152","16","-t hwmcu dptest T,3002","OK,28,C 28","OK,27,C 27
+",FAIL
+20-10 14:09,FTS-TST-0152,16,,"-t hwmcu dptest T,3002",,"OK,28,C 28",,"OK,27,C 27
 
-","FAIL"
-"20-10 14:09","FTS-TST-0153","17","-t a7 dptest wlan-id-check","OK, 0x06030111","OK, 0x06030111
-","PASS"
-"20-10 14:09","FTS-TST-0154","18","-t datamcu dptest mban_chip_version","OK, chip version 0x644 boot loader version: 0x2000000.","OK, chip version 0x644 boot loader version: 0x2000000.
+",FAIL
+20-10 14:09,FTS-TST-0153,17,,-t a7 dptest wlan-id-check,,"OK, 0x06030111",,"OK, 0x06030111
+",PASS
+20-10 14:09,FTS-TST-0154,18,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"OK, chip version 0x644 boot loader version: 0x2000000.
 
-","PASS"
-"20-10 14:09","FTS-TST-0155","19","-t datamcu dptest mban_chip_version","OK, chip version 0x644 boot loader version: 0x2000000.","OK, chip version 0x644 boot loader version: 0x2000000.
+",PASS
+20-10 14:09,FTS-TST-0155,19,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"OK, chip version 0x644 boot loader version: 0x2000000.
 
-","PASS"
-"20-10 14:09","FTS-TST-0156","20","-t a7 dptest i2c-nfc-fwversion-check","OK, 0x0202","dptest failed
-CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-nfc-fwversion-check']' returned non-zero exit status 1.","FAIL"
-"20-10 14:09","FTS-TST-0157","21","-t a7 -W -T 5000 dptest fuse-read","OK, operation succeeded","HW_OCOTP_ANA0: 0x0
+",PASS
+20-10 14:09,FTS-TST-0156,20,,-t a7 dptest i2c-nfc-fwversion-check,,"OK, 0x0202",,"dptest failed
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-nfc-fwversion-check']' returned non-zero exit status 1.",FAIL
+20-10 14:09,FTS-TST-0157,21,,-t a7 -W -T 5000 dptest fuse-read,,"OK, operation succeeded",,"HW_OCOTP_ANA0: 0x0
 HW_OCOTP_ANA1: 0xdca00
 HW_OCOTP_BOOT_CFG0: 0x10002864
 HW_OCOTP_BOOT_CFG1: 0x0
@@ -98,921 +98,151 @@ HW_OCOTP_TESTER4: 0x10220000
 HW_OCOTP_TESTER5: 0x0
 HW_OCOTP_USB_ID: 0x0
 OK, operation succeeded
-","PASS"
-"20-10 14:09","FTS-TST-0160","22","-t a7 dptest hwid-get","OK, 000a","OK, 000a
-","PASS"
-"20-10 14:09","FTS-TST-0161","23","-t hwmcu dptest T,0003","OK,1,10","OK,1,10
-
-","PASS"
-"20-10 14:09","FTS-TST-0162","24","-t datamcu dptest hwid","OK,0,10","OK,0,10
-
-","PASS"
-"20-10 14:09","FTS-TST-0163","25","-t hwmcu dptest T,0003","OK,1,10","OK,1,10
-
-","PASS"
-"20-10 14:09","FTS-TST-0164","26","-t datamcu dptest hwid","OK,0,10","OK,0,10
-
-","PASS"
-"20-10 14:09","FTS-TST-0170","27","-t hwmcu dptest T,D001,0","OK,0 563, mV 17537 (unset)","OK,0 561, mV 17475 (unset)
-
-","FAIL"
-"20-10 14:09","FTS-TST-0171","28","-t hwmcu dptest T,D001,1","OK,1 984, mV 3945 (unset)","OK,1 982, mV 3937 (unset)
-
-","FAIL"
-"20-10 14:09","FTS-TST-0172","29","-t hwmcu dptest T,D001,2","OK,2 697, mV 2794 (unset)","OK,2 698, mV 2798 (unset)
-
-","FAIL"
-"20-10 14:10","FTS-TST-0173","30","-t hwmcu dptest T,D001,3","OK,3 974, mV 3905 (unset)","OK,3 974, mV 3905 (unset)
-
-","PASS"
-"20-10 14:10","FTS-TST-0174","31","-t hwmcu dptest T,D001,4","OK,4 784, mV 3143 (unset)","OK,4 788, mV 3159 (unset)
-
-","FAIL"
-"20-10 14:10","FTS-TST-0175","32","-t hwmcu dptest T,D001,5","OK,5 746, mV 1492 (unset)","OK,5 746, mV 1492 (unset)
-
-","PASS"
-"20-10 14:10","FTS-TST-0176","33","-t hwmcu dptest T,D001,6","OK,6 896, mV 1792 (unset)","OK,6 897, mV 1794 (unset)
-
-","FAIL"
-"20-10 14:10","FTS-TST-0177","34","-t hwmcu dptest T,D001,7","OK,7 895, mV 1790 (unset)","OK,7 894, mV 1788 (unset)
-
-","FAIL"
-"20-10 14:10","FTS-TST-0178","35","-t hwmcu dptest T,D001,9","OK,9 597, mV 1791 (unset)","OK,9 598, mV 1794 (unset)
-
-","FAIL"
-"20-10 14:10","FTS-TST-0179","36","-t hwmcu dptest T,D001,10","OK,10 1210, mV 1210 (unset)","OK,10 1214, mV 1214 (unset)
-
-","FAIL"
-"20-10 14:10","FTS-TST-0180","37","-t datamcu dptest adc 1","OK, ch 1 = 971 mV","OK, ch 1 = 1221 mV 
-
-","FAIL"
-"20-10 14:10","FTS-TST-0181","38","-t datamcu dptest adc 2","OK, ch 2 = 1004 mV","OK, ch 2 = 1003 mV 
-
-","FAIL"
-"20-10 14:10","FTS-TST-0182","39","-t datamcu dptest adc 6","OK, ch 6 = 1200 mV","OK, ch 6 = 1200 mV 
-
-","PASS"
-"20-10 14:10","FTS-TST-0183","40","-t datamcu dptest adc 10","OK, ch 10 = 1796 mV","OK, ch 10 = 1796 mV 
-
-","PASS"
-"20-10 14:10","FTS-TST-0184","41","-t datamcu dptest adc 12","OK, ch 12 = 1802 mV","OK, ch 12 = 1800 mV 
-
-","FAIL"
-"20-10 14:10","FTS-TST-0185","42","-t datamcu dptest adc 13","OK, ch 13 = 3296 mV","OK, ch 13 = 3296 mV 
-
-","PASS"
-"20-10 14:10","FTS-TST-0186","43","-t datamcu dptest adc 15","OK, ch 15 = 3002 mV","OK, ch 15 = 3002 mV 
-
-","PASS"
-"20-10 14:10","FTS-TST-0187","44","-t datamcu dptest adc 18","OK, ch 18 = 1797 mV","OK, ch 18 = 1797 mV 
-
-","PASS"
-"20-10 14:10","FTS-TST-0188","45","-t datamcu dptest adc 0","OK, ch 0 = 1216 mV","OK, ch 0 = 1215 mV 
-
-","FAIL"
-"20-10 14:10","FTS-TST-0220","46","-t hwmcu dptest T,A001","OK,<bat_v> mV,...","ER
-
-","FAIL"
-"20-10 14:10","FTS-TST-0221","47","-t hwmcu dptest T,A002","OK,<avg> mA,<inst> mA","ER
-
-","FAIL"
-"20-10 14:10","FTS-TST-0280","48","-t hwmcu dptest T,1120","OK, 1, 0x00","OK, 1, 0x00
-
-","PASS"
-"20-10 14:10","FTS-TST-0300","49","-t hwmcu dptest T,A009","Temperature equivalent to 10kΩ, 25°C ± 5°C","ER
-
-","FAIL"
-"20-10 14:10","FTS-TST-0310","50","-t hwmcu dptest T,4002","OK,<Lvalue>,<ch0_raw_value> lux = 0","ER
-
-","FAIL"
-"20-10 14:10","FTS-TST-0311","51","-t hwmcu dptest T,4002","OK,<Lvalue>,<ch0_raw_value> lux > 0","ER
-
-","FAIL"
-"20-10 14:16","FTS-TST-0040","1","-t hwmcu dptest T,0001","OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1","OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1
-
-","PASS"
-"20-10 14:16","FTS-TST-0041","2","-t datamcu dptest fw_version","OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release","OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release
-
-","PASS"
-"20-10 14:16","FTS-TST-0042","3","-t a7 dptest sw-version","prod-test-image beat_0.51.14","prod-test-image beat_0.51.14
-","PASS"
-"20-10 14:16","FTS-TST-0043","4","-t hwmcu dptest T,0000","OK,0x0415,0x1007","OK,0x0415,0x1007
-
-","PASS"
-"20-10 14:16","FTS-TST-0044","5","-t datamcu dptest hw_version","OK,0x0415,0x1007","OK,0x0415,0x1007
-
-","PASS"
-"20-10 14:16","FTS-TST-0045","6","-t a7 dptest cpuinfo","OK,<hwid>","OK, 0x41 7 0x0 0xc07 5
-","FAIL"
-"20-10 14:16","FTS-TST-0050","7","-t hwmcu dptest T,A021","Programmed version matches expected version","ER
-
-","FAIL"
-"20-10 14:16","FTS-TST-0070","8","-t a7 dptest i2c-pmic-id-check","OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0","OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0
-","PASS"
-"20-10 14:16","FTS-TST-0080","9","-t a7 dptest i2c-audio-id-check","OK, register STATUS_1=0x00","OK, register STATUS_1=0x00
-","PASS"
-"20-10 14:16","FTS-TST-0100","10","-t hwmcu dptest T,A000","OK,0x0742","ER
-
-","FAIL"
-"20-10 14:16","FTS-TST-0120","11","-t hwmcu dptest T,2100","OK","OK
-
-","PASS"
-"20-10 14:16","FTS-TST-0130","12","-t hwmcu dptest T,2130","OK,0x40","OK,0x40
-
-","PASS"
-"20-10 14:16","FTS-TST-0140","13","-t hwmcu dptest T,2150,1","OK,1","OK,1
-
-","PASS"
-"20-10 14:16","FTS-TST-0150","14","-t hwmcu dptest T,3000","OK,29,C 29","OK,27,C 27
-
-","FAIL"
-"20-10 14:16","FTS-TST-0151","15","-t hwmcu dptest T,3001","OK,29,C 29","OK,26,C 26
-
-","FAIL"
-"20-10 14:16","FTS-TST-0152","16","-t hwmcu dptest T,3002","OK,28,C 28","OK,26,C 26
-
-","FAIL"
-"20-10 14:16","FTS-TST-0153","17","-t a7 dptest wlan-id-check","OK, 0x06030111","OK, 0x06030111
-","PASS"
-"20-10 14:16","FTS-TST-0154","18","-t datamcu dptest mban_chip_version","OK, chip version 0x644 boot loader version: 0x2000000.","OK, chip version 0x644 boot loader version: 0x2000000.
-
-","PASS"
-"20-10 14:16","FTS-TST-0155","19","-t datamcu dptest mban_chip_version","OK, chip version 0x644 boot loader version: 0x2000000.","OK, chip version 0x644 boot loader version: 0x2000000.
-
-","PASS"
-"20-10 14:16","FTS-TST-0156","20","-t a7 dptest i2c-nfc-fwversion-check","OK, 0x0202","dptest failed
-CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-nfc-fwversion-check']' returned non-zero exit status 1.","FAIL"
-"20-10 14:16","FTS-TST-0157","21","-t a7 -W -T 5000 dptest fuse-read","OK, operation succeeded","HW_OCOTP_ANA0: 0x0
-HW_OCOTP_ANA1: 0xdca00
-HW_OCOTP_BOOT_CFG0: 0x10002864
-HW_OCOTP_BOOT_CFG1: 0x0
-HW_OCOTP_BOOT_CFG2: 0x0
-HW_OCOTP_BOOT_CFG3: 0x0
-HW_OCOTP_BOOT_CFG4: 0x0
-HW_OCOTP_FIELD_RETURN: 0x0
-HW_OCOTP_GP10: 0x0
-HW_OCOTP_GP11: 0x0
-HW_OCOTP_GP20: 0x0
-HW_OCOTP_GP21: 0x0
-HW_OCOTP_LOCK: 0xa0030103
-HW_OCOTP_MAC_ADDR0: 0x0
-HW_OCOTP_MAC_ADDR1: 0x0
-HW_OCOTP_MAC_ADDR2: 0x0
-HW_OCOTP_MEM_TRIM0: 0x0
-HW_OCOTP_MEM_TRIM1: 0x0
-HW_OCOTP_ROM_PATCH0: 0x0
-HW_OCOTP_ROM_PATCH1: 0x0
-HW_OCOTP_ROM_PATCH2: 0x0
-HW_OCOTP_ROM_PATCH3: 0x0
-HW_OCOTP_ROM_PATCH4: 0x0
-HW_OCOTP_ROM_PATCH5: 0x0
-HW_OCOTP_ROM_PATCH6: 0x0
-HW_OCOTP_ROM_PATCH7: 0x0
-HW_OCOTP_SJC_RESP0: 0x0
-HW_OCOTP_SJC_RESP1: 0x0
-HW_OCOTP_SRK0: 0x0
-HW_OCOTP_SRK1: 0x0
-HW_OCOTP_SRK2: 0x0
-HW_OCOTP_SRK3: 0x0
-HW_OCOTP_SRK4: 0x0
-HW_OCOTP_SRK5: 0x0
-HW_OCOTP_SRK6: 0x0
-HW_OCOTP_SRK7: 0x0
-HW_OCOTP_SRK_REVOKE: 0x0
-HW_OCOTP_TESTER0: 0x6e168703
-HW_OCOTP_TESTER1: 0x2a6
-HW_OCOTP_TESTER2: 0x0
-HW_OCOTP_TESTER3: 0x20000200
-HW_OCOTP_TESTER4: 0x10220000
-HW_OCOTP_TESTER5: 0x0
-HW_OCOTP_USB_ID: 0x0
-OK, operation succeeded
-","PASS"
-"20-10 14:16","FTS-TST-0160","22","-t a7 dptest hwid-get","OK, 000a","OK, 000a
-","PASS"
-"20-10 14:16","FTS-TST-0161","23","-t hwmcu dptest T,0003","OK,1,10","OK,1,10
-
-","PASS"
-"20-10 14:16","FTS-TST-0162","24","-t datamcu dptest hwid","OK,0,10","OK,0,10
-
-","PASS"
-"20-10 14:16","FTS-TST-0163","25","-t hwmcu dptest T,0003","OK,1,10","OK,1,10
-
-","PASS"
-"20-10 14:16","FTS-TST-0164","26","-t datamcu dptest hwid","OK,0,10","OK,0,10
-
-","PASS"
-"20-10 14:16","FTS-TST-0170","27","-t hwmcu dptest T,D001,0","OK,0 563, mV 17537 (unset)","OK,0 560, mV 17444 (unset)
-
-","FAIL"
-"20-10 14:16","FTS-TST-0171","28","-t hwmcu dptest T,D001,1","OK,1 984, mV 3945 (unset)","OK,1 974, mV 3905 (unset)
-
-","FAIL"
-"20-10 14:16","FTS-TST-0172","29","-t hwmcu dptest T,D001,2","OK,2 697, mV 2794 (unset)","OK,2 694, mV 2782 (unset)
-
-","FAIL"
-"20-10 14:16","FTS-TST-0173","30","-t hwmcu dptest T,D001,3","OK,3 974, mV 3905 (unset)","OK,3 977, mV 3917 (unset)
-
-","FAIL"
-"20-10 14:16","FTS-TST-0174","31","-t hwmcu dptest T,D001,4","OK,4 784, mV 3143 (unset)","OK,4 785, mV 3147 (unset)
-
-","FAIL"
-"20-10 14:16","FTS-TST-0175","32","-t hwmcu dptest T,D001,5","OK,5 746, mV 1492 (unset)","OK,5 744, mV 1488 (unset)
-
-","FAIL"
-"20-10 14:16","FTS-TST-0176","33","-t hwmcu dptest T,D001,6","OK,6 896, mV 1792 (unset)","OK,6 896, mV 1792 (unset)
-
-","PASS"
-"20-10 14:16","FTS-TST-0177","34","-t hwmcu dptest T,D001,7","OK,7 895, mV 1790 (unset)","OK,7 898, mV 1796 (unset)
-
-","FAIL"
-"20-10 14:16","FTS-TST-0178","35","-t hwmcu dptest T,D001,9","OK,9 597, mV 1791 (unset)","OK,9 595, mV 1785 (unset)
-
-","FAIL"
-"20-10 14:16","FTS-TST-0179","36","-t hwmcu dptest T,D001,10","OK,10 1210, mV 1210 (unset)","OK,10 1218, mV 1218 (unset)
-
-","FAIL"
-"20-10 14:16","FTS-TST-0180","37","-t datamcu dptest adc 1","OK, ch 1 = 971 mV","OK, ch 1 = 1225 mV 
-
-","FAIL"
-"20-10 14:16","FTS-TST-0181","38","-t datamcu dptest adc 2","OK, ch 2 = 1004 mV","OK, ch 2 = 1003 mV 
-
-","FAIL"
-"20-10 14:17","FTS-TST-0182","39","-t datamcu dptest adc 6","OK, ch 6 = 1200 mV","OK, ch 6 = 1202 mV 
-
-","FAIL"
-"20-10 14:17","FTS-TST-0183","40","-t datamcu dptest adc 10","OK, ch 10 = 1796 mV","OK, ch 10 = 1796 mV 
-
-","PASS"
-"20-10 14:17","FTS-TST-0184","41","-t datamcu dptest adc 12","OK, ch 12 = 1802 mV","OK, ch 12 = 1798 mV 
-
-","FAIL"
-"20-10 14:17","FTS-TST-0185","42","-t datamcu dptest adc 13","OK, ch 13 = 3296 mV","OK, ch 13 = 3308 mV 
-
-","FAIL"
-"20-10 14:17","FTS-TST-0186","43","-t datamcu dptest adc 15","OK, ch 15 = 3002 mV","OK, ch 15 = 3014 mV 
-
-","FAIL"
-"20-10 14:17","FTS-TST-0187","44","-t datamcu dptest adc 18","OK, ch 18 = 1797 mV","OK, ch 18 = 1800 mV 
-
-","FAIL"
-"20-10 14:17","FTS-TST-0188","45","-t datamcu dptest adc 0","OK, ch 0 = 1216 mV","OK, ch 0 = 1218 mV 
-
-","FAIL"
-"20-10 14:17","FTS-TST-0220","46","-t hwmcu dptest T,A001","OK,<bat_v> mV,...","ER
-
-","FAIL"
-"20-10 14:17","FTS-TST-0221","47","-t hwmcu dptest T,A002","OK,<avg> mA,<inst> mA","ER
-
-","FAIL"
-"20-10 14:17","FTS-TST-0280","48","-t hwmcu dptest T,1120","OK, 1, 0x00","OK, 1, 0x00
-
-","PASS"
-"20-10 14:17","FTS-TST-0300","49","-t hwmcu dptest T,A009","Temperature equivalent to 10kΩ, 25°C ± 5°C","ER
-
-","FAIL"
-"20-10 14:17","FTS-TST-0310","50","-t hwmcu dptest T,4002","OK,<Lvalue>,<ch0_raw_value> lux = 0","ER
-
-","FAIL"
-"20-10 14:17","FTS-TST-0311","51","-t hwmcu dptest T,4002","OK,<Lvalue>,<ch0_raw_value> lux > 0","ER
-
-","FAIL"
-"20-10 14:22","FTS-TST-0040","1","-t hwmcu dptest T,0001","OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1","OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1
-
-","PASS"
-"20-10 14:22","FTS-TST-0041","2","-t datamcu dptest fw_version","OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release","OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release
-
-","PASS"
-"20-10 14:23","FTS-TST-0042","3","-t a7 dptest sw-version","prod-test-image beat_0.51.14","prod-test-image beat_0.51.14
-","PASS"
-"20-10 14:23","FTS-TST-0043","4","-t hwmcu dptest T,0000","OK,0x0415,0x1007","OK,0x0415,0x1007
-
-","PASS"
-"20-10 14:23","FTS-TST-0044","5","-t datamcu dptest hw_version","OK,0x0415,0x1007","OK,0x0415,0x1007
-
-","PASS"
-"20-10 14:23","FTS-TST-0045","6","-t a7 dptest cpuinfo","OK,<hwid>","OK, 0x41 7 0x0 0xc07 5
-","FAIL"
-"20-10 14:23","FTS-TST-0050","7","-t hwmcu dptest T,A021","Programmed version matches expected version","ER
-
-","FAIL"
-"20-10 14:23","FTS-TST-0070","8","-t a7 dptest i2c-pmic-id-check","OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0","OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0
-","PASS"
-"20-10 14:23","FTS-TST-0080","9","-t a7 dptest i2c-audio-id-check","OK, register STATUS_1=0x00","OK, register STATUS_1=0x00
-","PASS"
-"20-10 14:23","FTS-TST-0100","10","-t hwmcu dptest T,A000","OK,0x0742","ER
-
-","FAIL"
-"20-10 14:23","FTS-TST-0120","11","-t hwmcu dptest T,2100","OK","OK
-
-","PASS"
-"20-10 14:23","FTS-TST-0130","12","-t hwmcu dptest T,2130","OK,0x40","OK,0x40
-
-","PASS"
-"20-10 14:23","FTS-TST-0140","13","-t hwmcu dptest T,2150,1","OK,1","OK,1
-
-","PASS"
-"20-10 14:23","FTS-TST-0150","14","-t hwmcu dptest T,3000","OK,29,C 29","OK,28,C 28
-
-","FAIL"
-"20-10 14:23","FTS-TST-0151","15","-t hwmcu dptest T,3001","OK,29,C 29","OK,27,C 27
-
-","FAIL"
-"20-10 14:23","FTS-TST-0152","16","-t hwmcu dptest T,3002","OK,28,C 28","OK,27,C 27
-
-","FAIL"
-"20-10 14:23","FTS-TST-0153","17","-t a7 dptest wlan-id-check","OK, 0x06030111","OK, 0x06030111
-","PASS"
-"20-10 14:23","FTS-TST-0154","18","-t datamcu dptest mban_chip_version","OK, chip version 0x644 boot loader version: 0x2000000.","OK, chip version 0x644 boot loader version: 0x2000000.
-
-","PASS"
-"20-10 14:23","FTS-TST-0155","19","-t datamcu dptest mban_chip_version","OK, chip version 0x644 boot loader version: 0x2000000.","OK, chip version 0x644 boot loader version: 0x2000000.
-
-","PASS"
-"20-10 14:23","FTS-TST-0156","20","-t a7 dptest i2c-nfc-fwversion-check","OK, 0x0202","OK, 0x80202
-","FAIL"
-"20-10 14:23","FTS-TST-0157","21","-t a7 -W -T 5000 dptest fuse-read","OK, operation succeeded","HW_OCOTP_ANA0: 0x0
-HW_OCOTP_ANA1: 0xdca00
-HW_OCOTP_BOOT_CFG0: 0x10002864
-HW_OCOTP_BOOT_CFG1: 0x0
-HW_OCOTP_BOOT_CFG2: 0x0
-HW_OCOTP_BOOT_CFG3: 0x0
-HW_OCOTP_BOOT_CFG4: 0x0
-HW_OCOTP_FIELD_RETURN: 0x0
-HW_OCOTP_GP10: 0x0
-HW_OCOTP_GP11: 0x0
-HW_OCOTP_GP20: 0x0
-HW_OCOTP_GP21: 0x0
-HW_OCOTP_LOCK: 0xa0030103
-HW_OCOTP_MAC_ADDR0: 0x0
-HW_OCOTP_MAC_ADDR1: 0x0
-HW_OCOTP_MAC_ADDR2: 0x0
-HW_OCOTP_MEM_TRIM0: 0x0
-HW_OCOTP_MEM_TRIM1: 0x0
-HW_OCOTP_ROM_PATCH0: 0x0
-HW_OCOTP_ROM_PATCH1: 0x0
-HW_OCOTP_ROM_PATCH2: 0x0
-HW_OCOTP_ROM_PATCH3: 0x0
-HW_OCOTP_ROM_PATCH4: 0x0
-HW_OCOTP_ROM_PATCH5: 0x0
-HW_OCOTP_ROM_PATCH6: 0x0
-HW_OCOTP_ROM_PATCH7: 0x0
-HW_OCOTP_SJC_RESP0: 0x0
-HW_OCOTP_SJC_RESP1: 0x0
-HW_OCOTP_SRK0: 0x0
-HW_OCOTP_SRK1: 0x0
-HW_OCOTP_SRK2: 0x0
-HW_OCOTP_SRK3: 0x0
-HW_OCOTP_SRK4: 0x0
-HW_OCOTP_SRK5: 0x0
-HW_OCOTP_SRK6: 0x0
-HW_OCOTP_SRK7: 0x0
-HW_OCOTP_SRK_REVOKE: 0x0
-HW_OCOTP_TESTER0: 0x6e168703
-HW_OCOTP_TESTER1: 0x2a6
-HW_OCOTP_TESTER2: 0x0
-HW_OCOTP_TESTER3: 0x20000200
-HW_OCOTP_TESTER4: 0x10220000
-HW_OCOTP_TESTER5: 0x0
-HW_OCOTP_USB_ID: 0x0
-OK, operation succeeded
-","PASS"
-"20-10 14:23","FTS-TST-0160","22","-t a7 dptest hwid-get","OK, 000a","OK, 000a
-","PASS"
-"20-10 14:23","FTS-TST-0161","23","-t hwmcu dptest T,0003","OK,1,10","OK,1,10
-
-","PASS"
-"20-10 14:23","FTS-TST-0162","24","-t datamcu dptest hwid","OK,0,10","OK,0,10
-
-","PASS"
-"20-10 14:23","FTS-TST-0163","25","-t hwmcu dptest T,0003","OK,1,10","OK,1,10
-
-","PASS"
-"20-10 14:23","FTS-TST-0164","26","-t datamcu dptest hwid","OK,0,10","OK,0,10
-
-","PASS"
-"20-10 14:23","FTS-TST-0170","27","-t hwmcu dptest T,D001,0","OK,0 563, mV 17537 (unset)","OK,0 561, mV 17475 (unset)
-
-","FAIL"
-"20-10 14:23","FTS-TST-0171","28","-t hwmcu dptest T,D001,1","OK,1 984, mV 3945 (unset)","OK,1 975, mV 3909 (unset)
-
-","FAIL"
-"20-10 14:23","FTS-TST-0172","29","-t hwmcu dptest T,D001,2","OK,2 697, mV 2794 (unset)","OK,2 695, mV 2786 (unset)
-
-","FAIL"
-"20-10 14:23","FTS-TST-0173","30","-t hwmcu dptest T,D001,3","OK,3 974, mV 3905 (unset)","OK,3 977, mV 3917 (unset)
-
-","FAIL"
-"20-10 14:23","FTS-TST-0174","31","-t hwmcu dptest T,D001,4","OK,4 784, mV 3143 (unset)","OK,4 789, mV 3163 (unset)
-
-","FAIL"
-"20-10 14:23","FTS-TST-0175","32","-t hwmcu dptest T,D001,5","OK,5 746, mV 1492 (unset)","OK,5 746, mV 1492 (unset)
-
-","PASS"
-"20-10 14:23","FTS-TST-0176","33","-t hwmcu dptest T,D001,6","OK,6 896, mV 1792 (unset)","OK,6 894, mV 1788 (unset)
-
-","FAIL"
-"20-10 14:23","FTS-TST-0177","34","-t hwmcu dptest T,D001,7","OK,7 895, mV 1790 (unset)","OK,7 900, mV 1800 (unset)
-
-","FAIL"
-"20-10 14:23","FTS-TST-0178","35","-t hwmcu dptest T,D001,9","OK,9 597, mV 1791 (unset)","OK,9 596, mV 1788 (unset)
-
-","FAIL"
-"20-10 14:23","FTS-TST-0179","36","-t hwmcu dptest T,D001,10","OK,10 1210, mV 1210 (unset)","OK,10 1217, mV 1217 (unset)
-
-","FAIL"
-"20-10 14:23","FTS-TST-0180","37","-t datamcu dptest adc 1","OK, ch 1 = 971 mV","OK, ch 1 = 975 mV 
-
-","FAIL"
-"20-10 14:23","FTS-TST-0181","38","-t datamcu dptest adc 2","OK, ch 2 = 1004 mV","OK, ch 2 = 1003 mV 
-
-","FAIL"
-"20-10 14:23","FTS-TST-0182","39","-t datamcu dptest adc 6","OK, ch 6 = 1200 mV","OK, ch 6 = 1201 mV 
-
-","FAIL"
-"20-10 14:23","FTS-TST-0183","40","-t datamcu dptest adc 10","OK, ch 10 = 1796 mV","OK, ch 10 = 1796 mV 
-
-","PASS"
-"20-10 14:23","FTS-TST-0184","41","-t datamcu dptest adc 12","OK, ch 12 = 1802 mV","OK, ch 12 = 1798 mV 
-
-","FAIL"
-"20-10 14:23","FTS-TST-0185","42","-t datamcu dptest adc 13","OK, ch 13 = 3296 mV","OK, ch 13 = 3304 mV 
-
-","FAIL"
-"20-10 14:23","FTS-TST-0186","43","-t datamcu dptest adc 15","OK, ch 15 = 3002 mV","OK, ch 15 = 3010 mV 
-
-","FAIL"
-"20-10 14:23","FTS-TST-0187","44","-t datamcu dptest adc 18","OK, ch 18 = 1797 mV","OK, ch 18 = 1800 mV 
-
-","FAIL"
-"20-10 14:23","FTS-TST-0188","45","-t datamcu dptest adc 0","OK, ch 0 = 1216 mV","OK, ch 0 = 1218 mV 
-
-","FAIL"
-"20-10 14:23","FTS-TST-0220","46","-t hwmcu dptest T,A001","OK,<bat_v> mV,...","ER
-
-","FAIL"
-"20-10 14:23","FTS-TST-0221","47","-t hwmcu dptest T,A002","OK,<avg> mA,<inst> mA","ER
-
-","FAIL"
-"20-10 14:23","FTS-TST-0280","48","-t hwmcu dptest T,1120","OK, 1, 0x00","OK, 1, 0x00
-
-","PASS"
-"20-10 14:23","FTS-TST-0300","49","-t hwmcu dptest T,A009","Temperature equivalent to 10kΩ, 25°C ± 5°C","ER
-
-","FAIL"
-"20-10 14:23","FTS-TST-0310","50","-t hwmcu dptest T,4002","OK,<Lvalue>,<ch0_raw_value> lux = 0","ER
-
-","FAIL"
-"20-10 14:24","FTS-TST-0311","51","-t hwmcu dptest T,4002","OK,<Lvalue>,<ch0_raw_value> lux > 0","ER
-
-","FAIL"
-"20-10 14:31","FTS-TST-0040","1","-t hwmcu dptest T,0001","OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1","OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1
-
-","PASS"
-"20-10 14:31","FTS-TST-0041","2","-t datamcu dptest fw_version","OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release","OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release
-
-","PASS"
-"20-10 14:31","FTS-TST-0042","3","-t a7 dptest sw-version","prod-test-image beat_0.51.14","prod-test-image beat_0.51.14
-","PASS"
-"20-10 14:31","FTS-TST-0043","4","-t hwmcu dptest T,0000","OK,0x0415,0x1007","OK,0x0415,0x1007
-
-","PASS"
-"20-10 14:31","FTS-TST-0044","5","-t datamcu dptest hw_version","OK,0x0415,0x1007","OK,0x0415,0x1007
-
-","PASS"
-"20-10 14:32","FTS-TST-0040","1","-t hwmcu dptest T,0001","OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1","OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1
-
-","PASS"
-"20-10 14:32","FTS-TST-0041","2","-t datamcu dptest fw_version","OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release","OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release
-
-","PASS"
-"20-10 14:32","FTS-TST-0042","3","-t a7 dptest sw-version","prod-test-image beat_0.51.14","prod-test-image beat_0.51.14
-","PASS"
-"20-10 14:32","FTS-TST-0043","4","-t hwmcu dptest T,0000","OK,0x0415,0x1007","OK,0x0415,0x1007
-
-","PASS"
-"20-10 14:32","FTS-TST-0044","5","-t datamcu dptest hw_version","OK,0x0415,0x1007","OK,0x0415,0x1007
-
-","PASS"
-"20-10 14:32","FTS-TST-0045","6","-t a7 dptest cpuinfo","OK,<hwid>","OK, 0x41 7 0x0 0xc07 5
-","FAIL"
-"20-10 14:32","FTS-TST-0050","7","-t hwmcu dptest T,A021","Programmed version matches expected version","ER
-
-","FAIL"
-"20-10 14:32","FTS-TST-0070","8","-t a7 dptest i2c-pmic-id-check","OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0","OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0
-","PASS"
-"20-10 14:32","FTS-TST-0080","9","-t a7 dptest i2c-audio-id-check","OK, register STATUS_1=0x00","OK, register STATUS_1=0x00
-","PASS"
-"20-10 14:32","FTS-TST-0100","10","-t hwmcu dptest T,A000","OK,0x0742","ER
-
-","FAIL"
-"20-10 14:32","FTS-TST-0120","11","-t hwmcu dptest T,2100","OK","OK
-
-","PASS"
-"20-10 14:32","FTS-TST-0130","12","-t hwmcu dptest T,2130","OK,0x40","OK,0x40
-
-","PASS"
-"20-10 14:32","FTS-TST-0140","13","-t hwmcu dptest T,2150,1","OK,1","OK,1
-
-","PASS"
-"20-10 14:32","FTS-TST-0150","14","-t hwmcu dptest T,3000","OK,29,C 29","OK,29,C 29
-
-","PASS"
-"20-10 14:32","FTS-TST-0151","15","-t hwmcu dptest T,3001","OK,29,C 29","OK,28,C 28
-
-","FAIL"
-"20-10 14:32","FTS-TST-0152","16","-t hwmcu dptest T,3002","OK,28,C 28","OK,27,C 27
-
-","FAIL"
-"20-10 14:32","FTS-TST-0153","17","-t a7 dptest wlan-id-check","OK, 0x06030111","OK, 0x06030111
-","PASS"
-"20-10 14:32","FTS-TST-0154","18","-t datamcu dptest mban_chip_version","OK, chip version 0x644 boot loader version: 0x2000000.","OK, chip version 0x644 boot loader version: 0x2000000.
-
-","PASS"
-"20-10 14:32","FTS-TST-0155","19","-t datamcu dptest mban_chip_version","OK, chip version 0x644 boot loader version: 0x2000000.","OK, chip version 0x644 boot loader version: 0x2000000.
-
-","PASS"
-"20-10 14:32","FTS-TST-0156","20","-t a7 dptest i2c-nfc-fwversion-check","OK, 0x0202","dptest failed
-CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-nfc-fwversion-check']' returned non-zero exit status 1.","FAIL"
-"20-10 14:32","FTS-TST-0157","21","-t a7 -W -T 5000 dptest fuse-read","OK, operation succeeded","HW_OCOTP_ANA0: 0x0
-HW_OCOTP_ANA1: 0xdca00
-HW_OCOTP_BOOT_CFG0: 0x10002864
-HW_OCOTP_BOOT_CFG1: 0x0
-HW_OCOTP_BOOT_CFG2: 0x0
-HW_OCOTP_BOOT_CFG3: 0x0
-HW_OCOTP_BOOT_CFG4: 0x0
-HW_OCOTP_FIELD_RETURN: 0x0
-HW_OCOTP_GP10: 0x0
-HW_OCOTP_GP11: 0x0
-HW_OCOTP_GP20: 0x0
-HW_OCOTP_GP21: 0x0
-HW_OCOTP_LOCK: 0xa0030103
-HW_OCOTP_MAC_ADDR0: 0x0
-HW_OCOTP_MAC_ADDR1: 0x0
-HW_OCOTP_MAC_ADDR2: 0x0
-HW_OCOTP_MEM_TRIM0: 0x0
-HW_OCOTP_MEM_TRIM1: 0x0
-HW_OCOTP_ROM_PATCH0: 0x0
-HW_OCOTP_ROM_PATCH1: 0x0
-HW_OCOTP_ROM_PATCH2: 0x0
-HW_OCOTP_ROM_PATCH3: 0x0
-HW_OCOTP_ROM_PATCH4: 0x0
-HW_OCOTP_ROM_PATCH5: 0x0
-HW_OCOTP_ROM_PATCH6: 0x0
-HW_OCOTP_ROM_PATCH7: 0x0
-HW_OCOTP_SJC_RESP0: 0x0
-HW_OCOTP_SJC_RESP1: 0x0
-HW_OCOTP_SRK0: 0x0
-HW_OCOTP_SRK1: 0x0
-HW_OCOTP_SRK2: 0x0
-HW_OCOTP_SRK3: 0x0
-HW_OCOTP_SRK4: 0x0
-HW_OCOTP_SRK5: 0x0
-HW_OCOTP_SRK6: 0x0
-HW_OCOTP_SRK7: 0x0
-HW_OCOTP_SRK_REVOKE: 0x0
-HW_OCOTP_TESTER0: 0x6e168703
-HW_OCOTP_TESTER1: 0x2a6
-HW_OCOTP_TESTER2: 0x0
-HW_OCOTP_TESTER3: 0x20000200
-HW_OCOTP_TESTER4: 0x10220000
-HW_OCOTP_TESTER5: 0x0
-HW_OCOTP_USB_ID: 0x0
-OK, operation succeeded
-","PASS"
-"20-10 14:32","FTS-TST-0160","22","-t a7 dptest hwid-get","OK, 000a","OK, 000a
-","PASS"
-"20-10 14:32","FTS-TST-0161","23","-t hwmcu dptest T,0003","OK,1,10","OK,1,10
-
-","PASS"
-"20-10 14:32","FTS-TST-0162","24","-t datamcu dptest hwid","OK,0,10","OK,0,10
-
-","PASS"
-"20-10 14:32","FTS-TST-0163","25","-t hwmcu dptest T,0003","OK,1,10","OK,1,10
-
-","PASS"
-"20-10 14:32","FTS-TST-0164","26","-t datamcu dptest hwid","OK,0,10","OK,0,10
-
-","PASS"
-"20-10 14:32","FTS-TST-0170","27","-t hwmcu dptest T,D001,0","OK,0 563, mV 17537 (unset)","OK,0 559, mV 17412 (unset)
-
-","FAIL"
-"20-10 14:32","FTS-TST-0171","28","-t hwmcu dptest T,D001,1","OK,1 984, mV 3945 (unset)","OK,1 974, mV 3905 (unset)
-
-","FAIL"
-"20-10 14:32","FTS-TST-0172","29","-t hwmcu dptest T,D001,2","OK,2 697, mV 2794 (unset)","OK,2 695, mV 2786 (unset)
-
-","FAIL"
-"20-10 14:32","FTS-TST-0173","30","-t hwmcu dptest T,D001,3","OK,3 974, mV 3905 (unset)","OK,3 979, mV 3925 (unset)
-
-","FAIL"
-"20-10 14:33","FTS-TST-0174","31","-t hwmcu dptest T,D001,4","OK,4 784, mV 3143 (unset)","OK,4 784, mV 3143 (unset)
-
-","PASS"
-"20-10 14:33","FTS-TST-0175","32","-t hwmcu dptest T,D001,5","OK,5 746, mV 1492 (unset)","OK,5 748, mV 1496 (unset)
-
-","FAIL"
-"20-10 14:33","FTS-TST-0176","33","-t hwmcu dptest T,D001,6","OK,6 896, mV 1792 (unset)","OK,6 897, mV 1794 (unset)
-
-","FAIL"
-"20-10 14:33","FTS-TST-0177","34","-t hwmcu dptest T,D001,7","OK,7 895, mV 1790 (unset)","OK,7 899, mV 1798 (unset)
-
-","FAIL"
-"20-10 14:33","FTS-TST-0178","35","-t hwmcu dptest T,D001,9","OK,9 597, mV 1791 (unset)","OK,9 597, mV 1791 (unset)
-
-","PASS"
-"20-10 14:33","FTS-TST-0179","36","-t hwmcu dptest T,D001,10","OK,10 1210, mV 1210 (unset)","OK,10 1216, mV 1216 (unset)
-
-","FAIL"
-"20-10 14:33","FTS-TST-0180","37","-t datamcu dptest adc 1","OK, ch 1 = 971 mV","OK, ch 1 = 975 mV 
-
-","FAIL"
-"20-10 14:33","FTS-TST-0181","38","-t datamcu dptest adc 2","OK, ch 2 = 1004 mV","OK, ch 2 = 1002 mV 
-
-","FAIL"
-"20-10 14:33","FTS-TST-0182","39","-t datamcu dptest adc 6","OK, ch 6 = 1200 mV","OK, ch 6 = 1202 mV 
-
-","FAIL"
-"20-10 14:33","FTS-TST-0183","40","-t datamcu dptest adc 10","OK, ch 10 = 1796 mV","OK, ch 10 = 1796 mV 
-
-","PASS"
-"20-10 14:33","FTS-TST-0184","41","-t datamcu dptest adc 12","OK, ch 12 = 1802 mV","OK, ch 12 = 1798 mV 
-
-","FAIL"
-"20-10 14:33","FTS-TST-0185","42","-t datamcu dptest adc 13","OK, ch 13 = 3296 mV","OK, ch 13 = 3308 mV 
-
-","FAIL"
-"20-10 14:33","FTS-TST-0186","43","-t datamcu dptest adc 15","OK, ch 15 = 3002 mV","OK, ch 15 = 3014 mV 
-
-","FAIL"
-"20-10 14:33","FTS-TST-0187","44","-t datamcu dptest adc 18","OK, ch 18 = 1797 mV","OK, ch 18 = 1800 mV 
-
-","FAIL"
-"20-10 14:33","FTS-TST-0188","45","-t datamcu dptest adc 0","OK, ch 0 = 1216 mV","OK, ch 0 = 1218 mV 
-
-","FAIL"
-"20-10 14:33","FTS-TST-0220","46","-t hwmcu dptest T,A001","OK,<bat_v> mV,...","ER
-
-","FAIL"
-"20-10 14:33","FTS-TST-0221","47","-t hwmcu dptest T,A002","OK,<avg> mA,<inst> mA","ER
-
-","FAIL"
-"20-10 14:33","FTS-TST-0280","48","-t hwmcu dptest T,1120","OK, 1, 0x00","OK, 1, 0x00
-
-","PASS"
-"20-10 14:33","FTS-TST-0300","49","-t hwmcu dptest T,A009","Temperature equivalent to 10kΩ, 25°C ± 5°C","ER
-
-","FAIL"
-"20-10 14:33","FTS-TST-0310","50","-t hwmcu dptest T,4002","OK,<Lvalue>,<ch0_raw_value> lux = 0","ER
-
-","FAIL"
-"20-10 14:33","FTS-TST-0311","51","-t hwmcu dptest T,4002","OK,<Lvalue>,<ch0_raw_value> lux > 0","ER
-
-","FAIL"
-"20-10 14:34","FTS-TST-0040","1","-t hwmcu dptest T,0001","OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1","OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1
-
-","PASS"
-"20-10 14:34","FTS-TST-0041","2","-t datamcu dptest fw_version","OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release","OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release
-
-","PASS"
-"20-10 14:34","FTS-TST-0042","3","-t a7 dptest sw-version","prod-test-image beat_0.51.14","prod-test-image beat_0.51.14
-","PASS"
-"20-10 14:34","FTS-TST-0043","4","-t hwmcu dptest T,0000","OK,0x0415,0x1007","OK,0x0415,0x1007
-
-","PASS"
-"20-10 14:34","FTS-TST-0044","5","-t datamcu dptest hw_version","OK,0x0415,0x1007","OK,0x0415,0x1007
-
-","PASS"
-"20-10 14:34","FTS-TST-0045","6","-t a7 dptest cpuinfo","OK,<hwid>","OK, 0x41 7 0x0 0xc07 5
-","FAIL"
-"20-10 14:34","FTS-TST-0050","7","-t hwmcu dptest T,A021","Programmed version matches expected version","ER
-
-","FAIL"
-"20-10 14:34","FTS-TST-0070","8","-t a7 dptest i2c-pmic-id-check","OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0","OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0
-","PASS"
-"20-10 14:34","FTS-TST-0080","9","-t a7 dptest i2c-audio-id-check","OK, register STATUS_1=0x00","OK, register STATUS_1=0x00
-","PASS"
-"20-10 14:34","FTS-TST-0100","10","-t hwmcu dptest T,A000","OK,0x0742","ER
-
-","FAIL"
-"20-10 14:34","FTS-TST-0120","11","-t hwmcu dptest T,2100","OK","OK
-
-","PASS"
-"20-10 14:34","FTS-TST-0130","12","-t hwmcu dptest T,2130","OK,0x40","OK,0x40
-
-","PASS"
-"20-10 14:34","FTS-TST-0140","13","-t hwmcu dptest T,2150,1","OK,1","OK,1
-
-","PASS"
-"20-10 14:34","FTS-TST-0150","14","-t hwmcu dptest T,3000","OK,29,C 29","OK,29,C 29
-
-","PASS"
-"20-10 14:34","FTS-TST-0151","15","-t hwmcu dptest T,3001","OK,29,C 29","OK,28,C 28
-
-","FAIL"
-"20-10 14:34","FTS-TST-0152","16","-t hwmcu dptest T,3002","OK,28,C 28","OK,27,C 27
-
-","FAIL"
-"20-10 14:34","FTS-TST-0153","17","-t a7 dptest wlan-id-check","OK, 0x06030111","OK, 0x06030111
-","PASS"
-"20-10 14:34","FTS-TST-0154","18","-t datamcu dptest mban_chip_version","OK, chip version 0x644 boot loader version: 0x2000000.","OK, chip version 0x644 boot loader version: 0x2000000.
-
-","PASS"
-"20-10 14:34","FTS-TST-0155","19","-t datamcu dptest mban_chip_version","OK, chip version 0x644 boot loader version: 0x2000000.","OK, chip version 0x644 boot loader version: 0x2000000.
-
-","PASS"
-"20-10 14:34","FTS-TST-0156","20","-t a7 dptest i2c-nfc-fwversion-check","OK, 0x0202","dptest failed
-CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-nfc-fwversion-check']' returned non-zero exit status 1.","FAIL"
-"20-10 14:35","FTS-TST-0157","21","-t a7 -W -T 5000 dptest fuse-read","OK, operation succeeded","HW_OCOTP_ANA0: 0x0
-HW_OCOTP_ANA1: 0xdca00
-HW_OCOTP_BOOT_CFG0: 0x10002864
-HW_OCOTP_BOOT_CFG1: 0x0
-HW_OCOTP_BOOT_CFG2: 0x0
-HW_OCOTP_BOOT_CFG3: 0x0
-HW_OCOTP_BOOT_CFG4: 0x0
-HW_OCOTP_FIELD_RETURN: 0x0
-HW_OCOTP_GP10: 0x0
-HW_OCOTP_GP11: 0x0
-HW_OCOTP_GP20: 0x0
-HW_OCOTP_GP21: 0x0
-HW_OCOTP_LOCK: 0xa0030103
-HW_OCOTP_MAC_ADDR0: 0x0
-HW_OCOTP_MAC_ADDR1: 0x0
-HW_OCOTP_MAC_ADDR2: 0x0
-HW_OCOTP_MEM_TRIM0: 0x0
-HW_OCOTP_MEM_TRIM1: 0x0
-HW_OCOTP_ROM_PATCH0: 0x0
-HW_OCOTP_ROM_PATCH1: 0x0
-HW_OCOTP_ROM_PATCH2: 0x0
-HW_OCOTP_ROM_PATCH3: 0x0
-HW_OCOTP_ROM_PATCH4: 0x0
-HW_OCOTP_ROM_PATCH5: 0x0
-HW_OCOTP_ROM_PATCH6: 0x0
-HW_OCOTP_ROM_PATCH7: 0x0
-HW_OCOTP_SJC_RESP0: 0x0
-HW_OCOTP_SJC_RESP1: 0x0
-HW_OCOTP_SRK0: 0x0
-HW_OCOTP_SRK1: 0x0
-HW_OCOTP_SRK2: 0x0
-HW_OCOTP_SRK3: 0x0
-HW_OCOTP_SRK4: 0x0
-HW_OCOTP_SRK5: 0x0
-HW_OCOTP_SRK6: 0x0
-HW_OCOTP_SRK7: 0x0
-HW_OCOTP_SRK_REVOKE: 0x0
-HW_OCOTP_TESTER0: 0x6e168703
-HW_OCOTP_TESTER1: 0x2a6
-HW_OCOTP_TESTER2: 0x0
-HW_OCOTP_TESTER3: 0x20000200
-HW_OCOTP_TESTER4: 0x10220000
-HW_OCOTP_TESTER5: 0x0
-HW_OCOTP_USB_ID: 0x0
-OK, operation succeeded
-","PASS"
-"20-10 14:35","FTS-TST-0160","22","-t a7 dptest hwid-get","OK, 000a","OK, 000a
-","PASS"
-"20-10 14:35","FTS-TST-0161","23","-t hwmcu dptest T,0003","OK,1,10","OK,1,10
-
-","PASS"
-"20-10 14:35","FTS-TST-0162","24","-t datamcu dptest hwid","OK,0,10","OK,0,10
-
-","PASS"
-"20-10 14:35","FTS-TST-0163","25","-t hwmcu dptest T,0003","OK,1,10","OK,1,10
-
-","PASS"
-"20-10 14:35","FTS-TST-0164","26","-t datamcu dptest hwid","OK,0,10","OK,0,10
-
-","PASS"
-"20-10 14:35","FTS-TST-0170","27","-t hwmcu dptest T,D001,0","OK,0 563, mV 17537 (unset)","OK,0 560, mV 17444 (unset)
-
-","FAIL"
-"20-10 14:35","FTS-TST-0171","28","-t hwmcu dptest T,D001,1","OK,1 984, mV 3945 (unset)","OK,1 977, mV 3917 (unset)
-
-","FAIL"
-"20-10 14:35","FTS-TST-0172","29","-t hwmcu dptest T,D001,2","OK,2 697, mV 2794 (unset)","OK,2 694, mV 2782 (unset)
-
-","FAIL"
-"20-10 14:35","FTS-TST-0173","30","-t hwmcu dptest T,D001,3","OK,3 974, mV 3905 (unset)","OK,3 978, mV 3921 (unset)
-
-","FAIL"
-"20-10 14:35","FTS-TST-0174","31","-t hwmcu dptest T,D001,4","OK,4 784, mV 3143 (unset)","OK,4 789, mV 3163 (unset)
-
-","FAIL"
-"20-10 14:35","FTS-TST-0175","32","-t hwmcu dptest T,D001,5","OK,5 746, mV 1492 (unset)","OK,5 745, mV 1490 (unset)
-
-","FAIL"
-"20-10 14:35","FTS-TST-0176","33","-t hwmcu dptest T,D001,6","OK,6 896, mV 1792 (unset)","OK,6 894, mV 1788 (unset)
-
-","FAIL"
-"20-10 14:35","FTS-TST-0177","34","-t hwmcu dptest T,D001,7","OK,7 895, mV 1790 (unset)","OK,7 897, mV 1794 (unset)
-
-","FAIL"
-"20-10 14:35","FTS-TST-0178","35","-t hwmcu dptest T,D001,9","OK,9 597, mV 1791 (unset)","OK,9 596, mV 1788 (unset)
-
-","FAIL"
-"20-10 14:35","FTS-TST-0179","36","-t hwmcu dptest T,D001,10","OK,10 1210, mV 1210 (unset)","OK,10 1217, mV 1217 (unset)
-
-","FAIL"
-"20-10 14:35","FTS-TST-0180","37","-t datamcu dptest adc 1","OK, ch 1 = 971 mV","OK, ch 1 = 975 mV 
-
-","FAIL"
-"20-10 14:35","FTS-TST-0181","38","-t datamcu dptest adc 2","OK, ch 2 = 1004 mV","OK, ch 2 = 1002 mV 
-
-","FAIL"
-"20-10 14:35","FTS-TST-0182","39","-t datamcu dptest adc 6","OK, ch 6 = 1200 mV","OK, ch 6 = 1202 mV 
-
-","FAIL"
-"20-10 14:35","FTS-TST-0183","40","-t datamcu dptest adc 10","OK, ch 10 = 1796 mV","OK, ch 10 = 1794 mV 
-
-","FAIL"
-"20-10 14:35","FTS-TST-0184","41","-t datamcu dptest adc 12","OK, ch 12 = 1802 mV","OK, ch 12 = 1798 mV 
-
-","FAIL"
-"20-10 14:35","FTS-TST-0185","42","-t datamcu dptest adc 13","OK, ch 13 = 3296 mV","OK, ch 13 = 3308 mV 
-
-","FAIL"
-"20-10 14:35","FTS-TST-0186","43","-t datamcu dptest adc 15","OK, ch 15 = 3002 mV","OK, ch 15 = 3014 mV 
-
-","FAIL"
-"20-10 14:35","FTS-TST-0187","44","-t datamcu dptest adc 18","OK, ch 18 = 1797 mV","OK, ch 18 = 1800 mV 
-
-","FAIL"
-"20-10 14:35","FTS-TST-0188","45","-t datamcu dptest adc 0","OK, ch 0 = 1216 mV","OK, ch 0 = 1218 mV 
-
-","FAIL"
-"20-10 14:35","FTS-TST-0220","46","-t hwmcu dptest T,A001","OK,<bat_v> mV,...","ER
-
-","FAIL"
-"20-10 14:35","FTS-TST-0221","47","-t hwmcu dptest T,A002","OK,<avg> mA,<inst> mA","ER
-
-","FAIL"
-"20-10 14:35","FTS-TST-0280","48","-t hwmcu dptest T,1120","OK, 1, 0x00","OK, 1, 0x00
-
-","PASS"
-"20-10 14:35","FTS-TST-0300","49","-t hwmcu dptest T,A009","Temperature equivalent to 10kΩ, 25°C ± 5°C","ER
-
-","FAIL"
-"20-10 14:35","FTS-TST-0310","50","-t hwmcu dptest T,4002","OK,<Lvalue>,<ch0_raw_value> lux = 0","ER
-
-","FAIL"
-"20-10 14:35","FTS-TST-0311","51","-t hwmcu dptest T,4002","OK,<Lvalue>,<ch0_raw_value> lux > 0","OK,312,0
-
-","FAIL"
-20-10 14:39,FTS-TST-0040,1,"-t hwmcu dptest T,0001","OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1","OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1
+",PASS
+20-10 14:09,FTS-TST-0160,22,,-t a7 dptest hwid-get,,"OK, 000a",,"OK, 000a
+",PASS
+20-10 14:09,FTS-TST-0161,23,,"-t hwmcu dptest T,0003",,"OK,1,10",,"OK,1,10
 
 ",PASS
-20-10 14:39,FTS-TST-0041,2,-t datamcu dptest fw_version,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release","OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release
+20-10 14:09,FTS-TST-0162,24,,-t datamcu dptest hwid,,"OK,0,10",,"OK,0,10
 
 ",PASS
-20-10 14:39,FTS-TST-0042,3,-t a7 dptest sw-version,prod-test-image beat_0.51.14,"prod-test-image beat_0.51.14
-",PASS
-20-10 14:39,FTS-TST-0043,4,"-t hwmcu dptest T,0000","OK,0x0415,0x1007","OK,0x0415,0x1007
+20-10 14:09,FTS-TST-0163,25,,"-t hwmcu dptest T,0003",,"OK,1,10",,"OK,1,10
 
 ",PASS
-20-10 14:39,FTS-TST-0044,5,-t datamcu dptest hw_version,"OK,0x0415,0x1007","OK,0x0415,0x1007
+20-10 14:09,FTS-TST-0164,26,,-t datamcu dptest hwid,,"OK,0,10",,"OK,0,10
 
 ",PASS
-20-10 14:39,FTS-TST-0045,6,-t a7 dptest cpuinfo,"OK,<hwid>","OK, 0x41 7 0x0 0xc07 5
-",FAIL
-20-10 14:39,FTS-TST-0050,7,"-t hwmcu dptest T,A021",Programmed version matches expected version,"ER
+20-10 14:09,FTS-TST-0170,27,,"-t hwmcu dptest T,D001,0",,"OK,0 563, mV 17537 (unset)",,"OK,0 561, mV 17475 (unset)
 
 ",FAIL
-20-10 14:39,FTS-TST-0070,8,-t a7 dptest i2c-pmic-id-check,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0","OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0
-",PASS
-20-10 14:39,FTS-TST-0080,9,-t a7 dptest i2c-audio-id-check,"OK, register STATUS_1=0x00","OK, register STATUS_1=0x00
-",PASS
-20-10 14:39,FTS-TST-0100,10,"-t hwmcu dptest T,A000","OK,0x0742","ER
+20-10 14:09,FTS-TST-0171,28,,"-t hwmcu dptest T,D001,1",,"OK,1 984, mV 3945 (unset)",,"OK,1 982, mV 3937 (unset)
 
 ",FAIL
-20-10 14:39,FTS-TST-0120,11,"-t hwmcu dptest T,2100",OK,"OK
-
-",PASS
-20-10 14:39,FTS-TST-0130,12,"-t hwmcu dptest T,2130","OK,0x40","OK,0x40
-
-",PASS
-20-10 14:39,FTS-TST-0140,13,"-t hwmcu dptest T,2150,1","OK,1","OK,1
-
-",PASS
-20-10 14:39,FTS-TST-0150,14,"-t hwmcu dptest T,3000","OK,29,C 29","OK,29,C 29
-
-",PASS
-20-10 14:39,FTS-TST-0151,15,"-t hwmcu dptest T,3001","OK,29,C 29","OK,28,C 28
+20-10 14:09,FTS-TST-0172,29,,"-t hwmcu dptest T,D001,2",,"OK,2 697, mV 2794 (unset)",,"OK,2 698, mV 2798 (unset)
 
 ",FAIL
-20-10 14:39,FTS-TST-0152,16,"-t hwmcu dptest T,3002","OK,28,C 28","OK,27,C 27
+20-10 14:10,FTS-TST-0173,30,,"-t hwmcu dptest T,D001,3",,"OK,3 974, mV 3905 (unset)",,"OK,3 974, mV 3905 (unset)
+
+",PASS
+20-10 14:10,FTS-TST-0174,31,,"-t hwmcu dptest T,D001,4",,"OK,4 784, mV 3143 (unset)",,"OK,4 788, mV 3159 (unset)
 
 ",FAIL
-20-10 14:39,FTS-TST-0153,17,-t a7 dptest wlan-id-check,"OK, 0x06030111","OK, 0x06030111
-",PASS
-20-10 14:39,FTS-TST-0154,18,-t datamcu dptest mban_chip_version,"OK, chip version 0x644 boot loader version: 0x2000000.","OK, chip version 0x644 boot loader version: 0x2000000.
+20-10 14:10,FTS-TST-0175,32,,"-t hwmcu dptest T,D001,5",,"OK,5 746, mV 1492 (unset)",,"OK,5 746, mV 1492 (unset)
 
 ",PASS
-20-10 14:39,FTS-TST-0155,19,-t datamcu dptest mban_chip_version,"OK, chip version 0x644 boot loader version: 0x2000000.","OK, chip version 0x644 boot loader version: 0x2000000.
+20-10 14:10,FTS-TST-0176,33,,"-t hwmcu dptest T,D001,6",,"OK,6 896, mV 1792 (unset)",,"OK,6 897, mV 1794 (unset)
+
+",FAIL
+20-10 14:10,FTS-TST-0177,34,,"-t hwmcu dptest T,D001,7",,"OK,7 895, mV 1790 (unset)",,"OK,7 894, mV 1788 (unset)
+
+",FAIL
+20-10 14:10,FTS-TST-0178,35,,"-t hwmcu dptest T,D001,9",,"OK,9 597, mV 1791 (unset)",,"OK,9 598, mV 1794 (unset)
+
+",FAIL
+20-10 14:10,FTS-TST-0179,36,,"-t hwmcu dptest T,D001,10",,"OK,10 1210, mV 1210 (unset)",,"OK,10 1214, mV 1214 (unset)
+
+",FAIL
+20-10 14:10,FTS-TST-0180,37,,-t datamcu dptest adc 1,,"OK, ch 1 = 971 mV",,"OK, ch 1 = 1221 mV 
+
+",FAIL
+20-10 14:10,FTS-TST-0181,38,,-t datamcu dptest adc 2,,"OK, ch 2 = 1004 mV",,"OK, ch 2 = 1003 mV 
+
+",FAIL
+20-10 14:10,FTS-TST-0182,39,,-t datamcu dptest adc 6,,"OK, ch 6 = 1200 mV",,"OK, ch 6 = 1200 mV 
 
 ",PASS
-20-10 14:39,FTS-TST-0156,20,-t a7 dptest i2c-nfc-fwversion-check,"OK, 0x0202","dptest failed
+20-10 14:10,FTS-TST-0183,40,,-t datamcu dptest adc 10,,"OK, ch 10 = 1796 mV",,"OK, ch 10 = 1796 mV 
+
+",PASS
+20-10 14:10,FTS-TST-0184,41,,-t datamcu dptest adc 12,,"OK, ch 12 = 1802 mV",,"OK, ch 12 = 1800 mV 
+
+",FAIL
+20-10 14:10,FTS-TST-0185,42,,-t datamcu dptest adc 13,,"OK, ch 13 = 3296 mV",,"OK, ch 13 = 3296 mV 
+
+",PASS
+20-10 14:10,FTS-TST-0186,43,,-t datamcu dptest adc 15,,"OK, ch 15 = 3002 mV",,"OK, ch 15 = 3002 mV 
+
+",PASS
+20-10 14:10,FTS-TST-0187,44,,-t datamcu dptest adc 18,,"OK, ch 18 = 1797 mV",,"OK, ch 18 = 1797 mV 
+
+",PASS
+20-10 14:10,FTS-TST-0188,45,,-t datamcu dptest adc 0,,"OK, ch 0 = 1216 mV",,"OK, ch 0 = 1215 mV 
+
+",FAIL
+20-10 14:10,FTS-TST-0220,46,,"-t hwmcu dptest T,A001",,"OK,<bat_v> mV,...",,"ER
+
+",FAIL
+20-10 14:10,FTS-TST-0221,47,,"-t hwmcu dptest T,A002",,"OK,<avg> mA,<inst> mA",,"ER
+
+",FAIL
+20-10 14:10,FTS-TST-0280,48,,"-t hwmcu dptest T,1120",,"OK, 1, 0x00",,"OK, 1, 0x00
+
+",PASS
+20-10 14:10,FTS-TST-0300,49,,"-t hwmcu dptest T,A009",,"Temperature equivalent to 10kΩ, 25°C ± 5°C",,"ER
+
+",FAIL
+20-10 14:10,FTS-TST-0310,50,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux = 0",,"ER
+
+",FAIL
+20-10 14:10,FTS-TST-0311,51,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux > 0",,"ER
+
+",FAIL
+20-10 14:16,FTS-TST-0040,1,,"-t hwmcu dptest T,0001",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1
+
+",PASS
+20-10 14:16,FTS-TST-0041,2,,-t datamcu dptest fw_version,,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release",,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release
+
+",PASS
+20-10 14:16,FTS-TST-0042,3,,-t a7 dptest sw-version,,prod-test-image beat_0.51.14,,"prod-test-image beat_0.51.14
+",PASS
+20-10 14:16,FTS-TST-0043,4,,"-t hwmcu dptest T,0000",,"OK,0x0415,0x1007",,"OK,0x0415,0x1007
+
+",PASS
+20-10 14:16,FTS-TST-0044,5,,-t datamcu dptest hw_version,,"OK,0x0415,0x1007",,"OK,0x0415,0x1007
+
+",PASS
+20-10 14:16,FTS-TST-0045,6,,-t a7 dptest cpuinfo,,"OK,<hwid>",,"OK, 0x41 7 0x0 0xc07 5
+",FAIL
+20-10 14:16,FTS-TST-0050,7,,"-t hwmcu dptest T,A021",,Programmed version matches expected version,,"ER
+
+",FAIL
+20-10 14:16,FTS-TST-0070,8,,-t a7 dptest i2c-pmic-id-check,,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0",,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0
+",PASS
+20-10 14:16,FTS-TST-0080,9,,-t a7 dptest i2c-audio-id-check,,"OK, register STATUS_1=0x00",,"OK, register STATUS_1=0x00
+",PASS
+20-10 14:16,FTS-TST-0100,10,,"-t hwmcu dptest T,A000",,"OK,0x0742",,"ER
+
+",FAIL
+20-10 14:16,FTS-TST-0120,11,,"-t hwmcu dptest T,2100",,OK,,"OK
+
+",PASS
+20-10 14:16,FTS-TST-0130,12,,"-t hwmcu dptest T,2130",,"OK,0x40",,"OK,0x40
+
+",PASS
+20-10 14:16,FTS-TST-0140,13,,"-t hwmcu dptest T,2150,1",,"OK,1",,"OK,1
+
+",PASS
+20-10 14:16,FTS-TST-0150,14,,"-t hwmcu dptest T,3000",,"OK,29,C 29",,"OK,27,C 27
+
+",FAIL
+20-10 14:16,FTS-TST-0151,15,,"-t hwmcu dptest T,3001",,"OK,29,C 29",,"OK,26,C 26
+
+",FAIL
+20-10 14:16,FTS-TST-0152,16,,"-t hwmcu dptest T,3002",,"OK,28,C 28",,"OK,26,C 26
+
+",FAIL
+20-10 14:16,FTS-TST-0153,17,,-t a7 dptest wlan-id-check,,"OK, 0x06030111",,"OK, 0x06030111
+",PASS
+20-10 14:16,FTS-TST-0154,18,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"OK, chip version 0x644 boot loader version: 0x2000000.
+
+",PASS
+20-10 14:16,FTS-TST-0155,19,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"OK, chip version 0x644 boot loader version: 0x2000000.
+
+",PASS
+20-10 14:16,FTS-TST-0156,20,,-t a7 dptest i2c-nfc-fwversion-check,,"OK, 0x0202",,"dptest failed
 CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-nfc-fwversion-check']' returned non-zero exit status 1.",FAIL
-20-10 14:39,FTS-TST-0157,21,-t a7 -W -T 5000 dptest fuse-read,"OK, operation succeeded","HW_OCOTP_ANA0: 0x0
+20-10 14:16,FTS-TST-0157,21,,-t a7 -W -T 5000 dptest fuse-read,,"OK, operation succeeded",,"HW_OCOTP_ANA0: 0x0
 HW_OCOTP_ANA1: 0xdca00
 HW_OCOTP_BOOT_CFG0: 0x10002864
 HW_OCOTP_BOOT_CFG1: 0x0
@@ -1058,92 +288,1582 @@ HW_OCOTP_TESTER5: 0x0
 HW_OCOTP_USB_ID: 0x0
 OK, operation succeeded
 ",PASS
-20-10 14:39,FTS-TST-0160,22,-t a7 dptest hwid-get,"OK, 000a","OK, 000a
+20-10 14:16,FTS-TST-0160,22,,-t a7 dptest hwid-get,,"OK, 000a",,"OK, 000a
 ",PASS
-20-10 14:39,FTS-TST-0161,23,"-t hwmcu dptest T,0003","OK,1,10","OK,1,10
-
-",PASS
-20-10 14:39,FTS-TST-0162,24,-t datamcu dptest hwid,"OK,0,10","OK,0,10
+20-10 14:16,FTS-TST-0161,23,,"-t hwmcu dptest T,0003",,"OK,1,10",,"OK,1,10
 
 ",PASS
-20-10 14:39,FTS-TST-0163,25,"-t hwmcu dptest T,0003","OK,1,10","OK,1,10
+20-10 14:16,FTS-TST-0162,24,,-t datamcu dptest hwid,,"OK,0,10",,"OK,0,10
 
 ",PASS
-20-10 14:39,FTS-TST-0164,26,-t datamcu dptest hwid,"OK,0,10","OK,0,10
+20-10 14:16,FTS-TST-0163,25,,"-t hwmcu dptest T,0003",,"OK,1,10",,"OK,1,10
 
 ",PASS
-20-10 14:39,FTS-TST-0170,27,"-t hwmcu dptest T,D001,0","OK,0 563, mV 17537 (unset)","OK,0 559, mV 17412 (unset)
-
-",FAIL
-20-10 14:39,FTS-TST-0171,28,"-t hwmcu dptest T,D001,1","OK,1 984, mV 3945 (unset)","OK,1 975, mV 3909 (unset)
-
-",FAIL
-20-10 14:39,FTS-TST-0172,29,"-t hwmcu dptest T,D001,2","OK,2 697, mV 2794 (unset)","OK,2 695, mV 2786 (unset)
-
-",FAIL
-20-10 14:39,FTS-TST-0173,30,"-t hwmcu dptest T,D001,3","OK,3 974, mV 3905 (unset)","OK,3 978, mV 3921 (unset)
-
-",FAIL
-20-10 14:39,FTS-TST-0174,31,"-t hwmcu dptest T,D001,4","OK,4 784, mV 3143 (unset)","OK,4 789, mV 3163 (unset)
-
-",FAIL
-20-10 14:39,FTS-TST-0175,32,"-t hwmcu dptest T,D001,5","OK,5 746, mV 1492 (unset)","OK,5 745, mV 1490 (unset)
-
-",FAIL
-20-10 14:39,FTS-TST-0176,33,"-t hwmcu dptest T,D001,6","OK,6 896, mV 1792 (unset)","OK,6 894, mV 1788 (unset)
-
-",FAIL
-20-10 14:39,FTS-TST-0177,34,"-t hwmcu dptest T,D001,7","OK,7 895, mV 1790 (unset)","OK,7 898, mV 1796 (unset)
-
-",FAIL
-20-10 14:39,FTS-TST-0178,35,"-t hwmcu dptest T,D001,9","OK,9 597, mV 1791 (unset)","OK,9 596, mV 1788 (unset)
-
-",FAIL
-20-10 14:39,FTS-TST-0179,36,"-t hwmcu dptest T,D001,10","OK,10 1210, mV 1210 (unset)","OK,10 1214, mV 1214 (unset)
-
-",FAIL
-20-10 14:39,FTS-TST-0180,37,-t datamcu dptest adc 1,"OK, ch 1 = 971 mV","OK, ch 1 = 974 mV 
-
-",FAIL
-20-10 14:39,FTS-TST-0181,38,-t datamcu dptest adc 2,"OK, ch 2 = 1004 mV","OK, ch 2 = 1003 mV 
-
-",FAIL
-20-10 14:39,FTS-TST-0182,39,-t datamcu dptest adc 6,"OK, ch 6 = 1200 mV","OK, ch 6 = 1203 mV 
-
-",FAIL
-20-10 14:39,FTS-TST-0183,40,-t datamcu dptest adc 10,"OK, ch 10 = 1796 mV","OK, ch 10 = 1794 mV 
-
-",FAIL
-20-10 14:39,FTS-TST-0184,41,-t datamcu dptest adc 12,"OK, ch 12 = 1802 mV","OK, ch 12 = 1798 mV 
-
-",FAIL
-20-10 14:39,FTS-TST-0185,42,-t datamcu dptest adc 13,"OK, ch 13 = 3296 mV","OK, ch 13 = 3304 mV 
-
-",FAIL
-20-10 14:39,FTS-TST-0186,43,-t datamcu dptest adc 15,"OK, ch 15 = 3002 mV","OK, ch 15 = 3010 mV 
-
-",FAIL
-20-10 14:40,FTS-TST-0187,44,-t datamcu dptest adc 18,"OK, ch 18 = 1797 mV","OK, ch 18 = 1800 mV 
-
-",FAIL
-20-10 14:40,FTS-TST-0188,45,-t datamcu dptest adc 0,"OK, ch 0 = 1216 mV","OK, ch 0 = 1218 mV 
-
-",FAIL
-20-10 14:40,FTS-TST-0220,46,"-t hwmcu dptest T,A001","OK,<bat_v> mV,...","ER
-
-",FAIL
-20-10 14:40,FTS-TST-0221,47,"-t hwmcu dptest T,A002","OK,<avg> mA,<inst> mA","ER
-
-",FAIL
-20-10 14:40,FTS-TST-0280,48,"-t hwmcu dptest T,1120","OK, 1, 0x00","OK, 1, 0x00
+20-10 14:16,FTS-TST-0164,26,,-t datamcu dptest hwid,,"OK,0,10",,"OK,0,10
 
 ",PASS
-20-10 14:40,FTS-TST-0300,49,"-t hwmcu dptest T,A009","Temperature equivalent to 10kΩ, 25°C ± 5°C","ER
+20-10 14:16,FTS-TST-0170,27,,"-t hwmcu dptest T,D001,0",,"OK,0 563, mV 17537 (unset)",,"OK,0 560, mV 17444 (unset)
 
 ",FAIL
-20-10 14:40,FTS-TST-0310,50,"-t hwmcu dptest T,4002","OK,<Lvalue>,<ch0_raw_value> lux = 0","OK,312,0
+20-10 14:16,FTS-TST-0171,28,,"-t hwmcu dptest T,D001,1",,"OK,1 984, mV 3945 (unset)",,"OK,1 974, mV 3905 (unset)
 
 ",FAIL
-20-10 14:40,FTS-TST-0311,51,"-t hwmcu dptest T,4002","OK,<Lvalue>,<ch0_raw_value> lux > 0","ER
+20-10 14:16,FTS-TST-0172,29,,"-t hwmcu dptest T,D001,2",,"OK,2 697, mV 2794 (unset)",,"OK,2 694, mV 2782 (unset)
 
 ",FAIL
+20-10 14:16,FTS-TST-0173,30,,"-t hwmcu dptest T,D001,3",,"OK,3 974, mV 3905 (unset)",,"OK,3 977, mV 3917 (unset)
+
+",FAIL
+20-10 14:16,FTS-TST-0174,31,,"-t hwmcu dptest T,D001,4",,"OK,4 784, mV 3143 (unset)",,"OK,4 785, mV 3147 (unset)
+
+",FAIL
+20-10 14:16,FTS-TST-0175,32,,"-t hwmcu dptest T,D001,5",,"OK,5 746, mV 1492 (unset)",,"OK,5 744, mV 1488 (unset)
+
+",FAIL
+20-10 14:16,FTS-TST-0176,33,,"-t hwmcu dptest T,D001,6",,"OK,6 896, mV 1792 (unset)",,"OK,6 896, mV 1792 (unset)
+
+",PASS
+20-10 14:16,FTS-TST-0177,34,,"-t hwmcu dptest T,D001,7",,"OK,7 895, mV 1790 (unset)",,"OK,7 898, mV 1796 (unset)
+
+",FAIL
+20-10 14:16,FTS-TST-0178,35,,"-t hwmcu dptest T,D001,9",,"OK,9 597, mV 1791 (unset)",,"OK,9 595, mV 1785 (unset)
+
+",FAIL
+20-10 14:16,FTS-TST-0179,36,,"-t hwmcu dptest T,D001,10",,"OK,10 1210, mV 1210 (unset)",,"OK,10 1218, mV 1218 (unset)
+
+",FAIL
+20-10 14:16,FTS-TST-0180,37,,-t datamcu dptest adc 1,,"OK, ch 1 = 971 mV",,"OK, ch 1 = 1225 mV 
+
+",FAIL
+20-10 14:16,FTS-TST-0181,38,,-t datamcu dptest adc 2,,"OK, ch 2 = 1004 mV",,"OK, ch 2 = 1003 mV 
+
+",FAIL
+20-10 14:17,FTS-TST-0182,39,,-t datamcu dptest adc 6,,"OK, ch 6 = 1200 mV",,"OK, ch 6 = 1202 mV 
+
+",FAIL
+20-10 14:17,FTS-TST-0183,40,,-t datamcu dptest adc 10,,"OK, ch 10 = 1796 mV",,"OK, ch 10 = 1796 mV 
+
+",PASS
+20-10 14:17,FTS-TST-0184,41,,-t datamcu dptest adc 12,,"OK, ch 12 = 1802 mV",,"OK, ch 12 = 1798 mV 
+
+",FAIL
+20-10 14:17,FTS-TST-0185,42,,-t datamcu dptest adc 13,,"OK, ch 13 = 3296 mV",,"OK, ch 13 = 3308 mV 
+
+",FAIL
+20-10 14:17,FTS-TST-0186,43,,-t datamcu dptest adc 15,,"OK, ch 15 = 3002 mV",,"OK, ch 15 = 3014 mV 
+
+",FAIL
+20-10 14:17,FTS-TST-0187,44,,-t datamcu dptest adc 18,,"OK, ch 18 = 1797 mV",,"OK, ch 18 = 1800 mV 
+
+",FAIL
+20-10 14:17,FTS-TST-0188,45,,-t datamcu dptest adc 0,,"OK, ch 0 = 1216 mV",,"OK, ch 0 = 1218 mV 
+
+",FAIL
+20-10 14:17,FTS-TST-0220,46,,"-t hwmcu dptest T,A001",,"OK,<bat_v> mV,...",,"ER
+
+",FAIL
+20-10 14:17,FTS-TST-0221,47,,"-t hwmcu dptest T,A002",,"OK,<avg> mA,<inst> mA",,"ER
+
+",FAIL
+20-10 14:17,FTS-TST-0280,48,,"-t hwmcu dptest T,1120",,"OK, 1, 0x00",,"OK, 1, 0x00
+
+",PASS
+20-10 14:17,FTS-TST-0300,49,,"-t hwmcu dptest T,A009",,"Temperature equivalent to 10kΩ, 25°C ± 5°C",,"ER
+
+",FAIL
+20-10 14:17,FTS-TST-0310,50,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux = 0",,"ER
+
+",FAIL
+20-10 14:17,FTS-TST-0311,51,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux > 0",,"ER
+
+",FAIL
+20-10 14:22,FTS-TST-0040,1,,"-t hwmcu dptest T,0001",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1
+
+",PASS
+20-10 14:22,FTS-TST-0041,2,,-t datamcu dptest fw_version,,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release",,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release
+
+",PASS
+20-10 14:23,FTS-TST-0042,3,,-t a7 dptest sw-version,,prod-test-image beat_0.51.14,,"prod-test-image beat_0.51.14
+",PASS
+20-10 14:23,FTS-TST-0043,4,,"-t hwmcu dptest T,0000",,"OK,0x0415,0x1007",,"OK,0x0415,0x1007
+
+",PASS
+20-10 14:23,FTS-TST-0044,5,,-t datamcu dptest hw_version,,"OK,0x0415,0x1007",,"OK,0x0415,0x1007
+
+",PASS
+20-10 14:23,FTS-TST-0045,6,,-t a7 dptest cpuinfo,,"OK,<hwid>",,"OK, 0x41 7 0x0 0xc07 5
+",FAIL
+20-10 14:23,FTS-TST-0050,7,,"-t hwmcu dptest T,A021",,Programmed version matches expected version,,"ER
+
+",FAIL
+20-10 14:23,FTS-TST-0070,8,,-t a7 dptest i2c-pmic-id-check,,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0",,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0
+",PASS
+20-10 14:23,FTS-TST-0080,9,,-t a7 dptest i2c-audio-id-check,,"OK, register STATUS_1=0x00",,"OK, register STATUS_1=0x00
+",PASS
+20-10 14:23,FTS-TST-0100,10,,"-t hwmcu dptest T,A000",,"OK,0x0742",,"ER
+
+",FAIL
+20-10 14:23,FTS-TST-0120,11,,"-t hwmcu dptest T,2100",,OK,,"OK
+
+",PASS
+20-10 14:23,FTS-TST-0130,12,,"-t hwmcu dptest T,2130",,"OK,0x40",,"OK,0x40
+
+",PASS
+20-10 14:23,FTS-TST-0140,13,,"-t hwmcu dptest T,2150,1",,"OK,1",,"OK,1
+
+",PASS
+20-10 14:23,FTS-TST-0150,14,,"-t hwmcu dptest T,3000",,"OK,29,C 29",,"OK,28,C 28
+
+",FAIL
+20-10 14:23,FTS-TST-0151,15,,"-t hwmcu dptest T,3001",,"OK,29,C 29",,"OK,27,C 27
+
+",FAIL
+20-10 14:23,FTS-TST-0152,16,,"-t hwmcu dptest T,3002",,"OK,28,C 28",,"OK,27,C 27
+
+",FAIL
+20-10 14:23,FTS-TST-0153,17,,-t a7 dptest wlan-id-check,,"OK, 0x06030111",,"OK, 0x06030111
+",PASS
+20-10 14:23,FTS-TST-0154,18,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"OK, chip version 0x644 boot loader version: 0x2000000.
+
+",PASS
+20-10 14:23,FTS-TST-0155,19,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"OK, chip version 0x644 boot loader version: 0x2000000.
+
+",PASS
+20-10 14:23,FTS-TST-0156,20,,-t a7 dptest i2c-nfc-fwversion-check,,"OK, 0x0202",,"OK, 0x80202
+",FAIL
+20-10 14:23,FTS-TST-0157,21,,-t a7 -W -T 5000 dptest fuse-read,,"OK, operation succeeded",,"HW_OCOTP_ANA0: 0x0
+HW_OCOTP_ANA1: 0xdca00
+HW_OCOTP_BOOT_CFG0: 0x10002864
+HW_OCOTP_BOOT_CFG1: 0x0
+HW_OCOTP_BOOT_CFG2: 0x0
+HW_OCOTP_BOOT_CFG3: 0x0
+HW_OCOTP_BOOT_CFG4: 0x0
+HW_OCOTP_FIELD_RETURN: 0x0
+HW_OCOTP_GP10: 0x0
+HW_OCOTP_GP11: 0x0
+HW_OCOTP_GP20: 0x0
+HW_OCOTP_GP21: 0x0
+HW_OCOTP_LOCK: 0xa0030103
+HW_OCOTP_MAC_ADDR0: 0x0
+HW_OCOTP_MAC_ADDR1: 0x0
+HW_OCOTP_MAC_ADDR2: 0x0
+HW_OCOTP_MEM_TRIM0: 0x0
+HW_OCOTP_MEM_TRIM1: 0x0
+HW_OCOTP_ROM_PATCH0: 0x0
+HW_OCOTP_ROM_PATCH1: 0x0
+HW_OCOTP_ROM_PATCH2: 0x0
+HW_OCOTP_ROM_PATCH3: 0x0
+HW_OCOTP_ROM_PATCH4: 0x0
+HW_OCOTP_ROM_PATCH5: 0x0
+HW_OCOTP_ROM_PATCH6: 0x0
+HW_OCOTP_ROM_PATCH7: 0x0
+HW_OCOTP_SJC_RESP0: 0x0
+HW_OCOTP_SJC_RESP1: 0x0
+HW_OCOTP_SRK0: 0x0
+HW_OCOTP_SRK1: 0x0
+HW_OCOTP_SRK2: 0x0
+HW_OCOTP_SRK3: 0x0
+HW_OCOTP_SRK4: 0x0
+HW_OCOTP_SRK5: 0x0
+HW_OCOTP_SRK6: 0x0
+HW_OCOTP_SRK7: 0x0
+HW_OCOTP_SRK_REVOKE: 0x0
+HW_OCOTP_TESTER0: 0x6e168703
+HW_OCOTP_TESTER1: 0x2a6
+HW_OCOTP_TESTER2: 0x0
+HW_OCOTP_TESTER3: 0x20000200
+HW_OCOTP_TESTER4: 0x10220000
+HW_OCOTP_TESTER5: 0x0
+HW_OCOTP_USB_ID: 0x0
+OK, operation succeeded
+",PASS
+20-10 14:23,FTS-TST-0160,22,,-t a7 dptest hwid-get,,"OK, 000a",,"OK, 000a
+",PASS
+20-10 14:23,FTS-TST-0161,23,,"-t hwmcu dptest T,0003",,"OK,1,10",,"OK,1,10
+
+",PASS
+20-10 14:23,FTS-TST-0162,24,,-t datamcu dptest hwid,,"OK,0,10",,"OK,0,10
+
+",PASS
+20-10 14:23,FTS-TST-0163,25,,"-t hwmcu dptest T,0003",,"OK,1,10",,"OK,1,10
+
+",PASS
+20-10 14:23,FTS-TST-0164,26,,-t datamcu dptest hwid,,"OK,0,10",,"OK,0,10
+
+",PASS
+20-10 14:23,FTS-TST-0170,27,,"-t hwmcu dptest T,D001,0",,"OK,0 563, mV 17537 (unset)",,"OK,0 561, mV 17475 (unset)
+
+",FAIL
+20-10 14:23,FTS-TST-0171,28,,"-t hwmcu dptest T,D001,1",,"OK,1 984, mV 3945 (unset)",,"OK,1 975, mV 3909 (unset)
+
+",FAIL
+20-10 14:23,FTS-TST-0172,29,,"-t hwmcu dptest T,D001,2",,"OK,2 697, mV 2794 (unset)",,"OK,2 695, mV 2786 (unset)
+
+",FAIL
+20-10 14:23,FTS-TST-0173,30,,"-t hwmcu dptest T,D001,3",,"OK,3 974, mV 3905 (unset)",,"OK,3 977, mV 3917 (unset)
+
+",FAIL
+20-10 14:23,FTS-TST-0174,31,,"-t hwmcu dptest T,D001,4",,"OK,4 784, mV 3143 (unset)",,"OK,4 789, mV 3163 (unset)
+
+",FAIL
+20-10 14:23,FTS-TST-0175,32,,"-t hwmcu dptest T,D001,5",,"OK,5 746, mV 1492 (unset)",,"OK,5 746, mV 1492 (unset)
+
+",PASS
+20-10 14:23,FTS-TST-0176,33,,"-t hwmcu dptest T,D001,6",,"OK,6 896, mV 1792 (unset)",,"OK,6 894, mV 1788 (unset)
+
+",FAIL
+20-10 14:23,FTS-TST-0177,34,,"-t hwmcu dptest T,D001,7",,"OK,7 895, mV 1790 (unset)",,"OK,7 900, mV 1800 (unset)
+
+",FAIL
+20-10 14:23,FTS-TST-0178,35,,"-t hwmcu dptest T,D001,9",,"OK,9 597, mV 1791 (unset)",,"OK,9 596, mV 1788 (unset)
+
+",FAIL
+20-10 14:23,FTS-TST-0179,36,,"-t hwmcu dptest T,D001,10",,"OK,10 1210, mV 1210 (unset)",,"OK,10 1217, mV 1217 (unset)
+
+",FAIL
+20-10 14:23,FTS-TST-0180,37,,-t datamcu dptest adc 1,,"OK, ch 1 = 971 mV",,"OK, ch 1 = 975 mV 
+
+",FAIL
+20-10 14:23,FTS-TST-0181,38,,-t datamcu dptest adc 2,,"OK, ch 2 = 1004 mV",,"OK, ch 2 = 1003 mV 
+
+",FAIL
+20-10 14:23,FTS-TST-0182,39,,-t datamcu dptest adc 6,,"OK, ch 6 = 1200 mV",,"OK, ch 6 = 1201 mV 
+
+",FAIL
+20-10 14:23,FTS-TST-0183,40,,-t datamcu dptest adc 10,,"OK, ch 10 = 1796 mV",,"OK, ch 10 = 1796 mV 
+
+",PASS
+20-10 14:23,FTS-TST-0184,41,,-t datamcu dptest adc 12,,"OK, ch 12 = 1802 mV",,"OK, ch 12 = 1798 mV 
+
+",FAIL
+20-10 14:23,FTS-TST-0185,42,,-t datamcu dptest adc 13,,"OK, ch 13 = 3296 mV",,"OK, ch 13 = 3304 mV 
+
+",FAIL
+20-10 14:23,FTS-TST-0186,43,,-t datamcu dptest adc 15,,"OK, ch 15 = 3002 mV",,"OK, ch 15 = 3010 mV 
+
+",FAIL
+20-10 14:23,FTS-TST-0187,44,,-t datamcu dptest adc 18,,"OK, ch 18 = 1797 mV",,"OK, ch 18 = 1800 mV 
+
+",FAIL
+20-10 14:23,FTS-TST-0188,45,,-t datamcu dptest adc 0,,"OK, ch 0 = 1216 mV",,"OK, ch 0 = 1218 mV 
+
+",FAIL
+20-10 14:23,FTS-TST-0220,46,,"-t hwmcu dptest T,A001",,"OK,<bat_v> mV,...",,"ER
+
+",FAIL
+20-10 14:23,FTS-TST-0221,47,,"-t hwmcu dptest T,A002",,"OK,<avg> mA,<inst> mA",,"ER
+
+",FAIL
+20-10 14:23,FTS-TST-0280,48,,"-t hwmcu dptest T,1120",,"OK, 1, 0x00",,"OK, 1, 0x00
+
+",PASS
+20-10 14:23,FTS-TST-0300,49,,"-t hwmcu dptest T,A009",,"Temperature equivalent to 10kΩ, 25°C ± 5°C",,"ER
+
+",FAIL
+20-10 14:23,FTS-TST-0310,50,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux = 0",,"ER
+
+",FAIL
+20-10 14:24,FTS-TST-0311,51,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux > 0",,"ER
+
+",FAIL
+20-10 14:31,FTS-TST-0040,1,,"-t hwmcu dptest T,0001",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1
+
+",PASS
+20-10 14:31,FTS-TST-0041,2,,-t datamcu dptest fw_version,,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release",,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release
+
+",PASS
+20-10 14:31,FTS-TST-0042,3,,-t a7 dptest sw-version,,prod-test-image beat_0.51.14,,"prod-test-image beat_0.51.14
+",PASS
+20-10 14:31,FTS-TST-0043,4,,"-t hwmcu dptest T,0000",,"OK,0x0415,0x1007",,"OK,0x0415,0x1007
+
+",PASS
+20-10 14:31,FTS-TST-0044,5,,-t datamcu dptest hw_version,,"OK,0x0415,0x1007",,"OK,0x0415,0x1007
+
+",PASS
+20-10 14:32,FTS-TST-0040,1,,"-t hwmcu dptest T,0001",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1
+
+",PASS
+20-10 14:32,FTS-TST-0041,2,,-t datamcu dptest fw_version,,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release",,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release
+
+",PASS
+20-10 14:32,FTS-TST-0042,3,,-t a7 dptest sw-version,,prod-test-image beat_0.51.14,,"prod-test-image beat_0.51.14
+",PASS
+20-10 14:32,FTS-TST-0043,4,,"-t hwmcu dptest T,0000",,"OK,0x0415,0x1007",,"OK,0x0415,0x1007
+
+",PASS
+20-10 14:32,FTS-TST-0044,5,,-t datamcu dptest hw_version,,"OK,0x0415,0x1007",,"OK,0x0415,0x1007
+
+",PASS
+20-10 14:32,FTS-TST-0045,6,,-t a7 dptest cpuinfo,,"OK,<hwid>",,"OK, 0x41 7 0x0 0xc07 5
+",FAIL
+20-10 14:32,FTS-TST-0050,7,,"-t hwmcu dptest T,A021",,Programmed version matches expected version,,"ER
+
+",FAIL
+20-10 14:32,FTS-TST-0070,8,,-t a7 dptest i2c-pmic-id-check,,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0",,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0
+",PASS
+20-10 14:32,FTS-TST-0080,9,,-t a7 dptest i2c-audio-id-check,,"OK, register STATUS_1=0x00",,"OK, register STATUS_1=0x00
+",PASS
+20-10 14:32,FTS-TST-0100,10,,"-t hwmcu dptest T,A000",,"OK,0x0742",,"ER
+
+",FAIL
+20-10 14:32,FTS-TST-0120,11,,"-t hwmcu dptest T,2100",,OK,,"OK
+
+",PASS
+20-10 14:32,FTS-TST-0130,12,,"-t hwmcu dptest T,2130",,"OK,0x40",,"OK,0x40
+
+",PASS
+20-10 14:32,FTS-TST-0140,13,,"-t hwmcu dptest T,2150,1",,"OK,1",,"OK,1
+
+",PASS
+20-10 14:32,FTS-TST-0150,14,,"-t hwmcu dptest T,3000",,"OK,29,C 29",,"OK,29,C 29
+
+",PASS
+20-10 14:32,FTS-TST-0151,15,,"-t hwmcu dptest T,3001",,"OK,29,C 29",,"OK,28,C 28
+
+",FAIL
+20-10 14:32,FTS-TST-0152,16,,"-t hwmcu dptest T,3002",,"OK,28,C 28",,"OK,27,C 27
+
+",FAIL
+20-10 14:32,FTS-TST-0153,17,,-t a7 dptest wlan-id-check,,"OK, 0x06030111",,"OK, 0x06030111
+",PASS
+20-10 14:32,FTS-TST-0154,18,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"OK, chip version 0x644 boot loader version: 0x2000000.
+
+",PASS
+20-10 14:32,FTS-TST-0155,19,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"OK, chip version 0x644 boot loader version: 0x2000000.
+
+",PASS
+20-10 14:32,FTS-TST-0156,20,,-t a7 dptest i2c-nfc-fwversion-check,,"OK, 0x0202",,"dptest failed
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-nfc-fwversion-check']' returned non-zero exit status 1.",FAIL
+20-10 14:32,FTS-TST-0157,21,,-t a7 -W -T 5000 dptest fuse-read,,"OK, operation succeeded",,"HW_OCOTP_ANA0: 0x0
+HW_OCOTP_ANA1: 0xdca00
+HW_OCOTP_BOOT_CFG0: 0x10002864
+HW_OCOTP_BOOT_CFG1: 0x0
+HW_OCOTP_BOOT_CFG2: 0x0
+HW_OCOTP_BOOT_CFG3: 0x0
+HW_OCOTP_BOOT_CFG4: 0x0
+HW_OCOTP_FIELD_RETURN: 0x0
+HW_OCOTP_GP10: 0x0
+HW_OCOTP_GP11: 0x0
+HW_OCOTP_GP20: 0x0
+HW_OCOTP_GP21: 0x0
+HW_OCOTP_LOCK: 0xa0030103
+HW_OCOTP_MAC_ADDR0: 0x0
+HW_OCOTP_MAC_ADDR1: 0x0
+HW_OCOTP_MAC_ADDR2: 0x0
+HW_OCOTP_MEM_TRIM0: 0x0
+HW_OCOTP_MEM_TRIM1: 0x0
+HW_OCOTP_ROM_PATCH0: 0x0
+HW_OCOTP_ROM_PATCH1: 0x0
+HW_OCOTP_ROM_PATCH2: 0x0
+HW_OCOTP_ROM_PATCH3: 0x0
+HW_OCOTP_ROM_PATCH4: 0x0
+HW_OCOTP_ROM_PATCH5: 0x0
+HW_OCOTP_ROM_PATCH6: 0x0
+HW_OCOTP_ROM_PATCH7: 0x0
+HW_OCOTP_SJC_RESP0: 0x0
+HW_OCOTP_SJC_RESP1: 0x0
+HW_OCOTP_SRK0: 0x0
+HW_OCOTP_SRK1: 0x0
+HW_OCOTP_SRK2: 0x0
+HW_OCOTP_SRK3: 0x0
+HW_OCOTP_SRK4: 0x0
+HW_OCOTP_SRK5: 0x0
+HW_OCOTP_SRK6: 0x0
+HW_OCOTP_SRK7: 0x0
+HW_OCOTP_SRK_REVOKE: 0x0
+HW_OCOTP_TESTER0: 0x6e168703
+HW_OCOTP_TESTER1: 0x2a6
+HW_OCOTP_TESTER2: 0x0
+HW_OCOTP_TESTER3: 0x20000200
+HW_OCOTP_TESTER4: 0x10220000
+HW_OCOTP_TESTER5: 0x0
+HW_OCOTP_USB_ID: 0x0
+OK, operation succeeded
+",PASS
+20-10 14:32,FTS-TST-0160,22,,-t a7 dptest hwid-get,,"OK, 000a",,"OK, 000a
+",PASS
+20-10 14:32,FTS-TST-0161,23,,"-t hwmcu dptest T,0003",,"OK,1,10",,"OK,1,10
+
+",PASS
+20-10 14:32,FTS-TST-0162,24,,-t datamcu dptest hwid,,"OK,0,10",,"OK,0,10
+
+",PASS
+20-10 14:32,FTS-TST-0163,25,,"-t hwmcu dptest T,0003",,"OK,1,10",,"OK,1,10
+
+",PASS
+20-10 14:32,FTS-TST-0164,26,,-t datamcu dptest hwid,,"OK,0,10",,"OK,0,10
+
+",PASS
+20-10 14:32,FTS-TST-0170,27,,"-t hwmcu dptest T,D001,0",,"OK,0 563, mV 17537 (unset)",,"OK,0 559, mV 17412 (unset)
+
+",FAIL
+20-10 14:32,FTS-TST-0171,28,,"-t hwmcu dptest T,D001,1",,"OK,1 984, mV 3945 (unset)",,"OK,1 974, mV 3905 (unset)
+
+",FAIL
+20-10 14:32,FTS-TST-0172,29,,"-t hwmcu dptest T,D001,2",,"OK,2 697, mV 2794 (unset)",,"OK,2 695, mV 2786 (unset)
+
+",FAIL
+20-10 14:32,FTS-TST-0173,30,,"-t hwmcu dptest T,D001,3",,"OK,3 974, mV 3905 (unset)",,"OK,3 979, mV 3925 (unset)
+
+",FAIL
+20-10 14:33,FTS-TST-0174,31,,"-t hwmcu dptest T,D001,4",,"OK,4 784, mV 3143 (unset)",,"OK,4 784, mV 3143 (unset)
+
+",PASS
+20-10 14:33,FTS-TST-0175,32,,"-t hwmcu dptest T,D001,5",,"OK,5 746, mV 1492 (unset)",,"OK,5 748, mV 1496 (unset)
+
+",FAIL
+20-10 14:33,FTS-TST-0176,33,,"-t hwmcu dptest T,D001,6",,"OK,6 896, mV 1792 (unset)",,"OK,6 897, mV 1794 (unset)
+
+",FAIL
+20-10 14:33,FTS-TST-0177,34,,"-t hwmcu dptest T,D001,7",,"OK,7 895, mV 1790 (unset)",,"OK,7 899, mV 1798 (unset)
+
+",FAIL
+20-10 14:33,FTS-TST-0178,35,,"-t hwmcu dptest T,D001,9",,"OK,9 597, mV 1791 (unset)",,"OK,9 597, mV 1791 (unset)
+
+",PASS
+20-10 14:33,FTS-TST-0179,36,,"-t hwmcu dptest T,D001,10",,"OK,10 1210, mV 1210 (unset)",,"OK,10 1216, mV 1216 (unset)
+
+",FAIL
+20-10 14:33,FTS-TST-0180,37,,-t datamcu dptest adc 1,,"OK, ch 1 = 971 mV",,"OK, ch 1 = 975 mV 
+
+",FAIL
+20-10 14:33,FTS-TST-0181,38,,-t datamcu dptest adc 2,,"OK, ch 2 = 1004 mV",,"OK, ch 2 = 1002 mV 
+
+",FAIL
+20-10 14:33,FTS-TST-0182,39,,-t datamcu dptest adc 6,,"OK, ch 6 = 1200 mV",,"OK, ch 6 = 1202 mV 
+
+",FAIL
+20-10 14:33,FTS-TST-0183,40,,-t datamcu dptest adc 10,,"OK, ch 10 = 1796 mV",,"OK, ch 10 = 1796 mV 
+
+",PASS
+20-10 14:33,FTS-TST-0184,41,,-t datamcu dptest adc 12,,"OK, ch 12 = 1802 mV",,"OK, ch 12 = 1798 mV 
+
+",FAIL
+20-10 14:33,FTS-TST-0185,42,,-t datamcu dptest adc 13,,"OK, ch 13 = 3296 mV",,"OK, ch 13 = 3308 mV 
+
+",FAIL
+20-10 14:33,FTS-TST-0186,43,,-t datamcu dptest adc 15,,"OK, ch 15 = 3002 mV",,"OK, ch 15 = 3014 mV 
+
+",FAIL
+20-10 14:33,FTS-TST-0187,44,,-t datamcu dptest adc 18,,"OK, ch 18 = 1797 mV",,"OK, ch 18 = 1800 mV 
+
+",FAIL
+20-10 14:33,FTS-TST-0188,45,,-t datamcu dptest adc 0,,"OK, ch 0 = 1216 mV",,"OK, ch 0 = 1218 mV 
+
+",FAIL
+20-10 14:33,FTS-TST-0220,46,,"-t hwmcu dptest T,A001",,"OK,<bat_v> mV,...",,"ER
+
+",FAIL
+20-10 14:33,FTS-TST-0221,47,,"-t hwmcu dptest T,A002",,"OK,<avg> mA,<inst> mA",,"ER
+
+",FAIL
+20-10 14:33,FTS-TST-0280,48,,"-t hwmcu dptest T,1120",,"OK, 1, 0x00",,"OK, 1, 0x00
+
+",PASS
+20-10 14:33,FTS-TST-0300,49,,"-t hwmcu dptest T,A009",,"Temperature equivalent to 10kΩ, 25°C ± 5°C",,"ER
+
+",FAIL
+20-10 14:33,FTS-TST-0310,50,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux = 0",,"ER
+
+",FAIL
+20-10 14:33,FTS-TST-0311,51,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux > 0",,"ER
+
+",FAIL
+20-10 14:34,FTS-TST-0040,1,,"-t hwmcu dptest T,0001",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1
+
+",PASS
+20-10 14:34,FTS-TST-0041,2,,-t datamcu dptest fw_version,,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release",,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release
+
+",PASS
+20-10 14:34,FTS-TST-0042,3,,-t a7 dptest sw-version,,prod-test-image beat_0.51.14,,"prod-test-image beat_0.51.14
+",PASS
+20-10 14:34,FTS-TST-0043,4,,"-t hwmcu dptest T,0000",,"OK,0x0415,0x1007",,"OK,0x0415,0x1007
+
+",PASS
+20-10 14:34,FTS-TST-0044,5,,-t datamcu dptest hw_version,,"OK,0x0415,0x1007",,"OK,0x0415,0x1007
+
+",PASS
+20-10 14:34,FTS-TST-0045,6,,-t a7 dptest cpuinfo,,"OK,<hwid>",,"OK, 0x41 7 0x0 0xc07 5
+",FAIL
+20-10 14:34,FTS-TST-0050,7,,"-t hwmcu dptest T,A021",,Programmed version matches expected version,,"ER
+
+",FAIL
+20-10 14:34,FTS-TST-0070,8,,-t a7 dptest i2c-pmic-id-check,,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0",,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0
+",PASS
+20-10 14:34,FTS-TST-0080,9,,-t a7 dptest i2c-audio-id-check,,"OK, register STATUS_1=0x00",,"OK, register STATUS_1=0x00
+",PASS
+20-10 14:34,FTS-TST-0100,10,,"-t hwmcu dptest T,A000",,"OK,0x0742",,"ER
+
+",FAIL
+20-10 14:34,FTS-TST-0120,11,,"-t hwmcu dptest T,2100",,OK,,"OK
+
+",PASS
+20-10 14:34,FTS-TST-0130,12,,"-t hwmcu dptest T,2130",,"OK,0x40",,"OK,0x40
+
+",PASS
+20-10 14:34,FTS-TST-0140,13,,"-t hwmcu dptest T,2150,1",,"OK,1",,"OK,1
+
+",PASS
+20-10 14:34,FTS-TST-0150,14,,"-t hwmcu dptest T,3000",,"OK,29,C 29",,"OK,29,C 29
+
+",PASS
+20-10 14:34,FTS-TST-0151,15,,"-t hwmcu dptest T,3001",,"OK,29,C 29",,"OK,28,C 28
+
+",FAIL
+20-10 14:34,FTS-TST-0152,16,,"-t hwmcu dptest T,3002",,"OK,28,C 28",,"OK,27,C 27
+
+",FAIL
+20-10 14:34,FTS-TST-0153,17,,-t a7 dptest wlan-id-check,,"OK, 0x06030111",,"OK, 0x06030111
+",PASS
+20-10 14:34,FTS-TST-0154,18,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"OK, chip version 0x644 boot loader version: 0x2000000.
+
+",PASS
+20-10 14:34,FTS-TST-0155,19,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"OK, chip version 0x644 boot loader version: 0x2000000.
+
+",PASS
+20-10 14:34,FTS-TST-0156,20,,-t a7 dptest i2c-nfc-fwversion-check,,"OK, 0x0202",,"dptest failed
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-nfc-fwversion-check']' returned non-zero exit status 1.",FAIL
+20-10 14:35,FTS-TST-0157,21,,-t a7 -W -T 5000 dptest fuse-read,,"OK, operation succeeded",,"HW_OCOTP_ANA0: 0x0
+HW_OCOTP_ANA1: 0xdca00
+HW_OCOTP_BOOT_CFG0: 0x10002864
+HW_OCOTP_BOOT_CFG1: 0x0
+HW_OCOTP_BOOT_CFG2: 0x0
+HW_OCOTP_BOOT_CFG3: 0x0
+HW_OCOTP_BOOT_CFG4: 0x0
+HW_OCOTP_FIELD_RETURN: 0x0
+HW_OCOTP_GP10: 0x0
+HW_OCOTP_GP11: 0x0
+HW_OCOTP_GP20: 0x0
+HW_OCOTP_GP21: 0x0
+HW_OCOTP_LOCK: 0xa0030103
+HW_OCOTP_MAC_ADDR0: 0x0
+HW_OCOTP_MAC_ADDR1: 0x0
+HW_OCOTP_MAC_ADDR2: 0x0
+HW_OCOTP_MEM_TRIM0: 0x0
+HW_OCOTP_MEM_TRIM1: 0x0
+HW_OCOTP_ROM_PATCH0: 0x0
+HW_OCOTP_ROM_PATCH1: 0x0
+HW_OCOTP_ROM_PATCH2: 0x0
+HW_OCOTP_ROM_PATCH3: 0x0
+HW_OCOTP_ROM_PATCH4: 0x0
+HW_OCOTP_ROM_PATCH5: 0x0
+HW_OCOTP_ROM_PATCH6: 0x0
+HW_OCOTP_ROM_PATCH7: 0x0
+HW_OCOTP_SJC_RESP0: 0x0
+HW_OCOTP_SJC_RESP1: 0x0
+HW_OCOTP_SRK0: 0x0
+HW_OCOTP_SRK1: 0x0
+HW_OCOTP_SRK2: 0x0
+HW_OCOTP_SRK3: 0x0
+HW_OCOTP_SRK4: 0x0
+HW_OCOTP_SRK5: 0x0
+HW_OCOTP_SRK6: 0x0
+HW_OCOTP_SRK7: 0x0
+HW_OCOTP_SRK_REVOKE: 0x0
+HW_OCOTP_TESTER0: 0x6e168703
+HW_OCOTP_TESTER1: 0x2a6
+HW_OCOTP_TESTER2: 0x0
+HW_OCOTP_TESTER3: 0x20000200
+HW_OCOTP_TESTER4: 0x10220000
+HW_OCOTP_TESTER5: 0x0
+HW_OCOTP_USB_ID: 0x0
+OK, operation succeeded
+",PASS
+20-10 14:35,FTS-TST-0160,22,,-t a7 dptest hwid-get,,"OK, 000a",,"OK, 000a
+",PASS
+20-10 14:35,FTS-TST-0161,23,,"-t hwmcu dptest T,0003",,"OK,1,10",,"OK,1,10
+
+",PASS
+20-10 14:35,FTS-TST-0162,24,,-t datamcu dptest hwid,,"OK,0,10",,"OK,0,10
+
+",PASS
+20-10 14:35,FTS-TST-0163,25,,"-t hwmcu dptest T,0003",,"OK,1,10",,"OK,1,10
+
+",PASS
+20-10 14:35,FTS-TST-0164,26,,-t datamcu dptest hwid,,"OK,0,10",,"OK,0,10
+
+",PASS
+20-10 14:35,FTS-TST-0170,27,,"-t hwmcu dptest T,D001,0",,"OK,0 563, mV 17537 (unset)",,"OK,0 560, mV 17444 (unset)
+
+",FAIL
+20-10 14:35,FTS-TST-0171,28,,"-t hwmcu dptest T,D001,1",,"OK,1 984, mV 3945 (unset)",,"OK,1 977, mV 3917 (unset)
+
+",FAIL
+20-10 14:35,FTS-TST-0172,29,,"-t hwmcu dptest T,D001,2",,"OK,2 697, mV 2794 (unset)",,"OK,2 694, mV 2782 (unset)
+
+",FAIL
+20-10 14:35,FTS-TST-0173,30,,"-t hwmcu dptest T,D001,3",,"OK,3 974, mV 3905 (unset)",,"OK,3 978, mV 3921 (unset)
+
+",FAIL
+20-10 14:35,FTS-TST-0174,31,,"-t hwmcu dptest T,D001,4",,"OK,4 784, mV 3143 (unset)",,"OK,4 789, mV 3163 (unset)
+
+",FAIL
+20-10 14:35,FTS-TST-0175,32,,"-t hwmcu dptest T,D001,5",,"OK,5 746, mV 1492 (unset)",,"OK,5 745, mV 1490 (unset)
+
+",FAIL
+20-10 14:35,FTS-TST-0176,33,,"-t hwmcu dptest T,D001,6",,"OK,6 896, mV 1792 (unset)",,"OK,6 894, mV 1788 (unset)
+
+",FAIL
+20-10 14:35,FTS-TST-0177,34,,"-t hwmcu dptest T,D001,7",,"OK,7 895, mV 1790 (unset)",,"OK,7 897, mV 1794 (unset)
+
+",FAIL
+20-10 14:35,FTS-TST-0178,35,,"-t hwmcu dptest T,D001,9",,"OK,9 597, mV 1791 (unset)",,"OK,9 596, mV 1788 (unset)
+
+",FAIL
+20-10 14:35,FTS-TST-0179,36,,"-t hwmcu dptest T,D001,10",,"OK,10 1210, mV 1210 (unset)",,"OK,10 1217, mV 1217 (unset)
+
+",FAIL
+20-10 14:35,FTS-TST-0180,37,,-t datamcu dptest adc 1,,"OK, ch 1 = 971 mV",,"OK, ch 1 = 975 mV 
+
+",FAIL
+20-10 14:35,FTS-TST-0181,38,,-t datamcu dptest adc 2,,"OK, ch 2 = 1004 mV",,"OK, ch 2 = 1002 mV 
+
+",FAIL
+20-10 14:35,FTS-TST-0182,39,,-t datamcu dptest adc 6,,"OK, ch 6 = 1200 mV",,"OK, ch 6 = 1202 mV 
+
+",FAIL
+20-10 14:35,FTS-TST-0183,40,,-t datamcu dptest adc 10,,"OK, ch 10 = 1796 mV",,"OK, ch 10 = 1794 mV 
+
+",FAIL
+20-10 14:35,FTS-TST-0184,41,,-t datamcu dptest adc 12,,"OK, ch 12 = 1802 mV",,"OK, ch 12 = 1798 mV 
+
+",FAIL
+20-10 14:35,FTS-TST-0185,42,,-t datamcu dptest adc 13,,"OK, ch 13 = 3296 mV",,"OK, ch 13 = 3308 mV 
+
+",FAIL
+20-10 14:35,FTS-TST-0186,43,,-t datamcu dptest adc 15,,"OK, ch 15 = 3002 mV",,"OK, ch 15 = 3014 mV 
+
+",FAIL
+20-10 14:35,FTS-TST-0187,44,,-t datamcu dptest adc 18,,"OK, ch 18 = 1797 mV",,"OK, ch 18 = 1800 mV 
+
+",FAIL
+20-10 14:35,FTS-TST-0188,45,,-t datamcu dptest adc 0,,"OK, ch 0 = 1216 mV",,"OK, ch 0 = 1218 mV 
+
+",FAIL
+20-10 14:35,FTS-TST-0220,46,,"-t hwmcu dptest T,A001",,"OK,<bat_v> mV,...",,"ER
+
+",FAIL
+20-10 14:35,FTS-TST-0221,47,,"-t hwmcu dptest T,A002",,"OK,<avg> mA,<inst> mA",,"ER
+
+",FAIL
+20-10 14:35,FTS-TST-0280,48,,"-t hwmcu dptest T,1120",,"OK, 1, 0x00",,"OK, 1, 0x00
+
+",PASS
+20-10 14:35,FTS-TST-0300,49,,"-t hwmcu dptest T,A009",,"Temperature equivalent to 10kΩ, 25°C ± 5°C",,"ER
+
+",FAIL
+20-10 14:35,FTS-TST-0310,50,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux = 0",,"ER
+
+",FAIL
+20-10 14:35,FTS-TST-0311,51,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux > 0",,"OK,312,0
+
+",FAIL
+20-10 14:39,FTS-TST-0040,1,,"-t hwmcu dptest T,0001",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1
+
+",PASS
+20-10 14:39,FTS-TST-0041,2,,-t datamcu dptest fw_version,,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release",,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release
+
+",PASS
+20-10 14:39,FTS-TST-0042,3,,-t a7 dptest sw-version,,prod-test-image beat_0.51.14,,"prod-test-image beat_0.51.14
+",PASS
+20-10 14:39,FTS-TST-0043,4,,"-t hwmcu dptest T,0000",,"OK,0x0415,0x1007",,"OK,0x0415,0x1007
+
+",PASS
+20-10 14:39,FTS-TST-0044,5,,-t datamcu dptest hw_version,,"OK,0x0415,0x1007",,"OK,0x0415,0x1007
+
+",PASS
+20-10 14:39,FTS-TST-0045,6,,-t a7 dptest cpuinfo,,"OK,<hwid>",,"OK, 0x41 7 0x0 0xc07 5
+",FAIL
+20-10 14:39,FTS-TST-0050,7,,"-t hwmcu dptest T,A021",,Programmed version matches expected version,,"ER
+
+",FAIL
+20-10 14:39,FTS-TST-0070,8,,-t a7 dptest i2c-pmic-id-check,,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0",,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0
+",PASS
+20-10 14:39,FTS-TST-0080,9,,-t a7 dptest i2c-audio-id-check,,"OK, register STATUS_1=0x00",,"OK, register STATUS_1=0x00
+",PASS
+20-10 14:39,FTS-TST-0100,10,,"-t hwmcu dptest T,A000",,"OK,0x0742",,"ER
+
+",FAIL
+20-10 14:39,FTS-TST-0120,11,,"-t hwmcu dptest T,2100",,OK,,"OK
+
+",PASS
+20-10 14:39,FTS-TST-0130,12,,"-t hwmcu dptest T,2130",,"OK,0x40",,"OK,0x40
+
+",PASS
+20-10 14:39,FTS-TST-0140,13,,"-t hwmcu dptest T,2150,1",,"OK,1",,"OK,1
+
+",PASS
+20-10 14:39,FTS-TST-0150,14,,"-t hwmcu dptest T,3000",,"OK,29,C 29",,"OK,29,C 29
+
+",PASS
+20-10 14:39,FTS-TST-0151,15,,"-t hwmcu dptest T,3001",,"OK,29,C 29",,"OK,28,C 28
+
+",FAIL
+20-10 14:39,FTS-TST-0152,16,,"-t hwmcu dptest T,3002",,"OK,28,C 28",,"OK,27,C 27
+
+",FAIL
+20-10 14:39,FTS-TST-0153,17,,-t a7 dptest wlan-id-check,,"OK, 0x06030111",,"OK, 0x06030111
+",PASS
+20-10 14:39,FTS-TST-0154,18,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"OK, chip version 0x644 boot loader version: 0x2000000.
+
+",PASS
+20-10 14:39,FTS-TST-0155,19,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"OK, chip version 0x644 boot loader version: 0x2000000.
+
+",PASS
+20-10 14:39,FTS-TST-0156,20,,-t a7 dptest i2c-nfc-fwversion-check,,"OK, 0x0202",,"dptest failed
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-nfc-fwversion-check']' returned non-zero exit status 1.",FAIL
+20-10 14:39,FTS-TST-0157,21,,-t a7 -W -T 5000 dptest fuse-read,,"OK, operation succeeded",,"HW_OCOTP_ANA0: 0x0
+HW_OCOTP_ANA1: 0xdca00
+HW_OCOTP_BOOT_CFG0: 0x10002864
+HW_OCOTP_BOOT_CFG1: 0x0
+HW_OCOTP_BOOT_CFG2: 0x0
+HW_OCOTP_BOOT_CFG3: 0x0
+HW_OCOTP_BOOT_CFG4: 0x0
+HW_OCOTP_FIELD_RETURN: 0x0
+HW_OCOTP_GP10: 0x0
+HW_OCOTP_GP11: 0x0
+HW_OCOTP_GP20: 0x0
+HW_OCOTP_GP21: 0x0
+HW_OCOTP_LOCK: 0xa0030103
+HW_OCOTP_MAC_ADDR0: 0x0
+HW_OCOTP_MAC_ADDR1: 0x0
+HW_OCOTP_MAC_ADDR2: 0x0
+HW_OCOTP_MEM_TRIM0: 0x0
+HW_OCOTP_MEM_TRIM1: 0x0
+HW_OCOTP_ROM_PATCH0: 0x0
+HW_OCOTP_ROM_PATCH1: 0x0
+HW_OCOTP_ROM_PATCH2: 0x0
+HW_OCOTP_ROM_PATCH3: 0x0
+HW_OCOTP_ROM_PATCH4: 0x0
+HW_OCOTP_ROM_PATCH5: 0x0
+HW_OCOTP_ROM_PATCH6: 0x0
+HW_OCOTP_ROM_PATCH7: 0x0
+HW_OCOTP_SJC_RESP0: 0x0
+HW_OCOTP_SJC_RESP1: 0x0
+HW_OCOTP_SRK0: 0x0
+HW_OCOTP_SRK1: 0x0
+HW_OCOTP_SRK2: 0x0
+HW_OCOTP_SRK3: 0x0
+HW_OCOTP_SRK4: 0x0
+HW_OCOTP_SRK5: 0x0
+HW_OCOTP_SRK6: 0x0
+HW_OCOTP_SRK7: 0x0
+HW_OCOTP_SRK_REVOKE: 0x0
+HW_OCOTP_TESTER0: 0x6e168703
+HW_OCOTP_TESTER1: 0x2a6
+HW_OCOTP_TESTER2: 0x0
+HW_OCOTP_TESTER3: 0x20000200
+HW_OCOTP_TESTER4: 0x10220000
+HW_OCOTP_TESTER5: 0x0
+HW_OCOTP_USB_ID: 0x0
+OK, operation succeeded
+",PASS
+20-10 14:39,FTS-TST-0160,22,,-t a7 dptest hwid-get,,"OK, 000a",,"OK, 000a
+",PASS
+20-10 14:39,FTS-TST-0161,23,,"-t hwmcu dptest T,0003",,"OK,1,10",,"OK,1,10
+
+",PASS
+20-10 14:39,FTS-TST-0162,24,,-t datamcu dptest hwid,,"OK,0,10",,"OK,0,10
+
+",PASS
+20-10 14:39,FTS-TST-0163,25,,"-t hwmcu dptest T,0003",,"OK,1,10",,"OK,1,10
+
+",PASS
+20-10 14:39,FTS-TST-0164,26,,-t datamcu dptest hwid,,"OK,0,10",,"OK,0,10
+
+",PASS
+20-10 14:39,FTS-TST-0170,27,,"-t hwmcu dptest T,D001,0",,"OK,0 563, mV 17537 (unset)",,"OK,0 559, mV 17412 (unset)
+
+",FAIL
+20-10 14:39,FTS-TST-0171,28,,"-t hwmcu dptest T,D001,1",,"OK,1 984, mV 3945 (unset)",,"OK,1 975, mV 3909 (unset)
+
+",FAIL
+20-10 14:39,FTS-TST-0172,29,,"-t hwmcu dptest T,D001,2",,"OK,2 697, mV 2794 (unset)",,"OK,2 695, mV 2786 (unset)
+
+",FAIL
+20-10 14:39,FTS-TST-0173,30,,"-t hwmcu dptest T,D001,3",,"OK,3 974, mV 3905 (unset)",,"OK,3 978, mV 3921 (unset)
+
+",FAIL
+20-10 14:39,FTS-TST-0174,31,,"-t hwmcu dptest T,D001,4",,"OK,4 784, mV 3143 (unset)",,"OK,4 789, mV 3163 (unset)
+
+",FAIL
+20-10 14:39,FTS-TST-0175,32,,"-t hwmcu dptest T,D001,5",,"OK,5 746, mV 1492 (unset)",,"OK,5 745, mV 1490 (unset)
+
+",FAIL
+20-10 14:39,FTS-TST-0176,33,,"-t hwmcu dptest T,D001,6",,"OK,6 896, mV 1792 (unset)",,"OK,6 894, mV 1788 (unset)
+
+",FAIL
+20-10 14:39,FTS-TST-0177,34,,"-t hwmcu dptest T,D001,7",,"OK,7 895, mV 1790 (unset)",,"OK,7 898, mV 1796 (unset)
+
+",FAIL
+20-10 14:39,FTS-TST-0178,35,,"-t hwmcu dptest T,D001,9",,"OK,9 597, mV 1791 (unset)",,"OK,9 596, mV 1788 (unset)
+
+",FAIL
+20-10 14:39,FTS-TST-0179,36,,"-t hwmcu dptest T,D001,10",,"OK,10 1210, mV 1210 (unset)",,"OK,10 1214, mV 1214 (unset)
+
+",FAIL
+20-10 14:39,FTS-TST-0180,37,,-t datamcu dptest adc 1,,"OK, ch 1 = 971 mV",,"OK, ch 1 = 974 mV 
+
+",FAIL
+20-10 14:39,FTS-TST-0181,38,,-t datamcu dptest adc 2,,"OK, ch 2 = 1004 mV",,"OK, ch 2 = 1003 mV 
+
+",FAIL
+20-10 14:39,FTS-TST-0182,39,,-t datamcu dptest adc 6,,"OK, ch 6 = 1200 mV",,"OK, ch 6 = 1203 mV 
+
+",FAIL
+20-10 14:39,FTS-TST-0183,40,,-t datamcu dptest adc 10,,"OK, ch 10 = 1796 mV",,"OK, ch 10 = 1794 mV 
+
+",FAIL
+20-10 14:39,FTS-TST-0184,41,,-t datamcu dptest adc 12,,"OK, ch 12 = 1802 mV",,"OK, ch 12 = 1798 mV 
+
+",FAIL
+20-10 14:39,FTS-TST-0185,42,,-t datamcu dptest adc 13,,"OK, ch 13 = 3296 mV",,"OK, ch 13 = 3304 mV 
+
+",FAIL
+20-10 14:39,FTS-TST-0186,43,,-t datamcu dptest adc 15,,"OK, ch 15 = 3002 mV",,"OK, ch 15 = 3010 mV 
+
+",FAIL
+20-10 14:40,FTS-TST-0187,44,,-t datamcu dptest adc 18,,"OK, ch 18 = 1797 mV",,"OK, ch 18 = 1800 mV 
+
+",FAIL
+20-10 14:40,FTS-TST-0188,45,,-t datamcu dptest adc 0,,"OK, ch 0 = 1216 mV",,"OK, ch 0 = 1218 mV 
+
+",FAIL
+20-10 14:40,FTS-TST-0220,46,,"-t hwmcu dptest T,A001",,"OK,<bat_v> mV,...",,"ER
+
+",FAIL
+20-10 14:40,FTS-TST-0221,47,,"-t hwmcu dptest T,A002",,"OK,<avg> mA,<inst> mA",,"ER
+
+",FAIL
+20-10 14:40,FTS-TST-0280,48,,"-t hwmcu dptest T,1120",,"OK, 1, 0x00",,"OK, 1, 0x00
+
+",PASS
+20-10 14:40,FTS-TST-0300,49,,"-t hwmcu dptest T,A009",,"Temperature equivalent to 10kΩ, 25°C ± 5°C",,"ER
+
+",FAIL
+20-10 14:40,FTS-TST-0310,50,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux = 0",,"OK,312,0
+
+",FAIL
+20-10 14:40,FTS-TST-0311,51,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux > 0",,"ER
+
+",FAIL
+20-10 14:42,FTS-TST-0040,1,,"-t hwmcu dptest T,0001",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1
+
+",PASS
+20-10 14:42,FTS-TST-0041,2,,-t datamcu dptest fw_version,,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release",,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release
+
+",PASS
+20-10 14:42,FTS-TST-0042,3,,-t a7 dptest sw-version,,prod-test-image beat_0.51.14,,"prod-test-image beat_0.51.14
+",PASS
+20-10 14:42,FTS-TST-0043,4,,"-t hwmcu dptest T,0000",,"OK,0x0415,0x1007",,"OK,0x0415,0x1007
+
+",PASS
+20-10 14:42,FTS-TST-0044,5,,-t datamcu dptest hw_version,,"OK,0x0415,0x1007",,"OK,0x0415,0x1007
+
+",PASS
+20-10 14:42,FTS-TST-0045,6,,-t a7 dptest cpuinfo,,"OK,<hwid>",,"OK, 0x41 7 0x0 0xc07 5
+",FAIL
+20-10 14:42,FTS-TST-0050,7,,"-t hwmcu dptest T,A021",,Programmed version matches expected version,,"ER
+
+",FAIL
+20-10 14:42,FTS-TST-0070,8,,-t a7 dptest i2c-pmic-id-check,,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0",,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0
+",PASS
+20-10 14:42,FTS-TST-0080,9,,-t a7 dptest i2c-audio-id-check,,"OK, register STATUS_1=0x00",,"OK, register STATUS_1=0x00
+",PASS
+20-10 14:42,FTS-TST-0100,10,,"-t hwmcu dptest T,A000",,"OK,0x0742",,"ER
+
+",FAIL
+20-10 14:42,FTS-TST-0120,11,,"-t hwmcu dptest T,2100",,OK,,"OK
+
+",PASS
+20-10 14:42,FTS-TST-0130,12,,"-t hwmcu dptest T,2130",,"OK,0x40",,"OK,0x40
+
+",PASS
+20-10 14:42,FTS-TST-0140,13,,"-t hwmcu dptest T,2150,1",,"OK,1",,"OK,1
+
+",PASS
+20-10 14:42,FTS-TST-0150,14,,"-t hwmcu dptest T,3000",,"OK,29,C 29",,"OK,25,C 25
+
+",FAIL
+20-10 14:42,FTS-TST-0151,15,,"-t hwmcu dptest T,3001",,"OK,29,C 29",,"OK,25,C 25
+
+",FAIL
+20-10 14:42,FTS-TST-0152,16,,"-t hwmcu dptest T,3002",,"OK,28,C 28",,"OK,25,C 25
+
+",FAIL
+20-10 14:42,FTS-TST-0153,17,,-t a7 dptest wlan-id-check,,"OK, 0x06030111",,"OK, 0x06030111
+",PASS
+20-10 14:42,FTS-TST-0154,18,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"OK, chip version 0x644 boot loader version: 0x2000000.
+
+",PASS
+20-10 14:42,FTS-TST-0155,19,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"OK, chip version 0x644 boot loader version: 0x2000000.
+
+",PASS
+20-10 14:42,FTS-TST-0156,20,,-t a7 dptest i2c-nfc-fwversion-check,,"OK, 0x0202",,"dptest failed
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-nfc-fwversion-check']' returned non-zero exit status 1.",FAIL
+20-10 14:42,FTS-TST-0157,21,,-t a7 -W -T 5000 dptest fuse-read,,"OK, operation succeeded",,"HW_OCOTP_ANA0: 0x0
+HW_OCOTP_ANA1: 0xdce00
+HW_OCOTP_BOOT_CFG0: 0x10002864
+HW_OCOTP_BOOT_CFG1: 0x0
+HW_OCOTP_BOOT_CFG2: 0x0
+HW_OCOTP_BOOT_CFG3: 0x0
+HW_OCOTP_BOOT_CFG4: 0x0
+HW_OCOTP_FIELD_RETURN: 0x0
+HW_OCOTP_GP10: 0x0
+HW_OCOTP_GP11: 0x0
+HW_OCOTP_GP20: 0x0
+HW_OCOTP_GP21: 0x0
+HW_OCOTP_LOCK: 0xa0030103
+HW_OCOTP_MAC_ADDR0: 0x0
+HW_OCOTP_MAC_ADDR1: 0x0
+HW_OCOTP_MAC_ADDR2: 0x0
+HW_OCOTP_MEM_TRIM0: 0x0
+HW_OCOTP_MEM_TRIM1: 0x0
+HW_OCOTP_ROM_PATCH0: 0x0
+HW_OCOTP_ROM_PATCH1: 0x0
+HW_OCOTP_ROM_PATCH2: 0x0
+HW_OCOTP_ROM_PATCH3: 0x0
+HW_OCOTP_ROM_PATCH4: 0x0
+HW_OCOTP_ROM_PATCH5: 0x0
+HW_OCOTP_ROM_PATCH6: 0x0
+HW_OCOTP_ROM_PATCH7: 0x0
+HW_OCOTP_SJC_RESP0: 0x0
+HW_OCOTP_SJC_RESP1: 0x0
+HW_OCOTP_SRK0: 0x0
+HW_OCOTP_SRK1: 0x0
+HW_OCOTP_SRK2: 0x0
+HW_OCOTP_SRK3: 0x0
+HW_OCOTP_SRK4: 0x0
+HW_OCOTP_SRK5: 0x0
+HW_OCOTP_SRK6: 0x0
+HW_OCOTP_SRK7: 0x0
+HW_OCOTP_SRK_REVOKE: 0x0
+HW_OCOTP_TESTER0: 0x1e168703
+HW_OCOTP_TESTER1: 0xa4
+HW_OCOTP_TESTER2: 0x0
+HW_OCOTP_TESTER3: 0x20000200
+HW_OCOTP_TESTER4: 0x10220000
+HW_OCOTP_TESTER5: 0x0
+HW_OCOTP_USB_ID: 0x0
+OK, operation succeeded
+",PASS
+20-10 14:42,FTS-TST-0160,22,,-t a7 dptest hwid-get,,"OK, 000a",,"OK, 000a
+",PASS
+20-10 14:42,FTS-TST-0161,23,,"-t hwmcu dptest T,0003",,"OK,1,10",,"OK,1,10
+
+",PASS
+20-10 14:42,FTS-TST-0162,24,,-t datamcu dptest hwid,,"OK,0,10",,"OK,0,10
+
+",PASS
+20-10 14:42,FTS-TST-0163,25,,"-t hwmcu dptest T,0003",,"OK,1,10",,"OK,1,10
+
+",PASS
+20-10 14:42,FTS-TST-0164,26,,-t datamcu dptest hwid,,"OK,0,10",,"OK,0,10
+
+",PASS
+20-10 14:42,FTS-TST-0170,27,,"-t hwmcu dptest T,D001,0",,"OK,0 563, mV 17537 (unset)",,"OK,0 559, mV 17412 (unset)
+
+",FAIL
+20-10 14:43,FTS-TST-0171,28,,"-t hwmcu dptest T,D001,1",,"OK,1 984, mV 3945 (unset)",,"OK,1 983, mV 3941 (unset)
+
+",FAIL
+20-10 14:43,FTS-TST-0172,29,,"-t hwmcu dptest T,D001,2",,"OK,2 697, mV 2794 (unset)",,"OK,2 698, mV 2798 (unset)
+
+",FAIL
+20-10 14:43,FTS-TST-0173,30,,"-t hwmcu dptest T,D001,3",,"OK,3 974, mV 3905 (unset)",,"OK,3 981, mV 3933 (unset)
+
+",FAIL
+20-10 14:43,FTS-TST-0174,31,,"-t hwmcu dptest T,D001,4",,"OK,4 784, mV 3143 (unset)",,"OK,4 787, mV 3155 (unset)
+
+",FAIL
+20-10 14:43,FTS-TST-0175,32,,"-t hwmcu dptest T,D001,5",,"OK,5 746, mV 1492 (unset)",,"OK,5 745, mV 1490 (unset)
+
+",FAIL
+20-10 14:43,FTS-TST-0176,33,,"-t hwmcu dptest T,D001,6",,"OK,6 896, mV 1792 (unset)",,"OK,6 900, mV 1800 (unset)
+
+",FAIL
+20-10 14:43,FTS-TST-0177,34,,"-t hwmcu dptest T,D001,7",,"OK,7 895, mV 1790 (unset)",,"OK,7 898, mV 1796 (unset)
+
+",FAIL
+20-10 14:43,FTS-TST-0178,35,,"-t hwmcu dptest T,D001,9",,"OK,9 597, mV 1791 (unset)",,"OK,9 598, mV 1794 (unset)
+
+",FAIL
+20-10 14:43,FTS-TST-0179,36,,"-t hwmcu dptest T,D001,10",,"OK,10 1210, mV 1210 (unset)",,"OK,10 1210, mV 1210 (unset)
+
+",PASS
+20-10 14:43,FTS-TST-0180,37,,-t datamcu dptest adc 1,,"OK, ch 1 = 971 mV",,"OK, ch 1 = 1217 mV 
+
+",FAIL
+20-10 14:43,FTS-TST-0181,38,,-t datamcu dptest adc 2,,"OK, ch 2 = 1004 mV",,"OK, ch 2 = 1003 mV 
+
+",FAIL
+20-10 14:43,FTS-TST-0182,39,,-t datamcu dptest adc 6,,"OK, ch 6 = 1200 mV",,"OK, ch 6 = 1202 mV 
+
+",FAIL
+20-10 14:43,FTS-TST-0183,40,,-t datamcu dptest adc 10,,"OK, ch 10 = 1796 mV",,"OK, ch 10 = 1798 mV 
+
+",FAIL
+20-10 14:43,FTS-TST-0184,41,,-t datamcu dptest adc 12,,"OK, ch 12 = 1802 mV",,"OK, ch 12 = 1808 mV 
+
+",FAIL
+20-10 14:43,FTS-TST-0185,42,,-t datamcu dptest adc 13,,"OK, ch 13 = 3296 mV",,"OK, ch 13 = 3316 mV 
+
+",FAIL
+20-10 14:43,FTS-TST-0186,43,,-t datamcu dptest adc 15,,"OK, ch 15 = 3002 mV",,"OK, ch 15 = 3006 mV 
+
+",FAIL
+20-10 14:43,FTS-TST-0187,44,,-t datamcu dptest adc 18,,"OK, ch 18 = 1797 mV",,"OK, ch 18 = 1797 mV 
+
+",PASS
+20-10 14:43,FTS-TST-0188,45,,-t datamcu dptest adc 0,,"OK, ch 0 = 1216 mV",,"OK, ch 0 = 1218 mV 
+
+",FAIL
+20-10 14:43,FTS-TST-0220,46,,"-t hwmcu dptest T,A001",,"OK,<bat_v> mV,...",,"ER
+
+",FAIL
+20-10 14:43,FTS-TST-0221,47,,"-t hwmcu dptest T,A002",,"OK,<avg> mA,<inst> mA",,"ER
+
+",FAIL
+20-10 14:43,FTS-TST-0280,48,,"-t hwmcu dptest T,1120",,"OK, 1, 0x00",,"OK, 1, 0x00
+
+",PASS
+20-10 14:43,FTS-TST-0300,49,,"-t hwmcu dptest T,A009",,"Temperature equivalent to 10kΩ, 25°C ± 5°C",,"ER
+
+",FAIL
+20-10 14:43,FTS-TST-0310,50,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux = 0",,"ER
+
+",FAIL
+20-10 14:43,FTS-TST-0311,51,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux > 0",,"ER
+
+",FAIL
+20-10 14:53,FTS-TST-0040,1,,"-t hwmcu dptest T,0001",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1
+
+",PASS
+20-10 14:53,FTS-TST-0041,2,,-t datamcu dptest fw_version,,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release",,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release
+
+",PASS
+21-10 14:03,FTS-TST-0040,1,,"-t hwmcu dptest T,0001",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0001']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0041,2,,-t datamcu dptest fw_version,,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'fw_version']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0042,3,,-t a7 dptest sw-version,,prod-test-image beat_0.51.14,,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'sw-version']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0043,4,,"-t hwmcu dptest T,0000",,"OK,0x0415,0x1007",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0000']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0044,5,,-t datamcu dptest hw_version,,"OK,0x0415,0x1007",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'hw_version']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0045,6,,-t a7 dptest cpuinfo,,"OK,<hwid>",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'cpuinfo']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0050,7,,"-t hwmcu dptest T,A021",,Programmed version matches expected version,,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,A021']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0070,8,,-t a7 dptest i2c-pmic-id-check,,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-pmic-id-check']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0080,9,,-t a7 dptest i2c-audio-id-check,,"OK, register STATUS_1=0x00",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-audio-id-check']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0100,10,,"-t hwmcu dptest T,A000",,"OK,0x0742",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,A000']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0120,11,,"-t hwmcu dptest T,2100",,OK,,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,2100']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0130,12,,"-t hwmcu dptest T,2130",,"OK,0x40",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,2130']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0140,13,,"-t hwmcu dptest T,2150,1",,"OK,1",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,2150,1']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0150,14,,"-t hwmcu dptest T,3000",,"OK,29,C 29",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,3000']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0151,15,,"-t hwmcu dptest T,3001",,"OK,29,C 29",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,3001']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0152,16,,"-t hwmcu dptest T,3002",,"OK,28,C 28",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,3002']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0153,17,,-t a7 dptest wlan-id-check,,"OK, 0x06030111",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'wlan-id-check']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0154,18,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'mban_chip_version']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0155,19,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'mban_chip_version']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0156,20,,-t a7 dptest i2c-nfc-fwversion-check,,"OK, 0x0202",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-nfc-fwversion-check']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0157,21,,-t a7 -W -T 5000 dptest fuse-read,,"OK, operation succeeded",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', '-W', '-T', '5000', 'dptest', 'fuse-read']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0160,22,,-t a7 dptest hwid-get,,"OK, 000a",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'hwid-get']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0161,23,,"-t hwmcu dptest T,0003",,"OK,1,10",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0003']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0162,24,,-t datamcu dptest hwid,,"OK,0,10",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'hwid']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0163,25,,"-t hwmcu dptest T,0003",,"OK,1,10",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0003']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0164,26,,-t datamcu dptest hwid,,"OK,0,10",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'hwid']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0170,27,,"-t hwmcu dptest T,D001,0",,"OK,0 563, mV 17537 (unset)",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,0']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0171,28,,"-t hwmcu dptest T,D001,1",,"OK,1 984, mV 3945 (unset)",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,1']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0172,29,,"-t hwmcu dptest T,D001,2",,"OK,2 697, mV 2794 (unset)",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,2']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0173,30,,"-t hwmcu dptest T,D001,3",,"OK,3 974, mV 3905 (unset)",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,3']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0174,31,,"-t hwmcu dptest T,D001,4",,"OK,4 784, mV 3143 (unset)",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,4']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0175,32,,"-t hwmcu dptest T,D001,5",,"OK,5 746, mV 1492 (unset)",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,5']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0176,33,,"-t hwmcu dptest T,D001,6",,"OK,6 896, mV 1792 (unset)",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,6']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0177,34,,"-t hwmcu dptest T,D001,7",,"OK,7 895, mV 1790 (unset)",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,7']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0178,35,,"-t hwmcu dptest T,D001,9",,"OK,9 597, mV 1791 (unset)",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,9']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0179,36,,"-t hwmcu dptest T,D001,10",,"OK,10 1210, mV 1210 (unset)",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,10']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0180,37,,-t datamcu dptest adc 1,,"OK, ch 1 = 971 mV",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'adc', '1']' returned non-zero exit status 1.",FAIL
+21-10 14:03,FTS-TST-0181,38,,-t datamcu dptest adc 2,,"OK, ch 2 = 1004 mV",,"OK, ch 2 = 1002 mV 
+
+",FAIL
+21-10 14:03,FTS-TST-0182,39,,-t datamcu dptest adc 6,,"OK, ch 6 = 1200 mV",,"OK, ch 6 = 1202 mV 
+
+",FAIL
+21-10 14:03,FTS-TST-0183,40,,-t datamcu dptest adc 10,,"OK, ch 10 = 1796 mV",,"OK, ch 10 = 1796 mV 
+
+",PASS
+21-10 14:03,FTS-TST-0184,41,,-t datamcu dptest adc 12,,"OK, ch 12 = 1802 mV",,"OK, ch 12 = 1798 mV 
+
+",FAIL
+21-10 14:03,FTS-TST-0185,42,,-t datamcu dptest adc 13,,"OK, ch 13 = 3296 mV",,"OK, ch 13 = 3308 mV 
+
+",FAIL
+21-10 14:03,FTS-TST-0186,43,,-t datamcu dptest adc 15,,"OK, ch 15 = 3002 mV",,"OK, ch 15 = 3014 mV 
+
+",FAIL
+21-10 14:04,FTS-TST-0187,44,,-t datamcu dptest adc 18,,"OK, ch 18 = 1797 mV",,"OK, ch 18 = 1800 mV 
+
+",FAIL
+21-10 14:04,FTS-TST-0188,45,,-t datamcu dptest adc 0,,"OK, ch 0 = 1216 mV",,"OK, ch 0 = 1218 mV 
+
+",FAIL
+21-10 14:04,FTS-TST-0220,46,,"-t hwmcu dptest T,A001",,"OK,<bat_v> mV,...",,"ER
+
+",FAIL
+21-10 14:04,FTS-TST-0221,47,,"-t hwmcu dptest T,A002",,"OK,<avg> mA,<inst> mA",,"ER
+
+",FAIL
+21-10 14:04,FTS-TST-0280,48,,"-t hwmcu dptest T,1120",,"OK, 1, 0x00",,"OK, 1, 0x00
+
+",PASS
+21-10 14:04,FTS-TST-0300,49,,"-t hwmcu dptest T,A009",,"Temperature equivalent to 10kΩ, 25°C ± 5°C",,"ER
+
+",FAIL
+21-10 14:04,FTS-TST-0310,50,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux = 0",,"ER
+
+",FAIL
+21-10 14:04,FTS-TST-0311,51,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux > 0",,"ER
+
+",FAIL
+21-10 14:04,FTS-TST-0040,1,,"-t hwmcu dptest T,0001",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1
+
+",PASS
+21-10 14:04,FTS-TST-0041,2,,-t datamcu dptest fw_version,,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release",,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release
+
+",PASS
+21-10 14:04,FTS-TST-0042,3,,-t a7 dptest sw-version,,prod-test-image beat_0.51.14,,"prod-test-image beat_0.51.14
+",PASS
+21-10 14:04,FTS-TST-0043,4,,"-t hwmcu dptest T,0000",,"OK,0x0415,0x1007",,"OK,0x0415,0x1007
+
+",PASS
+21-10 14:04,FTS-TST-0044,5,,-t datamcu dptest hw_version,,"OK,0x0415,0x1007",,"OK,0x0415,0x1007
+
+",PASS
+21-10 14:04,FTS-TST-0045,6,,-t a7 dptest cpuinfo,,"OK,<hwid>",,"OK, 0x41 7 0x0 0xc07 5
+",FAIL
+21-10 14:04,FTS-TST-0050,7,,"-t hwmcu dptest T,A021",,Programmed version matches expected version,,"ER
+
+",FAIL
+21-10 14:04,FTS-TST-0070,8,,-t a7 dptest i2c-pmic-id-check,,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0",,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0
+",PASS
+21-10 14:04,FTS-TST-0080,9,,-t a7 dptest i2c-audio-id-check,,"OK, register STATUS_1=0x00",,"OK, register STATUS_1=0x00
+",PASS
+21-10 14:04,FTS-TST-0100,10,,"-t hwmcu dptest T,A000",,"OK,0x0742",,"ER
+
+",FAIL
+21-10 14:04,FTS-TST-0120,11,,"-t hwmcu dptest T,2100",,OK,,"OK
+
+",PASS
+21-10 14:04,FTS-TST-0130,12,,"-t hwmcu dptest T,2130",,"OK,0x40",,"OK,0x40
+
+",PASS
+21-10 14:04,FTS-TST-0140,13,,"-t hwmcu dptest T,2150,1",,"OK,1",,"OK,1
+
+",PASS
+21-10 14:04,FTS-TST-0150,14,,"-t hwmcu dptest T,3000",,"OK,29,C 29",,"OK,27,C 27
+
+",FAIL
+21-10 14:04,FTS-TST-0151,15,,"-t hwmcu dptest T,3001",,"OK,29,C 29",,"OK,27,C 27
+
+",FAIL
+21-10 14:04,FTS-TST-0152,16,,"-t hwmcu dptest T,3002",,"OK,28,C 28",,"OK,27,C 27
+
+",FAIL
+21-10 14:04,FTS-TST-0153,17,,-t a7 dptest wlan-id-check,,"OK, 0x06030111",,"OK, 0x06030111
+",PASS
+21-10 14:04,FTS-TST-0154,18,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"OK, chip version 0x644 boot loader version: 0x2000000.
+
+",PASS
+21-10 14:04,FTS-TST-0155,19,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"OK, chip version 0x644 boot loader version: 0x2000000.
+
+",PASS
+21-10 14:04,FTS-TST-0156,20,,-t a7 dptest i2c-nfc-fwversion-check,,"OK, 0x0202",,"OK, 0x80202
+",FAIL
+21-10 14:04,FTS-TST-0157,21,,-t a7 -W -T 5000 dptest fuse-read,,"OK, operation succeeded",,"HW_OCOTP_ANA0: 0x0
+HW_OCOTP_ANA1: 0xdca00
+HW_OCOTP_BOOT_CFG0: 0x10002864
+HW_OCOTP_BOOT_CFG1: 0x0
+HW_OCOTP_BOOT_CFG2: 0x0
+HW_OCOTP_BOOT_CFG3: 0x0
+HW_OCOTP_BOOT_CFG4: 0x0
+HW_OCOTP_FIELD_RETURN: 0x0
+HW_OCOTP_GP10: 0x0
+HW_OCOTP_GP11: 0x0
+HW_OCOTP_GP20: 0x0
+HW_OCOTP_GP21: 0x0
+HW_OCOTP_LOCK: 0xa0030103
+HW_OCOTP_MAC_ADDR0: 0x0
+HW_OCOTP_MAC_ADDR1: 0x0
+HW_OCOTP_MAC_ADDR2: 0x0
+HW_OCOTP_MEM_TRIM0: 0x0
+HW_OCOTP_MEM_TRIM1: 0x0
+HW_OCOTP_ROM_PATCH0: 0x0
+HW_OCOTP_ROM_PATCH1: 0x0
+HW_OCOTP_ROM_PATCH2: 0x0
+HW_OCOTP_ROM_PATCH3: 0x0
+HW_OCOTP_ROM_PATCH4: 0x0
+HW_OCOTP_ROM_PATCH5: 0x0
+HW_OCOTP_ROM_PATCH6: 0x0
+HW_OCOTP_ROM_PATCH7: 0x0
+HW_OCOTP_SJC_RESP0: 0x0
+HW_OCOTP_SJC_RESP1: 0x0
+HW_OCOTP_SRK0: 0x0
+HW_OCOTP_SRK1: 0x0
+HW_OCOTP_SRK2: 0x0
+HW_OCOTP_SRK3: 0x0
+HW_OCOTP_SRK4: 0x0
+HW_OCOTP_SRK5: 0x0
+HW_OCOTP_SRK6: 0x0
+HW_OCOTP_SRK7: 0x0
+HW_OCOTP_SRK_REVOKE: 0x0
+HW_OCOTP_TESTER0: 0x6e168703
+HW_OCOTP_TESTER1: 0x2a6
+HW_OCOTP_TESTER2: 0x0
+HW_OCOTP_TESTER3: 0x20000200
+HW_OCOTP_TESTER4: 0x10220000
+HW_OCOTP_TESTER5: 0x0
+HW_OCOTP_USB_ID: 0x0
+OK, operation succeeded
+",PASS
+21-10 14:04,FTS-TST-0160,22,,-t a7 dptest hwid-get,,"OK, 000a",,"OK, 000a
+",PASS
+21-10 14:04,FTS-TST-0161,23,,"-t hwmcu dptest T,0003",,"OK,1,10",,"OK,1,10
+
+",PASS
+21-10 14:04,FTS-TST-0162,24,,-t datamcu dptest hwid,,"OK,0,10",,"OK,0,10
+
+",PASS
+21-10 14:04,FTS-TST-0163,25,,"-t hwmcu dptest T,0003",,"OK,1,10",,"OK,1,10
+
+",PASS
+21-10 14:04,FTS-TST-0164,26,,-t datamcu dptest hwid,,"OK,0,10",,"OK,0,10
+
+",PASS
+21-10 14:04,FTS-TST-0170,27,,"-t hwmcu dptest T,D001,0",,"OK,0 563, mV 17537 (unset)",,"OK,0 563, mV 17537 (unset)
+
+",PASS
+21-10 14:04,FTS-TST-0171,28,,"-t hwmcu dptest T,D001,1",,"OK,1 984, mV 3945 (unset)",,"OK,1 978, mV 3921 (unset)
+
+",FAIL
+21-10 14:04,FTS-TST-0172,29,,"-t hwmcu dptest T,D001,2",,"OK,2 697, mV 2794 (unset)",,"OK,2 693, mV 2778 (unset)
+
+",FAIL
+21-10 14:04,FTS-TST-0173,30,,"-t hwmcu dptest T,D001,3",,"OK,3 974, mV 3905 (unset)",,"OK,3 979, mV 3925 (unset)
+
+",FAIL
+21-10 14:04,FTS-TST-0174,31,,"-t hwmcu dptest T,D001,4",,"OK,4 784, mV 3143 (unset)",,"OK,4 785, mV 3147 (unset)
+
+",FAIL
+21-10 14:04,FTS-TST-0175,32,,"-t hwmcu dptest T,D001,5",,"OK,5 746, mV 1492 (unset)",,"OK,5 743, mV 1486 (unset)
+
+",FAIL
+21-10 14:04,FTS-TST-0176,33,,"-t hwmcu dptest T,D001,6",,"OK,6 896, mV 1792 (unset)",,"OK,6 897, mV 1794 (unset)
+
+",FAIL
+21-10 14:04,FTS-TST-0177,34,,"-t hwmcu dptest T,D001,7",,"OK,7 895, mV 1790 (unset)",,"OK,7 897, mV 1794 (unset)
+
+",FAIL
+21-10 14:04,FTS-TST-0178,35,,"-t hwmcu dptest T,D001,9",,"OK,9 597, mV 1791 (unset)",,"OK,9 595, mV 1785 (unset)
+
+",FAIL
+21-10 14:04,FTS-TST-0179,36,,"-t hwmcu dptest T,D001,10",,"OK,10 1210, mV 1210 (unset)",,"OK,10 1216, mV 1216 (unset)
+
+",FAIL
+21-10 14:04,FTS-TST-0180,37,,-t datamcu dptest adc 1,,"OK, ch 1 = 971 mV",,"OK, ch 1 = 975 mV 
+
+",FAIL
+21-10 14:04,FTS-TST-0181,38,,-t datamcu dptest adc 2,,"OK, ch 2 = 1004 mV",,"OK, ch 2 = 1002 mV 
+
+",FAIL
+21-10 14:04,FTS-TST-0182,39,,-t datamcu dptest adc 6,,"OK, ch 6 = 1200 mV",,"OK, ch 6 = 1203 mV 
+
+",FAIL
+21-10 14:04,FTS-TST-0183,40,,-t datamcu dptest adc 10,,"OK, ch 10 = 1796 mV",,"OK, ch 10 = 1796 mV 
+
+",PASS
+21-10 14:05,FTS-TST-0184,41,,-t datamcu dptest adc 12,,"OK, ch 12 = 1802 mV",,"OK, ch 12 = 1798 mV 
+
+",FAIL
+21-10 14:05,FTS-TST-0185,42,,-t datamcu dptest adc 13,,"OK, ch 13 = 3296 mV",,"OK, ch 13 = 3304 mV 
+
+",FAIL
+21-10 14:05,FTS-TST-0186,43,,-t datamcu dptest adc 15,,"OK, ch 15 = 3002 mV",,"OK, ch 15 = 3010 mV 
+
+",FAIL
+21-10 14:05,FTS-TST-0187,44,,-t datamcu dptest adc 18,,"OK, ch 18 = 1797 mV",,"OK, ch 18 = 1800 mV 
+
+",FAIL
+21-10 14:05,FTS-TST-0188,45,,-t datamcu dptest adc 0,,"OK, ch 0 = 1216 mV",,"OK, ch 0 = 1218 mV 
+
+",FAIL
+21-10 14:05,FTS-TST-0220,46,,"-t hwmcu dptest T,A001",,"OK,<bat_v> mV,...",,"ER
+
+",FAIL
+21-10 14:05,FTS-TST-0221,47,,"-t hwmcu dptest T,A002",,"OK,<avg> mA,<inst> mA",,"ER
+
+",FAIL
+21-10 14:05,FTS-TST-0280,48,,"-t hwmcu dptest T,1120",,"OK, 1, 0x00",,"OK, 1, 0x00
+
+",PASS
+21-10 14:05,FTS-TST-0300,49,,"-t hwmcu dptest T,A009",,"Temperature equivalent to 10kΩ, 25°C ± 5°C",,"ER
+
+",FAIL
+21-10 14:05,FTS-TST-0310,50,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux = 0",,"ER
+
+",FAIL
+21-10 14:05,FTS-TST-0311,51,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux > 0",,"ER
+
+",FAIL
+21-10 14:06,FTS-TST-0040,1,,"-t hwmcu dptest T,0001",,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1",,"Unable to find uart for target 'hwmcu'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0001']' returned non-zero exit status 1.",FAIL
+21-10 14:06,FTS-TST-0041,2,,-t datamcu dptest fw_version,,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release",,"Unable to find uart for target 'datamcu'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'fw_version']' returned non-zero exit status 1.",FAIL
+21-10 14:06,FTS-TST-0042,3,,-t a7 dptest sw-version,,prod-test-image beat_0.51.14,,"Unable to find uart for target 'a7'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'sw-version']' returned non-zero exit status 1.",FAIL
+21-10 14:06,FTS-TST-0043,4,,"-t hwmcu dptest T,0000",,"OK,0x0415,0x1007",,"Unable to find uart for target 'hwmcu'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0000']' returned non-zero exit status 1.",FAIL
+21-10 14:06,FTS-TST-0044,5,,-t datamcu dptest hw_version,,"OK,0x0415,0x1007",,"Unable to find uart for target 'datamcu'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'hw_version']' returned non-zero exit status 1.",FAIL
+21-10 14:06,FTS-TST-0045,6,,-t a7 dptest cpuinfo,,"OK,<hwid>",,"Unable to find uart for target 'a7'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'cpuinfo']' returned non-zero exit status 1.",FAIL
+21-10 14:06,FTS-TST-0050,7,,"-t hwmcu dptest T,A021",,Programmed version matches expected version,,"Unable to find uart for target 'hwmcu'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,A021']' returned non-zero exit status 1.",FAIL
+21-10 14:06,FTS-TST-0070,8,,-t a7 dptest i2c-pmic-id-check,,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0",,"dptest failed
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-pmic-id-check']' returned non-zero exit status 1.",FAIL
+21-10 14:06,FTS-TST-0080,9,,-t a7 dptest i2c-audio-id-check,,"OK, register STATUS_1=0x00",,"OK, register STATUS_1=0x00
+",PASS
+21-10 14:06,FTS-TST-0100,10,,"-t hwmcu dptest T,A000",,"OK,0x0742",,"ER
+
+",FAIL
+21-10 14:06,FTS-TST-0120,11,,"-t hwmcu dptest T,2100",,OK,,"OK
+
+",PASS
+21-10 14:06,FTS-TST-0130,12,,"-t hwmcu dptest T,2130",,"OK,0x40",,"OK,0x40
+
+",PASS
+21-10 14:06,FTS-TST-0140,13,,"-t hwmcu dptest T,2150,1",,"OK,1",,"OK,1
+
+",PASS
+21-10 14:06,FTS-TST-0150,14,,"-t hwmcu dptest T,3000",,"OK,29,C 29",,"OK,27,C 27
+
+",FAIL
+21-10 14:06,FTS-TST-0151,15,,"-t hwmcu dptest T,3001",,"OK,29,C 29",,"OK,27,C 27
+
+",FAIL
+21-10 14:06,FTS-TST-0152,16,,"-t hwmcu dptest T,3002",,"OK,28,C 28",,"OK,27,C 27
+
+",FAIL
+21-10 14:06,FTS-TST-0153,17,,-t a7 dptest wlan-id-check,,"OK, 0x06030111",,"OK, 0x06030111
+",PASS
+21-10 14:06,FTS-TST-0154,18,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"OK, chip version 0x644 boot loader version: 0x2000000.
+
+",PASS
+21-10 14:06,FTS-TST-0155,19,,-t datamcu dptest mban_chip_version,,"OK, chip version 0x644 boot loader version: 0x2000000.",,"OK, chip version 0x644 boot loader version: 0x2000000.
+
+",PASS
+21-10 14:06,FTS-TST-0156,20,,-t a7 dptest i2c-nfc-fwversion-check,,"OK, 0x0202",,"dptest failed
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-nfc-fwversion-check']' returned non-zero exit status 1.",FAIL
+21-10 14:06,FTS-TST-0157,21,,-t a7 -W -T 5000 dptest fuse-read,,"OK, operation succeeded",,"HW_OCOTP_ANA0: 0x0
+HW_OCOTP_ANA1: 0xdca00
+HW_OCOTP_BOOT_CFG0: 0x10002864
+HW_OCOTP_BOOT_CFG1: 0x0
+HW_OCOTP_BOOT_CFG2: 0x0
+HW_OCOTP_BOOT_CFG3: 0x0
+HW_OCOTP_BOOT_CFG4: 0x0
+HW_OCOTP_FIELD_RETURN: 0x0
+HW_OCOTP_GP10: 0x0
+HW_OCOTP_GP11: 0x0
+HW_OCOTP_GP20: 0x0
+HW_OCOTP_GP21: 0x0
+HW_OCOTP_LOCK: 0xa0030103
+HW_OCOTP_MAC_ADDR0: 0x0
+HW_OCOTP_MAC_ADDR1: 0x0
+HW_OCOTP_MAC_ADDR2: 0x0
+HW_OCOTP_MEM_TRIM0: 0x0
+HW_OCOTP_MEM_TRIM1: 0x0
+HW_OCOTP_ROM_PATCH0: 0x0
+HW_OCOTP_ROM_PATCH1: 0x0
+HW_OCOTP_ROM_PATCH2: 0x0
+HW_OCOTP_ROM_PATCH3: 0x0
+HW_OCOTP_ROM_PATCH4: 0x0
+HW_OCOTP_ROM_PATCH5: 0x0
+HW_OCOTP_ROM_PATCH6: 0x0
+HW_OCOTP_ROM_PATCH7: 0x0
+HW_OCOTP_SJC_RESP0: 0x0
+HW_OCOTP_SJC_RESP1: 0x0
+HW_OCOTP_SRK0: 0x0
+HW_OCOTP_SRK1: 0x0
+HW_OCOTP_SRK2: 0x0
+HW_OCOTP_SRK3: 0x0
+HW_OCOTP_SRK4: 0x0
+HW_OCOTP_SRK5: 0x0
+HW_OCOTP_SRK6: 0x0
+HW_OCOTP_SRK7: 0x0
+HW_OCOTP_SRK_REVOKE: 0x0
+HW_OCOTP_TESTER0: 0x6e168703
+HW_OCOTP_TESTER1: 0x2a6
+HW_OCOTP_TESTER2: 0x0
+HW_OCOTP_TESTER3: 0x20000200
+HW_OCOTP_TESTER4: 0x10220000
+HW_OCOTP_TESTER5: 0x0
+HW_OCOTP_USB_ID: 0x0
+OK, operation succeeded
+",PASS
+21-10 14:06,FTS-TST-0160,22,,-t a7 dptest hwid-get,,"OK, 000a",,"OK, 000a
+",PASS
+21-10 14:06,FTS-TST-0161,23,,"-t hwmcu dptest T,0003",,"OK,1,10",,"OK,1,10
+
+",PASS
+21-10 14:06,FTS-TST-0162,24,,-t datamcu dptest hwid,,"OK,0,10",,"OK,0,10
+
+",PASS
+21-10 14:06,FTS-TST-0163,25,,"-t hwmcu dptest T,0003",,"OK,1,10",,"OK,1,10
+
+",PASS
+21-10 14:06,FTS-TST-0164,26,,-t datamcu dptest hwid,,"OK,0,10",,"OK,0,10
+
+",PASS
+21-10 14:06,FTS-TST-0170,27,,"-t hwmcu dptest T,D001,0",,"OK,0 563, mV 17537 (unset)",,"OK,0 734, mV 22864 (unset)
+
+",FAIL
+21-10 14:06,FTS-TST-0171,28,,"-t hwmcu dptest T,D001,1",,"OK,1 984, mV 3945 (unset)",,"OK,1 980, mV 3929 (unset)
+
+",FAIL
+21-10 14:06,FTS-TST-0172,29,,"-t hwmcu dptest T,D001,2",,"OK,2 697, mV 2794 (unset)",,"OK,2 693, mV 2778 (unset)
+
+",FAIL
+21-10 14:06,FTS-TST-0173,30,,"-t hwmcu dptest T,D001,3",,"OK,3 974, mV 3905 (unset)",,"OK,3 982, mV 3937 (unset)
+
+",FAIL
+21-10 14:06,FTS-TST-0174,31,,"-t hwmcu dptest T,D001,4",,"OK,4 784, mV 3143 (unset)",,"OK,4 787, mV 3155 (unset)
+
+",FAIL
+21-10 14:06,FTS-TST-0175,32,,"-t hwmcu dptest T,D001,5",,"OK,5 746, mV 1492 (unset)",,"OK,5 746, mV 1492 (unset)
+
+",PASS
+21-10 14:06,FTS-TST-0176,33,,"-t hwmcu dptest T,D001,6",,"OK,6 896, mV 1792 (unset)",,"OK,6 895, mV 1790 (unset)
+
+",FAIL
+21-10 14:06,FTS-TST-0177,34,,"-t hwmcu dptest T,D001,7",,"OK,7 895, mV 1790 (unset)",,"OK,7 897, mV 1794 (unset)
+
+",FAIL
+21-10 14:07,FTS-TST-0178,35,,"-t hwmcu dptest T,D001,9",,"OK,9 597, mV 1791 (unset)",,"OK,9 596, mV 1788 (unset)
+
+",FAIL
+21-10 14:07,FTS-TST-0179,36,,"-t hwmcu dptest T,D001,10",,"OK,10 1210, mV 1210 (unset)",,"OK,10 1213, mV 1213 (unset)
+
+",FAIL
+21-10 14:07,FTS-TST-0180,37,,-t datamcu dptest adc 1,,"OK, ch 1 = 971 mV",,"OK, ch 1 = 975 mV 
+
+",FAIL
+21-10 14:07,FTS-TST-0181,38,,-t datamcu dptest adc 2,,"OK, ch 2 = 1004 mV",,"OK, ch 2 = 1002 mV 
+
+",FAIL
+21-10 14:07,FTS-TST-0182,39,,-t datamcu dptest adc 6,,"OK, ch 6 = 1200 mV",,"OK, ch 6 = 1202 mV 
+
+",FAIL
+21-10 14:07,FTS-TST-0183,40,,-t datamcu dptest adc 10,,"OK, ch 10 = 1796 mV",,"OK, ch 10 = 1794 mV 
+
+",FAIL
+21-10 14:07,FTS-TST-0184,41,,-t datamcu dptest adc 12,,"OK, ch 12 = 1802 mV",,"OK, ch 12 = 1798 mV 
+
+",FAIL
+21-10 14:07,FTS-TST-0185,42,,-t datamcu dptest adc 13,,"OK, ch 13 = 3296 mV",,"OK, ch 13 = 3308 mV 
+
+",FAIL
+21-10 14:07,FTS-TST-0186,43,,-t datamcu dptest adc 15,,"OK, ch 15 = 3002 mV",,"OK, ch 15 = 3010 mV 
+
+",FAIL
+21-10 14:07,FTS-TST-0187,44,,-t datamcu dptest adc 18,,"OK, ch 18 = 1797 mV",,"OK, ch 18 = 1800 mV 
+
+",FAIL
+21-10 14:07,FTS-TST-0188,45,,-t datamcu dptest adc 0,,"OK, ch 0 = 1216 mV",,"OK, ch 0 = 1218 mV 
+
+",FAIL
+21-10 14:07,FTS-TST-0220,46,,"-t hwmcu dptest T,A001",,"OK,<bat_v> mV,...",,"ER
+
+",FAIL
+21-10 14:07,FTS-TST-0221,47,,"-t hwmcu dptest T,A002",,"OK,<avg> mA,<inst> mA",,"ER
+
+",FAIL
+21-10 14:07,FTS-TST-0280,48,,"-t hwmcu dptest T,1120",,"OK, 1, 0x00",,"OK, 1, 0x00
+
+",PASS
+21-10 14:07,FTS-TST-0300,49,,"-t hwmcu dptest T,A009",,"Temperature equivalent to 10kΩ, 25°C ± 5°C",,"ER
+
+",FAIL
+21-10 14:07,FTS-TST-0310,50,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux = 0",,"ER
+
+",FAIL
+21-10 14:07,FTS-TST-0311,51,,"-t hwmcu dptest T,4002",,"OK,<Lvalue>,<ch0_raw_value> lux > 0",,"ER
+
+",FAIL
+22-10 09:15,FTS-TST-0040,1,,"-t hwmcu dptest T,0001",contains,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1",,"Unable to find uart for target 'hwmcu'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0001']' returned non-zero exit status 1.",FAIL
+22-10 09:15,FTS-TST-0041,2,,-t datamcu dptest fw_version,contains,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release",,"Unable to find uart for target 'datamcu'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'fw_version']' returned non-zero exit status 1.",FAIL
+22-10 09:15,FTS-TST-0042,3,,-t a7 dptest sw-version,contains,prod-test-image beat_0.51.14,,"Unable to find uart for target 'a7'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'sw-version']' returned non-zero exit status 1.",FAIL
+22-10 09:23,FTS-TST-0040,1,,"-t hwmcu dptest T,0001",contains,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1",,"Unable to find uart for target 'hwmcu'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0001']' returned non-zero exit status 1.",FAIL
+22-10 09:23,FTS-TST-0041,2,,-t datamcu dptest fw_version,contains,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release",,"Unable to find uart for target 'datamcu'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'fw_version']' returned non-zero exit status 1.",FAIL
+22-10 09:23,FTS-TST-0042,3,,-t a7 dptest sw-version,contains,prod-test-image beat_0.51.14,,"Unable to find uart for target 'a7'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'sw-version']' returned non-zero exit status 1.",FAIL
+22-10 09:23,FTS-TST-0043,4,,"-t hwmcu dptest T,0000",contains,"OK,0x0415,0x1007",,"Unable to find uart for target 'hwmcu'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0000']' returned non-zero exit status 1.",FAIL
+22-10 09:23,FTS-TST-0044,5,,-t datamcu dptest hw_version,contains,"OK,0x0415,0x1007",,"Unable to find uart for target 'datamcu'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'hw_version']' returned non-zero exit status 1.",FAIL
+22-10 09:23,FTS-TST-0045,6,,-t a7 dptest cpuinfo,contains,"OK,<hwid>",,"Unable to find uart for target 'a7'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'cpuinfo']' returned non-zero exit status 1.",FAIL
+22-10 09:23,FTS-TST-0050,7,,"-t hwmcu dptest T,A021",contains,Programmed version matches expected version,,"Unable to find uart for target 'hwmcu'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,A021']' returned non-zero exit status 1.",FAIL
+22-10 09:23,FTS-TST-0070,8,,-t a7 dptest i2c-pmic-id-check,contains,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0",,"Unable to find uart for target 'a7'
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-pmic-id-check']' returned non-zero exit status 1.",FAIL
+22-10 13:04,FTS-TST-0040,1,,"-t hwmcu dptest T,0001",contains,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0001']' returned non-zero exit status 1.",FAIL
+22-10 13:04,FTS-TST-0041,2,,-t datamcu dptest fw_version,contains,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'fw_version']' returned non-zero exit status 1.",FAIL
+22-10 13:04,FTS-TST-0042,3,,-t a7 dptest sw-version,contains,prod-test-image beat_0.51.14,,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'sw-version']' returned non-zero exit status 1.",FAIL
+22-10 13:04,FTS-TST-0043,4,,"-t hwmcu dptest T,0000",contains,"OK,0x0415,0x1007",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0000']' returned non-zero exit status 1.",FAIL
+22-10 13:04,FTS-TST-0040,1,,"-t hwmcu dptest T,0001",contains,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0001']' returned non-zero exit status 1.",FAIL
+22-10 13:04,FTS-TST-0040,1,,"-t hwmcu dptest T,0001",contains,"OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0001']' returned non-zero exit status 1.",FAIL
+22-10 13:04,FTS-TST-0041,2,,-t datamcu dptest fw_version,contains,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release",,"Failed to open device 'COM1' (reason: not found)
+CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'fw_version']' returned non-zero exit status 1.",FAIL

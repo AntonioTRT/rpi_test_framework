@@ -4021,3 +4021,451 @@ c87328bf-fded-4db2-8ced-c78bfa351525,20-10 14:40,,CommandListTest,TX,"hub_mcu_ut
 c87328bf-fded-4db2-8ced-c78bfa351525,20-10 14:40,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,4002","OK,312,0  "
 c87328bf-fded-4db2-8ced-c78bfa351525,20-10 14:40,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,4002",
 c87328bf-fded-4db2-8ced-c78bfa351525,20-10 14:40,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,4002",ER  
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0001",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0001","OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest fw_version,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest fw_version,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,hub_mcu_utility -t a7 dptest sw-version,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,hub_mcu_utility -t a7 dptest sw-version,prod-test-image beat_0.51.14 
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0000",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0000","OK,0x0415,0x1007  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest hw_version,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest hw_version,"OK,0x0415,0x1007  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,hub_mcu_utility -t a7 dptest cpuinfo,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,hub_mcu_utility -t a7 dptest cpuinfo,"OK, 0x41 7 0x0 0xc07 5 "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A021",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A021",ER  
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,hub_mcu_utility -t a7 dptest i2c-pmic-id-check,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,hub_mcu_utility -t a7 dptest i2c-pmic-id-check,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0 "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,hub_mcu_utility -t a7 dptest i2c-audio-id-check,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,hub_mcu_utility -t a7 dptest i2c-audio-id-check,"OK, register STATUS_1=0x00 "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A000",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A000",ER  
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,2100",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,2100",OK  
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,2130",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,2130","OK,0x40  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,2150,1",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,2150,1","OK,1  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,3000",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,3000","OK,25,C 25  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,3001",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,3001","OK,25,C 25  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,3002",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,3002","OK,25,C 25  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,hub_mcu_utility -t a7 dptest wlan-id-check,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,hub_mcu_utility -t a7 dptest wlan-id-check,"OK, 0x06030111 "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest mban_chip_version,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest mban_chip_version,"OK, chip version 0x644 boot loader version: 0x2000000.  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest mban_chip_version,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest mban_chip_version,"OK, chip version 0x644 boot loader version: 0x2000000.  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,hub_mcu_utility -t a7 dptest i2c-nfc-fwversion-check,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,hub_mcu_utility -t a7 dptest i2c-nfc-fwversion-check,"dptest failed CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-nfc-fwversion-check']' returned non-zero exit status 1."
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,hub_mcu_utility -t a7 -W -T 5000 dptest fuse-read,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,hub_mcu_utility -t a7 -W -T 5000 dptest fuse-read,"HW_OCOTP_ANA0: 0x0 HW_OCOTP_ANA1: 0xdce00 HW_OCOTP_BOOT_CFG0: 0x10002864 HW_OCOTP_BOOT_CFG1: 0x0 HW_OCOTP_BOOT_CFG2: 0x0 HW_OCOTP_BOOT_CFG3: 0x0 HW_OCOTP_BOOT_CFG4: 0x0 HW_OCOTP_FIELD_RETURN: 0x0 HW_OCOTP_GP10: 0x0 HW_OCOTP_GP11: 0x0 HW_OCOTP_GP20: 0x0 HW_OCOTP_GP21: 0x0 HW_OCOTP_LOCK: 0xa0030103 HW_OCOTP_MAC_ADDR0: 0x0 HW_OCOTP_MAC_ADDR1: 0x0 HW_OCOTP_MAC_ADDR2: 0x0 HW_OCOTP_MEM_TRIM0: 0x0 HW_OCOTP_MEM_TRIM1: 0x0 HW_OCOTP_ROM_PATCH0: 0x0 HW_OCOTP_ROM_PATCH1: 0x0 HW_OCOTP_ROM_PATCH2: 0x0 HW_OCOTP_ROM_PATCH3: 0x0 HW_OCOTP_ROM_PATCH4: 0x0 HW_OCOTP_ROM_PATCH5: 0x0 HW_OCOTP_ROM_PATCH6: 0x0 HW_OCOTP_ROM_PATCH7: 0x0 HW_OCOTP_SJC_RESP0: 0x0 HW_OCOTP_SJC_RESP1: 0x0 HW_OCOTP_SRK0: 0x0 HW_OCOTP_SRK1: 0x0 HW_OCOTP_SRK2: 0x0 HW_OCOTP_SRK3: 0x0 HW_OCOTP_SRK4: 0x0 HW_OCOTP_SRK5: 0x0 HW_OCOTP_SRK6: 0x0 HW_OCOTP_SRK7: 0x0 HW_OCOTP_SRK_REVOKE: 0x0 HW_OCOTP_TESTER0: 0x1e168703 HW_OCOTP_TESTER1: 0xa4 HW_OCOTP_TESTER2: 0x0 HW_OCOTP_TESTER3: 0x20000200 HW_OCOTP_TESTER4: 0x10220000 HW_OCOTP_TESTER5: 0x0 HW_OCOTP_USB_ID: 0x0 OK, operation succeeded "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,hub_mcu_utility -t a7 dptest hwid-get,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,hub_mcu_utility -t a7 dptest hwid-get,"OK, 000a "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0003",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0003","OK,1,10  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest hwid,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest hwid,"OK,0,10  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0003",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0003","OK,1,10  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest hwid,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest hwid,"OK,0,10  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,0",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:42,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,0","OK,0 559, mV 17412 (unset)  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,1",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,1","OK,1 983, mV 3941 (unset)  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,2",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,2","OK,2 698, mV 2798 (unset)  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,3",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,3","OK,3 981, mV 3933 (unset)  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,4",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,4","OK,4 787, mV 3155 (unset)  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,5",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,5","OK,5 745, mV 1490 (unset)  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,6",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,6","OK,6 900, mV 1800 (unset)  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,7",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,7","OK,7 898, mV 1796 (unset)  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,9",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,9","OK,9 598, mV 1794 (unset)  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,10",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,10","OK,10 1210, mV 1210 (unset)  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 1,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 1,"OK, ch 1 = 1217 mV   "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 2,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 2,"OK, ch 2 = 1003 mV   "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 6,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 6,"OK, ch 6 = 1202 mV   "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 10,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 10,"OK, ch 10 = 1798 mV   "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 12,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 12,"OK, ch 12 = 1808 mV   "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 13,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 13,"OK, ch 13 = 3316 mV   "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 15,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 15,"OK, ch 15 = 3006 mV   "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 18,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 18,"OK, ch 18 = 1797 mV   "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 0,
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 0,"OK, ch 0 = 1218 mV   "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A001",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A001",ER  
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A002",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A002",ER  
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,1120",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,1120","OK, 1, 0x00  "
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A009",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A009",ER  
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,4002",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,4002",ER  
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,4002",
+8a5c5cae-e015-473d-8bd3-170e71e8fa13,20-10 14:43,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,4002",ER  
+2da741b5-f246-47a9-9b6c-f0cbe25bda08,20-10 14:53,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0001",
+2da741b5-f246-47a9-9b6c-f0cbe25bda08,20-10 14:53,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0001","OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1  "
+2da741b5-f246-47a9-9b6c-f0cbe25bda08,20-10 14:53,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest fw_version,
+2da741b5-f246-47a9-9b6c-f0cbe25bda08,20-10 14:53,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest fw_version,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release  "
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0001",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0001","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0001']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest fw_version,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest fw_version,"Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'fw_version']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t a7 dptest sw-version,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t a7 dptest sw-version,"Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'sw-version']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0000",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0000","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0000']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest hw_version,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest hw_version,"Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'hw_version']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t a7 dptest cpuinfo,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t a7 dptest cpuinfo,"Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'cpuinfo']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A021",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A021","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,A021']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t a7 dptest i2c-pmic-id-check,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t a7 dptest i2c-pmic-id-check,"Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-pmic-id-check']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t a7 dptest i2c-audio-id-check,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t a7 dptest i2c-audio-id-check,"Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-audio-id-check']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A000",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A000","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,A000']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,2100",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,2100","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,2100']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,2130",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,2130","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,2130']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,2150,1",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,2150,1","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,2150,1']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,3000",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,3000","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,3000']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,3001",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,3001","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,3001']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,3002",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,3002","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,3002']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t a7 dptest wlan-id-check,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t a7 dptest wlan-id-check,"Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'wlan-id-check']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest mban_chip_version,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest mban_chip_version,"Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'mban_chip_version']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest mban_chip_version,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest mban_chip_version,"Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'mban_chip_version']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t a7 dptest i2c-nfc-fwversion-check,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t a7 dptest i2c-nfc-fwversion-check,"Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-nfc-fwversion-check']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t a7 -W -T 5000 dptest fuse-read,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t a7 -W -T 5000 dptest fuse-read,"Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', '-W', '-T', '5000', 'dptest', 'fuse-read']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t a7 dptest hwid-get,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t a7 dptest hwid-get,"Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'hwid-get']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0003",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0003","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0003']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest hwid,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest hwid,"Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'hwid']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0003",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0003","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0003']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest hwid,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest hwid,"Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'hwid']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,0",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,0","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,0']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,1",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,1","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,1']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,2",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,2","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,2']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,3",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,3","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,3']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,4",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,4","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,4']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,5",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,5","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,5']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,6",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,6","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,6']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,7",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,7","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,7']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,9",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,9","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,9']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,10",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,10","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,D001,10']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 1,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 1,"Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'adc', '1']' returned non-zero exit status 1."
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 2,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 2,"OK, ch 2 = 1002 mV   "
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 6,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 6,"OK, ch 6 = 1202 mV   "
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 10,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 10,"OK, ch 10 = 1796 mV   "
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 12,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 12,"OK, ch 12 = 1798 mV   "
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 13,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 13,"OK, ch 13 = 3308 mV   "
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 15,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:03,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 15,"OK, ch 15 = 3014 mV   "
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 18,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 18,"OK, ch 18 = 1800 mV   "
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 0,
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 0,"OK, ch 0 = 1218 mV   "
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A001",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A001",ER  
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A002",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A002",ER  
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,1120",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,1120","OK, 1, 0x00  "
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A009",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A009",ER  
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,4002",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,4002",ER  
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,4002",
+5b5b7ae6-0900-494e-855e-fa468b669619,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,4002",ER  
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0001",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0001","OK,1.1.0.0.0.37-14.2.1f7f3c2.botticelli.release, 1  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest fw_version,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest fw_version,"OK,1.1.0.0.0.8-5.4.2ac8ef2.botticelli.release-radio-p2_0-1.1.0.0.0.354-36.3.ea085baa8.botticelli.release  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t a7 dptest sw-version,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t a7 dptest sw-version,prod-test-image beat_0.51.14 
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0000",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0000","OK,0x0415,0x1007  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest hw_version,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest hw_version,"OK,0x0415,0x1007  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t a7 dptest cpuinfo,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t a7 dptest cpuinfo,"OK, 0x41 7 0x0 0xc07 5 "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A021",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A021",ER  
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t a7 dptest i2c-pmic-id-check,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t a7 dptest i2c-pmic-id-check,"OK, FAMILY=3, DEVICEID=0, FULL_LAYER_REV=1, METAL_LAYER_REV=1, FAB=0, FIN=0 "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t a7 dptest i2c-audio-id-check,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t a7 dptest i2c-audio-id-check,"OK, register STATUS_1=0x00 "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A000",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A000",ER  
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,2100",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,2100",OK  
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,2130",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,2130","OK,0x40  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,2150,1",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,2150,1","OK,1  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,3000",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,3000","OK,27,C 27  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,3001",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,3001","OK,27,C 27  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,3002",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,3002","OK,27,C 27  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t a7 dptest wlan-id-check,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t a7 dptest wlan-id-check,"OK, 0x06030111 "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest mban_chip_version,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest mban_chip_version,"OK, chip version 0x644 boot loader version: 0x2000000.  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest mban_chip_version,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest mban_chip_version,"OK, chip version 0x644 boot loader version: 0x2000000.  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t a7 dptest i2c-nfc-fwversion-check,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t a7 dptest i2c-nfc-fwversion-check,"OK, 0x80202 "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t a7 -W -T 5000 dptest fuse-read,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t a7 -W -T 5000 dptest fuse-read,"HW_OCOTP_ANA0: 0x0 HW_OCOTP_ANA1: 0xdca00 HW_OCOTP_BOOT_CFG0: 0x10002864 HW_OCOTP_BOOT_CFG1: 0x0 HW_OCOTP_BOOT_CFG2: 0x0 HW_OCOTP_BOOT_CFG3: 0x0 HW_OCOTP_BOOT_CFG4: 0x0 HW_OCOTP_FIELD_RETURN: 0x0 HW_OCOTP_GP10: 0x0 HW_OCOTP_GP11: 0x0 HW_OCOTP_GP20: 0x0 HW_OCOTP_GP21: 0x0 HW_OCOTP_LOCK: 0xa0030103 HW_OCOTP_MAC_ADDR0: 0x0 HW_OCOTP_MAC_ADDR1: 0x0 HW_OCOTP_MAC_ADDR2: 0x0 HW_OCOTP_MEM_TRIM0: 0x0 HW_OCOTP_MEM_TRIM1: 0x0 HW_OCOTP_ROM_PATCH0: 0x0 HW_OCOTP_ROM_PATCH1: 0x0 HW_OCOTP_ROM_PATCH2: 0x0 HW_OCOTP_ROM_PATCH3: 0x0 HW_OCOTP_ROM_PATCH4: 0x0 HW_OCOTP_ROM_PATCH5: 0x0 HW_OCOTP_ROM_PATCH6: 0x0 HW_OCOTP_ROM_PATCH7: 0x0 HW_OCOTP_SJC_RESP0: 0x0 HW_OCOTP_SJC_RESP1: 0x0 HW_OCOTP_SRK0: 0x0 HW_OCOTP_SRK1: 0x0 HW_OCOTP_SRK2: 0x0 HW_OCOTP_SRK3: 0x0 HW_OCOTP_SRK4: 0x0 HW_OCOTP_SRK5: 0x0 HW_OCOTP_SRK6: 0x0 HW_OCOTP_SRK7: 0x0 HW_OCOTP_SRK_REVOKE: 0x0 HW_OCOTP_TESTER0: 0x6e168703 HW_OCOTP_TESTER1: 0x2a6 HW_OCOTP_TESTER2: 0x0 HW_OCOTP_TESTER3: 0x20000200 HW_OCOTP_TESTER4: 0x10220000 HW_OCOTP_TESTER5: 0x0 HW_OCOTP_USB_ID: 0x0 OK, operation succeeded "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t a7 dptest hwid-get,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t a7 dptest hwid-get,"OK, 000a "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0003",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0003","OK,1,10  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest hwid,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest hwid,"OK,0,10  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0003",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0003","OK,1,10  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest hwid,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest hwid,"OK,0,10  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,0",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,0","OK,0 563, mV 17537 (unset)  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,1",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,1","OK,1 978, mV 3921 (unset)  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,2",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,2","OK,2 693, mV 2778 (unset)  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,3",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,3","OK,3 979, mV 3925 (unset)  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,4",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,4","OK,4 785, mV 3147 (unset)  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,5",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,5","OK,5 743, mV 1486 (unset)  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,6",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,6","OK,6 897, mV 1794 (unset)  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,7",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,7","OK,7 897, mV 1794 (unset)  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,9",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,9","OK,9 595, mV 1785 (unset)  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,10",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,10","OK,10 1216, mV 1216 (unset)  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 1,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 1,"OK, ch 1 = 975 mV   "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 2,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 2,"OK, ch 2 = 1002 mV   "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 6,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 6,"OK, ch 6 = 1203 mV   "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 10,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:04,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 10,"OK, ch 10 = 1796 mV   "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 12,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 12,"OK, ch 12 = 1798 mV   "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 13,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 13,"OK, ch 13 = 3304 mV   "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 15,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 15,"OK, ch 15 = 3010 mV   "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 18,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 18,"OK, ch 18 = 1800 mV   "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 0,
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 0,"OK, ch 0 = 1218 mV   "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A001",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A001",ER  
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A002",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A002",ER  
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,1120",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,1120","OK, 1, 0x00  "
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A009",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A009",ER  
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,4002",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,4002",ER  
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,4002",
+8a8a77f0-52c5-4ca2-84f1-c1b2bfc36ab1,21-10 14:05,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,4002",ER  
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0001",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0001","Unable to find uart for target 'hwmcu' CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0001']' returned non-zero exit status 1."
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest fw_version,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest fw_version,"Unable to find uart for target 'datamcu' CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'fw_version']' returned non-zero exit status 1."
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,hub_mcu_utility -t a7 dptest sw-version,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,hub_mcu_utility -t a7 dptest sw-version,"Unable to find uart for target 'a7' CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'sw-version']' returned non-zero exit status 1."
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0000",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0000","Unable to find uart for target 'hwmcu' CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0000']' returned non-zero exit status 1."
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest hw_version,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest hw_version,"Unable to find uart for target 'datamcu' CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'hw_version']' returned non-zero exit status 1."
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,hub_mcu_utility -t a7 dptest cpuinfo,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,hub_mcu_utility -t a7 dptest cpuinfo,"Unable to find uart for target 'a7' CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'cpuinfo']' returned non-zero exit status 1."
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A021",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A021","Unable to find uart for target 'hwmcu' CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,A021']' returned non-zero exit status 1."
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,hub_mcu_utility -t a7 dptest i2c-pmic-id-check,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,hub_mcu_utility -t a7 dptest i2c-pmic-id-check,"dptest failed CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-pmic-id-check']' returned non-zero exit status 1."
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,hub_mcu_utility -t a7 dptest i2c-audio-id-check,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,hub_mcu_utility -t a7 dptest i2c-audio-id-check,"OK, register STATUS_1=0x00 "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A000",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A000",ER  
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,2100",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,2100",OK  
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,2130",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,2130","OK,0x40  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,2150,1",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,2150,1","OK,1  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,3000",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,3000","OK,27,C 27  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,3001",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,3001","OK,27,C 27  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,3002",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,3002","OK,27,C 27  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,hub_mcu_utility -t a7 dptest wlan-id-check,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,hub_mcu_utility -t a7 dptest wlan-id-check,"OK, 0x06030111 "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest mban_chip_version,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest mban_chip_version,"OK, chip version 0x644 boot loader version: 0x2000000.  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest mban_chip_version,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest mban_chip_version,"OK, chip version 0x644 boot loader version: 0x2000000.  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,hub_mcu_utility -t a7 dptest i2c-nfc-fwversion-check,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,hub_mcu_utility -t a7 dptest i2c-nfc-fwversion-check,"dptest failed CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-nfc-fwversion-check']' returned non-zero exit status 1."
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,hub_mcu_utility -t a7 -W -T 5000 dptest fuse-read,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,hub_mcu_utility -t a7 -W -T 5000 dptest fuse-read,"HW_OCOTP_ANA0: 0x0 HW_OCOTP_ANA1: 0xdca00 HW_OCOTP_BOOT_CFG0: 0x10002864 HW_OCOTP_BOOT_CFG1: 0x0 HW_OCOTP_BOOT_CFG2: 0x0 HW_OCOTP_BOOT_CFG3: 0x0 HW_OCOTP_BOOT_CFG4: 0x0 HW_OCOTP_FIELD_RETURN: 0x0 HW_OCOTP_GP10: 0x0 HW_OCOTP_GP11: 0x0 HW_OCOTP_GP20: 0x0 HW_OCOTP_GP21: 0x0 HW_OCOTP_LOCK: 0xa0030103 HW_OCOTP_MAC_ADDR0: 0x0 HW_OCOTP_MAC_ADDR1: 0x0 HW_OCOTP_MAC_ADDR2: 0x0 HW_OCOTP_MEM_TRIM0: 0x0 HW_OCOTP_MEM_TRIM1: 0x0 HW_OCOTP_ROM_PATCH0: 0x0 HW_OCOTP_ROM_PATCH1: 0x0 HW_OCOTP_ROM_PATCH2: 0x0 HW_OCOTP_ROM_PATCH3: 0x0 HW_OCOTP_ROM_PATCH4: 0x0 HW_OCOTP_ROM_PATCH5: 0x0 HW_OCOTP_ROM_PATCH6: 0x0 HW_OCOTP_ROM_PATCH7: 0x0 HW_OCOTP_SJC_RESP0: 0x0 HW_OCOTP_SJC_RESP1: 0x0 HW_OCOTP_SRK0: 0x0 HW_OCOTP_SRK1: 0x0 HW_OCOTP_SRK2: 0x0 HW_OCOTP_SRK3: 0x0 HW_OCOTP_SRK4: 0x0 HW_OCOTP_SRK5: 0x0 HW_OCOTP_SRK6: 0x0 HW_OCOTP_SRK7: 0x0 HW_OCOTP_SRK_REVOKE: 0x0 HW_OCOTP_TESTER0: 0x6e168703 HW_OCOTP_TESTER1: 0x2a6 HW_OCOTP_TESTER2: 0x0 HW_OCOTP_TESTER3: 0x20000200 HW_OCOTP_TESTER4: 0x10220000 HW_OCOTP_TESTER5: 0x0 HW_OCOTP_USB_ID: 0x0 OK, operation succeeded "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,hub_mcu_utility -t a7 dptest hwid-get,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,hub_mcu_utility -t a7 dptest hwid-get,"OK, 000a "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0003",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0003","OK,1,10  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest hwid,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest hwid,"OK,0,10  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0003",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0003","OK,1,10  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest hwid,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest hwid,"OK,0,10  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,0",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,0","OK,0 734, mV 22864 (unset)  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,1",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,1","OK,1 980, mV 3929 (unset)  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,2",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,2","OK,2 693, mV 2778 (unset)  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,3",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,3","OK,3 982, mV 3937 (unset)  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,4",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,4","OK,4 787, mV 3155 (unset)  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,5",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,5","OK,5 746, mV 1492 (unset)  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,6",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,6","OK,6 895, mV 1790 (unset)  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,7",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:06,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,7","OK,7 897, mV 1794 (unset)  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,9",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,9","OK,9 596, mV 1788 (unset)  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,D001,10",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,D001,10","OK,10 1213, mV 1213 (unset)  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 1,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 1,"OK, ch 1 = 975 mV   "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 2,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 2,"OK, ch 2 = 1002 mV   "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 6,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 6,"OK, ch 6 = 1202 mV   "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 10,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 10,"OK, ch 10 = 1794 mV   "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 12,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 12,"OK, ch 12 = 1798 mV   "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 13,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 13,"OK, ch 13 = 3308 mV   "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 15,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 15,"OK, ch 15 = 3010 mV   "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 18,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 18,"OK, ch 18 = 1800 mV   "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest adc 0,
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest adc 0,"OK, ch 0 = 1218 mV   "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A001",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A001",ER  
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A002",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A002",ER  
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,1120",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,1120","OK, 1, 0x00  "
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A009",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A009",ER  
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,4002",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,4002",ER  
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,4002",
+c547c9bd-33de-4f8a-9bbb-da72dfb662aa,21-10 14:07,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,4002",ER  
+08b4da6c-3a27-4939-92a6-a7c2f7a5642d,22-10 09:15,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0001",
+08b4da6c-3a27-4939-92a6-a7c2f7a5642d,22-10 09:15,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0001","Unable to find uart for target 'hwmcu' CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0001']' returned non-zero exit status 1."
+08b4da6c-3a27-4939-92a6-a7c2f7a5642d,22-10 09:15,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest fw_version,
+08b4da6c-3a27-4939-92a6-a7c2f7a5642d,22-10 09:15,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest fw_version,"Unable to find uart for target 'datamcu' CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'fw_version']' returned non-zero exit status 1."
+08b4da6c-3a27-4939-92a6-a7c2f7a5642d,22-10 09:15,,CommandListTest,TX,hub_mcu_utility -t a7 dptest sw-version,
+08b4da6c-3a27-4939-92a6-a7c2f7a5642d,22-10 09:15,,CommandListTest,RX,hub_mcu_utility -t a7 dptest sw-version,"Unable to find uart for target 'a7' CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'sw-version']' returned non-zero exit status 1."
+90e39bbe-129e-41d5-9de1-38866aab91f4,22-10 09:23,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0001",
+90e39bbe-129e-41d5-9de1-38866aab91f4,22-10 09:23,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0001","Unable to find uart for target 'hwmcu' CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0001']' returned non-zero exit status 1."
+90e39bbe-129e-41d5-9de1-38866aab91f4,22-10 09:23,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest fw_version,
+90e39bbe-129e-41d5-9de1-38866aab91f4,22-10 09:23,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest fw_version,"Unable to find uart for target 'datamcu' CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'fw_version']' returned non-zero exit status 1."
+90e39bbe-129e-41d5-9de1-38866aab91f4,22-10 09:23,,CommandListTest,TX,hub_mcu_utility -t a7 dptest sw-version,
+90e39bbe-129e-41d5-9de1-38866aab91f4,22-10 09:23,,CommandListTest,RX,hub_mcu_utility -t a7 dptest sw-version,"Unable to find uart for target 'a7' CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'sw-version']' returned non-zero exit status 1."
+90e39bbe-129e-41d5-9de1-38866aab91f4,22-10 09:23,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0000",
+90e39bbe-129e-41d5-9de1-38866aab91f4,22-10 09:23,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0000","Unable to find uart for target 'hwmcu' CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0000']' returned non-zero exit status 1."
+90e39bbe-129e-41d5-9de1-38866aab91f4,22-10 09:23,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest hw_version,
+90e39bbe-129e-41d5-9de1-38866aab91f4,22-10 09:23,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest hw_version,"Unable to find uart for target 'datamcu' CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'hw_version']' returned non-zero exit status 1."
+90e39bbe-129e-41d5-9de1-38866aab91f4,22-10 09:23,,CommandListTest,TX,hub_mcu_utility -t a7 dptest cpuinfo,
+90e39bbe-129e-41d5-9de1-38866aab91f4,22-10 09:23,,CommandListTest,RX,hub_mcu_utility -t a7 dptest cpuinfo,"Unable to find uart for target 'a7' CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'cpuinfo']' returned non-zero exit status 1."
+90e39bbe-129e-41d5-9de1-38866aab91f4,22-10 09:23,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,A021",
+90e39bbe-129e-41d5-9de1-38866aab91f4,22-10 09:23,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,A021","Unable to find uart for target 'hwmcu' CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,A021']' returned non-zero exit status 1."
+90e39bbe-129e-41d5-9de1-38866aab91f4,22-10 09:23,,CommandListTest,TX,hub_mcu_utility -t a7 dptest i2c-pmic-id-check,
+90e39bbe-129e-41d5-9de1-38866aab91f4,22-10 09:23,,CommandListTest,RX,hub_mcu_utility -t a7 dptest i2c-pmic-id-check,"Unable to find uart for target 'a7' CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'i2c-pmic-id-check']' returned non-zero exit status 1."
+72916989-423b-4de4-82ad-aa6e78dcbf2f,22-10 13:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0001",
+72916989-423b-4de4-82ad-aa6e78dcbf2f,22-10 13:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0001","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0001']' returned non-zero exit status 1."
+72916989-423b-4de4-82ad-aa6e78dcbf2f,22-10 13:04,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest fw_version,
+72916989-423b-4de4-82ad-aa6e78dcbf2f,22-10 13:04,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest fw_version,"Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'fw_version']' returned non-zero exit status 1."
+72916989-423b-4de4-82ad-aa6e78dcbf2f,22-10 13:04,,CommandListTest,TX,hub_mcu_utility -t a7 dptest sw-version,
+72916989-423b-4de4-82ad-aa6e78dcbf2f,22-10 13:04,,CommandListTest,RX,hub_mcu_utility -t a7 dptest sw-version,"Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'a7', 'dptest', 'sw-version']' returned non-zero exit status 1."
+72916989-423b-4de4-82ad-aa6e78dcbf2f,22-10 13:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0000",
+72916989-423b-4de4-82ad-aa6e78dcbf2f,22-10 13:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0000","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0000']' returned non-zero exit status 1."
+e878687b-59c5-49bc-909d-1fa1b9697743,22-10 13:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0001",
+e878687b-59c5-49bc-909d-1fa1b9697743,22-10 13:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0001","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0001']' returned non-zero exit status 1."
+e4ff8f33-5745-4dc9-a3f2-b3d020b065eb,22-10 13:04,,CommandListTest,TX,"hub_mcu_utility -t hwmcu dptest T,0001",
+e4ff8f33-5745-4dc9-a3f2-b3d020b065eb,22-10 13:04,,CommandListTest,RX,"hub_mcu_utility -t hwmcu dptest T,0001","Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'hwmcu', 'dptest', 'T,0001']' returned non-zero exit status 1."
+e4ff8f33-5745-4dc9-a3f2-b3d020b065eb,22-10 13:04,,CommandListTest,TX,hub_mcu_utility -t datamcu dptest fw_version,
+e4ff8f33-5745-4dc9-a3f2-b3d020b065eb,22-10 13:04,,CommandListTest,RX,hub_mcu_utility -t datamcu dptest fw_version,"Failed to open device 'COM1' (reason: not found) CalledProcessError: Command '['hub_mcu_utility', '-t', 'datamcu', 'dptest', 'fw_version']' returned non-zero exit status 1."
