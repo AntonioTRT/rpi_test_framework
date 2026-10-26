@@ -2,6 +2,7 @@
 
 from collections import deque
 import ast
+from datetime import datetime
 import logging
 import math
 import queue
@@ -18,12 +19,12 @@ logger = logging.getLogger(__name__)
 GRAPH_WINDOW_SECONDS = 5.0
 VOLTAGE_MIN = 0.0
 VOLTAGE_MAX = 5.0
-CURRENT_MIN = 0.0
-CURRENT_MAX = .5
+CURRENT_MIN = 0.1
+CURRENT_MAX = .25
 VOLTAGE_LOWER_LIMIT = 3.0
 VOLTAGE_WARNING_LIMIT = 4.5
-CURRENT_LOWER_LIMIT = 0.2
-CURRENT_WARNING_LIMIT = 0.32
+CURRENT_LOWER_LIMIT = 0.1
+CURRENT_WARNING_LIMIT = 0.2
 DISPLAY_SAMPLE_RATE_HZ = 200.0
 CAPTURE_DURATION_SECONDS = 0.05
 SAMPLE_INTERVAL_SECONDS = CAPTURE_DURATION_SECONDS
@@ -265,6 +266,7 @@ def main() -> int:
     try:
         import matplotlib.pyplot as plt
         from matplotlib.animation import FuncAnimation
+        from matplotlib.widgets import Button
     except ModuleNotFoundError as error:
         if error.name == "matplotlib" or (error.name or "").startswith("matplotlib."):
             print(
@@ -287,6 +289,7 @@ def main() -> int:
 
     figure, (voltage_axes, current_axes) = plt.subplots(2, 1, sharex=True)
     figure.suptitle("Joulescope JS320")
+    figure.subplots_adjust(top=0.88, bottom=0.13)
     voltage_axes.set_ylabel("Voltage (V)")
     current_axes.set_ylabel("Current (A)")
     current_axes.set_xlabel("Time (s)")
@@ -338,11 +341,48 @@ def main() -> int:
     current_axes.legend(loc="upper left")
     voltage_value_text = voltage_axes.set_title("Voltage: -- V", loc="right")
     current_value_text = current_axes.set_title("Current: -- A", loc="right")
+    connection_status = "Connecting..."
+    paused = False
+    status_text = figure.text(
+        0.01, 0.975, "Connecting...\nStatus: LIVE", va="top", weight="bold"
+    )
+    timestamp_text = figure.text(
+        0.99, 0.975, "Timestamp: --", va="top", ha="right"
+    )
+    button_axes = figure.add_axes([0.44, 0.035, 0.12, 0.055])
+    pause_button = Button(button_axes, "Pause")
     voltage_data: deque[tuple[float, float]] = deque(maxlen=MAX_BUFFERED_SAMPLES)
     current_data: deque[tuple[float, float]] = deque(maxlen=MAX_BUFFERED_SAMPLES)
 
+    def toggle_pause(_event: object = None) -> None:
+        nonlocal paused
+        paused = not paused
+        pause_button.label.set_text("Resume" if paused else "Pause")
+        status_text.set_text(
+            f"{connection_status}\nStatus: {'PAUSED' if paused else 'LIVE'}"
+        )
+        figure.canvas.draw_idle()
+
+    pause_button.on_clicked(toggle_pause)
+
+    def toggle_pause_key(event: object) -> None:
+        if getattr(event, "key", None) == " ":
+            toggle_pause()
+
+    figure.canvas.mpl_connect("key_press_event", toggle_pause_key)
+
     def update(_frame: int) -> tuple[object, object]:
-        nonlocal settings
+        nonlocal settings, connection_status
+        if paused:
+            return (
+                voltage_below_line,
+                voltage_line,
+                voltage_alarm_line,
+                current_below_line,
+                current_line,
+                current_alarm_line,
+            )
+
         if configuration.reload_if_changed(time.monotonic()):
             settings = configuration.values
             voltage_axes.set_ylim(settings["VOLTAGE_MIN"], settings["VOLTAGE_MAX"])
@@ -363,7 +403,8 @@ def main() -> int:
                 break
 
             if isinstance(message, str):
-                figure.suptitle(f"Joulescope JS320 | {message}")
+                connection_status = message
+                status_text.set_text(f"{connection_status}\nStatus: LIVE")
                 continue
             if isinstance(message, Exception):
                 logger.error("Joulescope graph stopped: %s", message)
@@ -375,6 +416,9 @@ def main() -> int:
             current_data.append((timestamp, current))
 
         elapsed = time.monotonic() - start_time
+        timestamp_text.set_text(
+            f"Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+        )
         cutoff = elapsed - GRAPH_WINDOW_SECONDS
         while voltage_data and voltage_data[0][0] < cutoff:
             voltage_data.popleft()
