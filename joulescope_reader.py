@@ -80,7 +80,17 @@ class JoulescopeReader:
         """Capture current for duration_s and return its mean in amps."""
         return self._read_mean(duration_s, column=0, signal="current")
 
+    def read_samples(self, duration_s: float = 0.1) -> np.ndarray:
+        """Return calibrated samples with current in column 0 and voltage in column 1."""
+        return self._capture_samples(duration_s, signal="samples")
+
     def _read_mean(self, duration_s: float, column: int, signal: str) -> float:
+        samples = self._capture_samples(duration_s, signal)
+        value = float(np.mean(samples[:, column]))
+        logger.info("Average Joulescope %s: %g", signal, value)
+        return value
+
+    def _capture_samples(self, duration_s: float, signal: str) -> np.ndarray:
         if (
             not isinstance(duration_s, (int, float))
             or not math.isfinite(duration_s)
@@ -97,16 +107,13 @@ class JoulescopeReader:
                 raise JoulescopeReaderError(
                     f"Joulescope returned no samples for {signal} capture"
                 )
-            value = float(np.mean(samples[:, column]))
+            return samples
         except JoulescopeReaderError:
             raise
         except Exception as error:
             raise JoulescopeReaderError(
                 f"Failed to read Joulescope {signal}: {error}"
             ) from error
-
-        logger.info("Average Joulescope %s: %g", signal, value)
-        return value
 
 
 def main() -> int:
